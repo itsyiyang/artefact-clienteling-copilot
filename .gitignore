@@ -1,0 +1,25 @@
+# Confidential challenge materials
+*.pdf
+challenge-materials/
+private/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Generated/local artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+
+# AI chat screenshots may contain private information; track only curated references.
+evidence/ai_chat_screenshots/*
+!evidence/ai_chat_screenshots/README.md
