@@ -14,6 +14,7 @@ Status meanings: **Done** means the discussion or record is complete, not that i
 - [x] Separate Understanding, Planning, Generation, and Validation responsibilities
 - [x] Create the private repository and documentation baseline
 - [ ] Define Brand Identity & Policy in executable, evaluable terms
+  - 已形成 [rules.md](rules.md) 共识基线及六场景正反例；具体政策和业务校准待完成，不标记整体完成。
 - [ ] Resolve Communication Eligibility behavior for `not_recommended`
 - [ ] Decide implementation topology, model, framework, and number of LLM calls
 

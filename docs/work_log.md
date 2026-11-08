@@ -1,5 +1,7 @@
 # Work Log
 
+2026-11-09（规则整理）：根据用户确认的品牌、服务姿态与CRM范围边界，建立rules.md R01–R13及Judge检查点；人工编写六场景正反例与反事实检查；核对task.md完成证据。输出均为讨论文档，未运行Judge，未生成正式50例。业务评审和聊天截图待归档；参考截图不视为开云官方规则。
+
 2026-11-09：直接读取保密题目PDF两页，对照A–E及ground rules，新增task.md执行计划讨论稿。用户确认22:00前完成材料供review、皮具品类但品牌定位重议、Judge四项逻辑职责先人工校准；Agent数量待定。使用PDF文本提取与本聊天，截图尚待归档。本次仅规划文档，无产品实现。
 
 This log distinguishes reconstructed discussion history from primary evidence. Chat screenshots and source materials are not yet archived in this repository.
