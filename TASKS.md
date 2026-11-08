@@ -1,5 +1,7 @@
 # Task Tracker
 
+最新详细执行计划见 [task.md](task.md)（2026-11-09，讨论稿）。本文件保留历史高层状态；优先级、依赖、验收与待确认项以 task.md 为准。
+
 Status meanings: **Done** means the discussion or record is complete, not that implementation exists. **Open** means no decision has been made.
 
 ## Design and records
