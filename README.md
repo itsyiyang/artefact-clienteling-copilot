@@ -1,5 +1,17 @@
 # Artefact Luxury Clienteling Copilot Challenge
 
+## Local prototype v0.1 (2026-11-09)
+
+Implementation has now started with the user's approval; older Design v0.1 statements below describe the initial baseline.
+
+Requirements: Node.js 22+ and Ollama running locally with `qwen3:8b` downloaded. Run `npm start`, then open http://127.0.0.1:3210 . No npm dependencies or cloud inference keys are required. Run `npm test` for contract checks. Both app and model stay local; do not expose their ports publicly.
+
+Six editable fictional seed cases, direct/explicit generation modes, three candidate previews, separate Judge scoring, one AI Edit with re-evaluation, CA selection/copy, session history and JSON export are available. Rules come from rules.md. Generation/analysis/planning are currently combined in one structured model call; Judge is a separate call to the same local model, not independent ground truth. Promptfoo-style grading is implemented directly; Promptfoo itself is not integrated.
+
+Runs are saved under ignored `work/runs/` and restored into the history list on reload. Intermediate UI snapshots remain in browser memory. Selection is retained in the browser/export. Explicit marketing-refusal conflicts may block generation with zero candidates: these cases do not satisfy the brief's three-output requirement and must not be counted as completed formal cases.
+
+This is an initial reviewable prototype, not the final 50-case submission. Synthetic input generation is available for the selected scenario/direction and requires human review. Calibrated scoring, a side-by-side experiment table and final evaluation report remain future work. The first live run took 133 seconds for generation and exposed Judge false positives and overly generous diversity scores. Judge prompt v0.2 adds calibration examples and quote validation; quality remains unverified until human review.
+
 Private project record for the Artefact Applied AI Engineer written challenge.
 
 ## Current status

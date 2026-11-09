@@ -11,6 +11,8 @@ private/
 *.pem
 
 # Generated/local artifacts
+work/
+node_modules/
 .DS_Store
 __pycache__/
 *.py[cod]
