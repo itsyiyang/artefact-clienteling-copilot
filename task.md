@@ -1,5 +1,7 @@
 # Artefact Luxury Clienteling Copilot — 执行计划与讨论稿
 
+2026-11-09 最新完成：依据新话术Reference与人工review优化generation-v0.3提示，本地Qwen3:8b已完成50例150条原始回复，技术失败/重试0，累计78.9分钟。输入与CSV/原始响应一致性验证通过。旧六例及v0.2失败校准样本保留。结果：evaluations/test-set-50-v1/test-results-50.csv；完整证据：evaluations/runs/fifty-generation-v0.3-8k/。注意TC041联系限制遗漏等缺陷，不能当作可直接发送或质量通过。Judge/人工review、质量修订及三方案对比仍待完成。新合并Codex编写版Excel独立保留，不混入本批次。
+
 2026-11-09 最新：按新话术文档及人工review完成generation-v0.3提示（v0.2生日抽查失败后追加场景提醒），正在本地Qwen重新运行全部50例。逐例保存八列CSV、原始请求/返回、耗时和版本；旧六例保留。此轮不运行Judge，不把结构成功当质量通过。复现方式见docs/fifty-local-run.md。
 
 2026-11-09：按用户要求导出50例CSV草案，输入五列、结果八列；六场景8/10/8/8/8/8。21来源案例+29显式假设分支，原六例18条模型输出复用并保留缺陷，44例未运行，输出留空。重新激活覆盖仍集中C04（1主动+7回复），不是独立客户样本；扩大运行前需审核。见evaluations/test-set-50-v1/。

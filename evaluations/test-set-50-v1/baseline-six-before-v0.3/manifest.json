@@ -1,0 +1,18 @@
+{
+  "status": "draft_50_inputs_6_generated_44_not_run",
+  "counts": {
+    "birthday_festive_greetings": 8,
+    "product_recommendation": 10,
+    "post_purchase_care": 8,
+    "reactivation": 8,
+    "event_invitation": 8,
+    "price_objection": 8
+  },
+  "source_sha256": "e76aed84476c743dce568e9de14a028fe08e389a1515b6aebc259733018aa027",
+  "notes": [
+    "21 existing assembled scenarios +29 explicit synthetic variants",
+    "Reactivation has 1 outbound and7 inbound follow-ups from same client; not8 independent clients",
+    "Same client branches belong to same eval partition",
+    "Original six outputs contain known defects, not revised or declared good"
+  ]
+}

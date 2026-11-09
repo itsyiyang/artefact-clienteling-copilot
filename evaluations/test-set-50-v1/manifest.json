@@ -1,5 +1,5 @@
 {
-  "status": "draft_50_inputs_6_generated_44_not_run",
+  "status": "50_generated_pending_human_review_and_judge",
   "counts": {
     "birthday_festive_greetings": 8,
     "product_recommendation": 10,
@@ -13,6 +13,13 @@
     "21 existing assembled scenarios +29 explicit synthetic variants",
     "Reactivation has 1 outbound and7 inbound follow-ups from same client; not8 independent clients",
     "Same client branches belong to same eval partition",
-    "Original six outputs contain known defects, not revised or declared good"
-  ]
+    "Original six outputs contain known defects, not revised or declared good",
+    "Latest outputs are actual local Qwen generation v0.3; known defects preserved; not the separate Codex-authored final workbook"
+  ],
+  "generation_run": "evaluations/runs/fifty-generation-v0.3-8k",
+  "prompt_version": "generation-v0.3",
+  "generated_cases": 50,
+  "generated_outputs": 150,
+  "baseline_archive": "baseline-six-before-v0.3",
+  "result_sha256": "bf57799ae3af015f3fa6cb58d8be6fbf3164d2044c2e91e910115ededf08f5f4"
 }

@@ -1,14 +1,14 @@
 {
-  "completed_cases": 40,
-  "nonempty_outputs": 120,
+  "completed_cases": 50,
+  "nonempty_outputs": 150,
   "expected_cases": 50,
   "inputs_unchanged": true,
   "csv_matches_raw": true,
   "prompt_and_input_hashes_match": true,
   "context_max_used_tokens": 4613,
   "latency_seconds": {
-    "sum": 3945.617,
-    "median": 88.3655,
+    "sum": 4736.176,
+    "median": 86.509,
     "min": 41.971,
     "max": 199.427
   },
@@ -204,8 +204,56 @@
         "full_name_present_check_salutation"
       ],
       "text": "唐予安女士，保养时只需注意避免深色摩擦和尖锐物品接触，保持干燥通风即可。如有其他问题，随时联系我。"
+    },
+    {
+      "case_id": "TC049",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，您提到的叠影短钱包确实设计精巧，但如果您预算有限，折序卡包的深红色款在功能和质感上同样出色，价格更亲民。它能轻松收纳卡片与零钱，适合日常使用。"
+    },
+    {
+      "case_id": "TC049",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，折序卡包的深红色款在尺寸和容量上更适合日常携带，尤其适合您提到的经常使用需求。它轻便实用，能轻松融入您的生活方式。"
+    },
+    {
+      "case_id": "TC049",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，留序 LIUXU 始终追求简约与实用并存的设计理念，折序卡包正是这一理念的体现。如果您对材质或功能有任何疑问，我可以为您详细说明。"
+    },
+    {
+      "case_id": "TC050",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，留序LIUXU的卡包设计注重实用与美感的平衡，如折序卡包采用层叠式卡槽，既便于分类又保持整体简洁。若您需要一款日常使用且能搭配多种场合的单品，这款深红色卡包会是不错的选择。"
+    },
+    {
+      "case_id": "TC050",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，留序LIUXU相信‘留白之间，天地为序’，因此每件单品都追求简约而不简单。您之前提到想选一件可以经常使用的东西，这款折序卡包正好兼顾实用与精致，适合日常搭配。"
+    },
+    {
+      "case_id": "TC050",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，如果您对深红色卡包感兴趣，也可以考虑同系列的黑色或灰米色版本，它们在不同场合中都能展现独特的气质。若您有特别的使用需求，我也可以为您进一步推荐。"
     }
   ],
   "quality_status": "not_evaluated; hints are not Judge verdicts",
-  "all_50_complete": false
+  "all_50_complete": true
 }

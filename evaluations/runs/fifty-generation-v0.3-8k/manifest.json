@@ -33,7 +33,7 @@
   "reference_sha256": "d7d0cca3c93f47cb433c7ed46477cb5194dca05e90e74cda09c1b831527e6470",
   "pipeline": "Single local generation call with implicit strategy planning; no independent planner, Judge or revisions",
   "input_transform": "Only product claim_evidence omitted as redundant provenance; all history and other facts retained",
-  "status": "running",
+  "status": "generation_complete_pending_review",
   "records": [
     {
       "case_id": "TC001",
@@ -314,6 +314,77 @@
       "elapsed_ms": 65883,
       "attempts": 1,
       "result_file": "TC040.attempt-1.json"
+    },
+    {
+      "case_id": "TC041",
+      "status": "generated_pending_review",
+      "elapsed_ms": 69390,
+      "attempts": 1,
+      "result_file": "TC041.attempt-1.json"
+    },
+    {
+      "case_id": "TC042",
+      "status": "generated_pending_review",
+      "elapsed_ms": 61049,
+      "attempts": 1,
+      "result_file": "TC042.attempt-1.json"
+    },
+    {
+      "case_id": "TC043",
+      "status": "generated_pending_review",
+      "elapsed_ms": 81925,
+      "attempts": 1,
+      "result_file": "TC043.attempt-1.json"
+    },
+    {
+      "case_id": "TC044",
+      "status": "generated_pending_review",
+      "elapsed_ms": 89580,
+      "attempts": 1,
+      "result_file": "TC044.attempt-1.json"
+    },
+    {
+      "case_id": "TC045",
+      "status": "generated_pending_review",
+      "elapsed_ms": 83638,
+      "attempts": 1,
+      "result_file": "TC045.attempt-1.json"
+    },
+    {
+      "case_id": "TC046",
+      "status": "generated_pending_review",
+      "elapsed_ms": 86474,
+      "attempts": 1,
+      "result_file": "TC046.attempt-1.json"
+    },
+    {
+      "case_id": "TC047",
+      "status": "generated_pending_review",
+      "elapsed_ms": 85470,
+      "attempts": 1,
+      "result_file": "TC047.attempt-1.json"
+    },
+    {
+      "case_id": "TC048",
+      "status": "generated_pending_review",
+      "elapsed_ms": 85115,
+      "attempts": 1,
+      "result_file": "TC048.attempt-1.json"
+    },
+    {
+      "case_id": "TC049",
+      "status": "generated_pending_review",
+      "elapsed_ms": 65680,
+      "attempts": 1,
+      "result_file": "TC049.attempt-1.json"
+    },
+    {
+      "case_id": "TC050",
+      "status": "generated_pending_review",
+      "elapsed_ms": 82238,
+      "attempts": 1,
+      "result_file": "TC050.attempt-1.json"
     }
-  ]
+  ],
+  "finished_at": "2026-11-09T15:06:27.870Z"
 }

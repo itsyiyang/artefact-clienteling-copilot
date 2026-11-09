@@ -1,5 +1,9 @@
 # Artefact Luxury Clienteling Copilot Challenge
 
+## 本地Qwen 50例原始结果（待评审）
+
+[八列结果CSV](evaluations/test-set-50-v1/test-results-50.csv) · [耗时、版本与原始证据](evaluations/runs/fifty-generation-v0.3-8k/README.md)。50例150条真实本地生成，技术失败0；存在已记录的业务缺陷，未运行本轮Judge，不等于质量通过。与下方Codex编写版分开保留。
+
 ## Codex 50例交付文件（2026-11-09）
 
 新增[最终Excel、交付描述与复核总结](deliverables/clienteling-50-codex-final/README.md)，保留原8列及50例，包含阅读页和原始数据核对页。150个输出单元中，147条为客户话术，TC041的3条明确为不发送客户的处理建议。该内容是Codex编写与复核的独立交付稿，不代表本地Qwen运行完成或独立评测通过。
@@ -24,12 +28,10 @@ Private project record for the Artefact Applied AI Engineer written challenge.
 
 ## Current status
 
-- Phase: requirements and conceptual design
-- Design baseline: v0.1
-- Implementation: not started
-- Next design topic: Brand Identity & Policy
-
-This repository currently contains documentation, decision records, trackers, and an empty development skeleton only. It does **not** contain product implementation code.
+- Local prototype exists; generation/planning remain a combined call.
+- 50 local Qwen cases (150 raw candidates) completed; human review and calibrated evaluation remain pending.
+- Independent planning, automatic quality gate/revision and final A/B/C comparison remain unfinished.
+- The older design baseline below is historical; task.md and HANDOFF.md describe current progress.
 
 ## Confirmed design baseline
 
