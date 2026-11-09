@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-11-09T12:13:13.839Z",
+  "model": "qwen3:8b",
+  "model_metadata": {
+    "name": "qwen3:8b",
+    "model": "qwen3:8b",
+    "modified_at": "2026-11-09T02:15:17.053503717+08:00",
+    "size": 5225388164,
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "8.2B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 40960,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ]
+  },
+  "code_commit": "187067992ca725d25fd781ff5b057f6e2d58b26f",
+  "prompt_version": "pilot-generation-0.1",
+  "pipeline": "single-call understanding/planning/generation prototype, NOT independent planning calls",
+  "input_sha256": "6227140d6fb010314688616b124c8eba5198749a641ad8dadabf0b5d2c89ba54",
+  "rules_sha256": "f60171405c1df4a9c968352af5d177d9491090bd4d200546a7efc87b991671ee",
+  "status": "generation_finished",
+  "judge_status": "not_run_pending_user_review",
+  "records": [
+    {
+      "case_id": "S2-001",
+      "stage": "generate",
+      "status": "generated_pending_review",
+      "elapsed_ms": 191498
+    }
+  ],
+  "runner_version": "pilot-runner-0.2",
+  "transport": "node:http request with explicit 600-second deadline",
+  "code_commit_note": "Recorded commit is repository base before runner commit; actual request and prompt files are authoritative for inference."
+}

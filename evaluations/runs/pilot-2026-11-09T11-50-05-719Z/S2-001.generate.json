@@ -1,0 +1,8 @@
+{
+  "case_id": "S2-001",
+  "stage": "generate",
+  "started_at": "2026-11-09T11:53:38.186Z",
+  "status": "failed",
+  "error": "fetch failed",
+  "elapsed_ms": 302457
+}
