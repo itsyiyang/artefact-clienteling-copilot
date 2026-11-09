@@ -1,0 +1,811 @@
+{
+  "database_name": "LIUXU Client Database",
+  "version": "1.1",
+  "data_type": "synthetic_crm",
+  "snapshot_date": "2026-11-09",
+  "client_count": 16,
+  "clients": [
+    {
+      "client_id": "C01",
+      "identity": {
+        "name": "许婉宁",
+        "birth_date": "1988-11-09",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2019-06-14",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C01-001",
+            "date": "2023-04-22",
+            "sku": "BAG-C01-001",
+            "product_name": "黑色肩包",
+            "amount_cny": 7200
+          },
+          {
+            "transaction_id": "TR-C01-002",
+            "date": "2025-05-17",
+            "sku": "SCARF-C01-001",
+            "product_name": "真丝方巾",
+            "amount_cny": 1800
+          }
+        ]
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2025-05-17",
+          "text": "客户挑选方巾时提到是送给姐姐的，希望包装简洁一些。"
+        },
+        {
+          "date": "2025-09-12",
+          "text": "客户表示工作日白天不方便接电话，微信留言即可。"
+        }
+      ]
+    },
+    {
+      "client_id": "C02",
+      "identity": {
+        "name": "林若溪",
+        "birth_date": "1993-04-18",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2026-05-12",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2026-05-12",
+          "text": "客户今天到店试背过肩背小包，表示其中一款肩带稍短，穿外套时不太舒服。"
+        }
+      ]
+    },
+    {
+      "client_id": "C03",
+      "identity": {
+        "name": "周静宜",
+        "birth_date": "1984-06-22",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2026-10-29",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C03-001",
+            "date": "2026-10-29",
+            "sku": "ARC-SH-BRN",
+            "product_name": "浅棕色小牛皮肩包",
+            "amount_cny": 5900
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C03-001",
+          "opened_at": "2026-11-02",
+          "last_updated": "2026-11-07",
+          "related_transaction_id": "TR-C03-001",
+          "issue": "客户反馈肩带调节时感觉卡住，不敢用力操作。",
+          "action_taken": "已与售后确认调节步骤，并于11月7日向客户发送图示。",
+          "status": "guidance_sent_pending_confirmation",
+          "customer_confirmation": "客户确认收到图示，但尚未确认是否成功调节。"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2026-10-29",
+          "text": "客户购买时询问过肩带长度调节和日常皮革护理。"
+        },
+        {
+          "date": "2026-11-07",
+          "text": "肩带调节图示已发送，客户确认收到，尚未确认是否成功调节。"
+        }
+      ]
+    },
+    {
+      "client_id": "C04",
+      "identity": {
+        "name": "陈致远",
+        "birth_date": "1991-02-16",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2025-07-18",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2025-07-18",
+          "text": "客户到店看过商务手提包，询问重量、电脑收纳及出差携带方式。"
+        },
+        {
+          "date": "2025-09-08",
+          "text": "发送商品资料后未收到回复，没有记录客户明确拒绝后续联系。"
+        }
+      ]
+    },
+    {
+      "client_id": "C05",
+      "identity": {
+        "name": "沈知微",
+        "birth_date": "1980-03-12",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2021-04-16",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C05-001",
+            "date": "2023-09-15",
+            "sku": "BAG-C05-001",
+            "product_name": "皮具",
+            "amount_cny": 7600
+          },
+          {
+            "transaction_id": "TR-C05-002",
+            "date": "2025-05-22",
+            "sku": "JWL-C05-001",
+            "product_name": "银质项链",
+            "amount_cny": 4200
+          },
+          {
+            "transaction_id": "TR-C05-003",
+            "date": "2026-04-18",
+            "sku": "SCARF-C05-001",
+            "product_name": "真丝配饰",
+            "amount_cny": 2100
+          }
+        ]
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2025-05-22",
+          "text": "客户购买项链时询问表面打磨和日常维护方式。"
+        },
+        {
+          "date": "2025-10-28",
+          "text": "客户参加工艺展示后表示对打磨演示感兴趣，希望以后有规模更小的活动可以通知。"
+        },
+        {
+          "date": "2026-06-15",
+          "text": "客户询问之后是否还有工艺展示活动，表示周末下午比较方便，活动时长最好在一小时左右。"
+        }
+      ]
+    },
+    {
+      "client_id": "C06",
+      "identity": {
+        "name": "顾清禾",
+        "birth_date": "1997-07-26",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2026-11-06",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2026-11-06",
+          "text": "客户到店试背两款斜挎包，要求后续通过微信发送照片和尺寸。"
+        }
+      ]
+    },
+    {
+      "client_id": "C07",
+      "identity": {
+        "name": "陆嘉仪",
+        "birth_date": "1975-08-21",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2017-09-16",
+        "advisor_id": "CA002",
+        "preferred_channel": "wechat",
+        "alternative_channel": "phone"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C07-001",
+            "date": "2022-03-19",
+            "sku": "LX-BG-201",
+            "product_name": "深棕色手提包",
+            "amount_cny": 19800
+          },
+          {
+            "transaction_id": "TR-C07-002",
+            "date": "2023-11-04",
+            "sku": "LX-SC-112",
+            "product_name": "羊绒披肩",
+            "amount_cny": 6200
+          },
+          {
+            "transaction_id": "TR-C07-003",
+            "date": "2025-04-12",
+            "sku": "LX-BG-305",
+            "product_name": "酒红色皮革肩包",
+            "amount_cny": 23600
+          },
+          {
+            "transaction_id": "TR-C07-004",
+            "date": "2026-06-20",
+            "sku": "LX-SL-028",
+            "product_name": "丝质方巾",
+            "amount_cny": 2400
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C07-001",
+          "opened_at": "2025-06-03",
+          "related_transaction_id": "TR-C07-003",
+          "issue": "客户咨询酒红色皮包的存放和日常养护方式。",
+          "action_taken": "CA 提供品牌官方护理指南。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2023-11-04",
+          "text": "陆女士选披肩时对羊绒手感和颜色看得比较仔细，试了三种颜色后选了深灰色。"
+        },
+        {
+          "date": "2025-04-12",
+          "text": "客户问过酒红色皮革的养护方式，也比较了同系列两个不同尺寸。"
+        },
+        {
+          "date": "2026-06-20",
+          "text": "客户表示新品信息可以微信发，但不需要每次上新都通知，有特别的颜色或工艺再联系。"
+        }
+      ]
+    },
+    {
+      "client_id": "C08",
+      "identity": {
+        "name": "唐予安",
+        "birth_date": "1998-12-04",
+        "city": "杭州"
+      },
+      "relationship": {
+        "since": "2026-07-11",
+        "advisor_id": "CA003",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C08-001",
+            "date": "2026-07-11",
+            "sku": "LX-BG-118",
+            "product_name": "米白色小号斜挎包",
+            "amount_cny": 5600
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C08-001",
+          "opened_at": "2026-07-19",
+          "related_transaction_id": "TR-C08-001",
+          "issue": "客户担心浅色皮革与深色牛仔布接触时发生染色。",
+          "action_taken": "CA 提供品牌护理说明。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2026-07-11",
+          "text": "客户第一次在本店购买。试背时问了能不能放手机、卡包和钥匙，最后选了米白色。"
+        },
+        {
+          "date": "2026-07-19",
+          "text": "客户说最近背得比较频繁，担心浅色包蹭到牛仔裤颜色。"
+        },
+        {
+          "date": "2026-08-02",
+          "text": "客户发微信说包的大小用起来刚好，平时出门不用带太多东西。"
+        }
+      ]
+    },
+    {
+      "client_id": "C09",
+      "identity": {
+        "name": "何思远",
+        "birth_date": "1986-05-13",
+        "city": "北京"
+      },
+      "relationship": {
+        "since": "2022-12-10",
+        "advisor_id": "CA004",
+        "preferred_channel": "wechat",
+        "alternative_channel": "phone"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C09-001",
+            "date": "2022-12-10",
+            "sku": "LX-SC-087",
+            "product_name": "真丝披肩",
+            "amount_cny": 3800
+          },
+          {
+            "transaction_id": "TR-C09-002",
+            "date": "2024-05-08",
+            "sku": "LX-WL-042",
+            "product_name": "皮革长钱包",
+            "amount_cny": 4600
+          },
+          {
+            "transaction_id": "TR-C09-003",
+            "date": "2025-12-16",
+            "sku": "LX-JW-014",
+            "product_name": "银质手链",
+            "amount_cny": 5200
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C09-001",
+          "opened_at": "2024-05-08",
+          "related_transaction_id": "TR-C09-002",
+          "issue": "客户希望礼品包装中不出现价格信息，礼卡自行填写。",
+          "action_taken": "按客户确认的方式完成礼品包装。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2022-12-10",
+          "text": "客户说披肩是送给母亲的，希望颜色不要太鲜艳。"
+        },
+        {
+          "date": "2024-05-08",
+          "text": "客户买钱包作为礼物，问是否可以不放价格标签，礼卡希望自己写。"
+        },
+        {
+          "date": "2025-12-16",
+          "text": "客户选手链时问过尺寸能否调整，表示是送给伴侣的，但没有提供具体手围。"
+        }
+      ]
+    },
+    {
+      "client_id": "C10",
+      "identity": {
+        "name": "梁舒宁",
+        "birth_date": "1990-09-27",
+        "city": "上海",
+        "other_frequent_city": "香港"
+      },
+      "relationship": {
+        "since": "2023-06-24",
+        "advisor_id": "CA002",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C10-001",
+            "date": "2023-06-24",
+            "sku": "LX-TR-031",
+            "product_name": "旅行收纳包",
+            "amount_cny": 3200
+          },
+          {
+            "transaction_id": "TR-C10-002",
+            "date": "2024-10-19",
+            "sku": "LX-BG-220",
+            "product_name": "黑色托特包",
+            "amount_cny": 12800
+          },
+          {
+            "transaction_id": "TR-C10-003",
+            "date": "2026-03-07",
+            "sku": "LX-TR-045",
+            "product_name": "皮革护照夹",
+            "amount_cny": 2800
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C10-001",
+          "opened_at": "2026-03-07",
+          "related_transaction_id": "TR-C10-003",
+          "issue": "客户咨询护照夹是否可以配送至香港。",
+          "action_taken": "CA 说明当时的配送范围与流程，客户最终选择上海门店取货。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2024-10-19",
+          "text": "客户选托特包时提到经常短途出行，问过包的重量、开口大小和能否放在行李箱上。"
+        },
+        {
+          "date": "2026-03-07",
+          "text": "客户表示有时不在上海，确认商品或取货时间前先微信联系。"
+        },
+        {
+          "date": "2026-05-26",
+          "text": "客户说如果需要到店，最好提前几天约，不太方便临时安排。"
+        }
+      ]
+    },
+    {
+      "client_id": "C11",
+      "identity": {
+        "name": "罗敏",
+        "birth_date": "1968-01-30",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2016-04-09",
+        "advisor_id": "CA005",
+        "preferred_channel": "phone",
+        "alternative_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C11-001",
+            "date": "2021-09-18",
+            "sku": "LX-SC-055",
+            "product_name": "丝质长巾",
+            "amount_cny": 2600
+          },
+          {
+            "transaction_id": "TR-C11-002",
+            "date": "2023-04-29",
+            "sku": "LX-BG-180",
+            "product_name": "深蓝色手提包",
+            "amount_cny": 11600
+          },
+          {
+            "transaction_id": "TR-C11-003",
+            "date": "2025-09-13",
+            "sku": "LX-AC-026",
+            "product_name": "皮革腰带",
+            "amount_cny": 3900
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C11-001",
+          "opened_at": "2025-10-09",
+          "closed_at": "2025-10-16",
+          "related_transaction_id": "TR-C11-003",
+          "issue": "客户咨询腰带尺寸调整。",
+          "action_taken": "CA 协助预约门店，10月16日完成调整。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2023-04-29",
+          "text": "客户希望到店时能有时间慢慢看，不需要一次介绍太多款式。"
+        },
+        {
+          "date": "2025-09-13",
+          "text": "客户表示如果要确认到店时间，可以先电话沟通，微信发地址和预约信息。"
+        },
+        {
+          "date": "2026-02-20",
+          "text": "客户问过之前购买的手提包能否做常规检查，表示近期没有急着处理。"
+        }
+      ]
+    },
+    {
+      "client_id": "C12",
+      "identity": {
+        "name": "江亦舟",
+        "birth_date": "1995-03-08",
+        "city": "深圳"
+      },
+      "relationship": {
+        "since": "2026-08-15",
+        "advisor_id": "CA006",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2026-08-15",
+          "text": "客户在店里看过两款皮具，询问皮革表面处理和包身内部结构，没有当场购买。"
+        },
+        {
+          "date": "2026-08-18",
+          "text": "客户微信问了结构款的缝线细节，希望看没有滤镜的近距离照片。"
+        },
+        {
+          "date": "2026-09-02",
+          "text": "客户说目前还在比较，不着急决定。如果有工艺资料可以发他参考。"
+        }
+      ]
+    },
+    {
+      "client_id": "C13",
+      "identity": {
+        "name": "方雨桐",
+        "birth_date": "1983-11-24",
+        "city": "成都"
+      },
+      "relationship": {
+        "since": "2020-08-08",
+        "advisor_id": "CA007",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C13-001",
+            "date": "2021-05-15",
+            "sku": "LX-BG-125",
+            "product_name": "黑色通勤包",
+            "amount_cny": 9800
+          },
+          {
+            "transaction_id": "TR-C13-002",
+            "date": "2023-07-22",
+            "sku": "LX-BG-208",
+            "product_name": "浅米色小号肩包",
+            "amount_cny": 6400
+          },
+          {
+            "transaction_id": "TR-C13-003",
+            "date": "2025-03-29",
+            "sku": "LX-SC-099",
+            "product_name": "印花真丝方巾",
+            "amount_cny": 2200
+          },
+          {
+            "transaction_id": "TR-C13-004",
+            "date": "2026-09-05",
+            "sku": "LX-BG-312",
+            "product_name": "深绿色手提包",
+            "amount_cny": 14200
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C13-001",
+          "opened_at": "2023-08-04",
+          "related_transaction_id": "TR-C13-002",
+          "issue": "客户咨询浅米色肩包的清洁和存放方式。",
+          "action_taken": "CA 提供品牌护理资料。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2021-05-15",
+          "text": "客户说黑色包主要上班用，希望能放文件和随身物品。"
+        },
+        {
+          "date": "2023-07-22",
+          "text": "客户这次想选一个周末出门背的小包，不需要放电脑。"
+        },
+        {
+          "date": "2026-09-05",
+          "text": "客户试了深绿和黑色，最后选深绿。说已经有黑色通勤包，这次想换个颜色。"
+        }
+      ]
+    },
+    {
+      "client_id": "C14",
+      "identity": {
+        "name": "吴昊",
+        "birth_date": "1979-06-09",
+        "city": "南京"
+      },
+      "relationship": {
+        "since": "2019-11-23",
+        "advisor_id": "CA008",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C14-001",
+            "date": "2020-01-11",
+            "sku": "LX-WL-036",
+            "product_name": "深棕色短钱包",
+            "amount_cny": 3200
+          },
+          {
+            "transaction_id": "TR-C14-002",
+            "date": "2022-06-18",
+            "sku": "LX-BG-176",
+            "product_name": "黑色商务手提包",
+            "amount_cny": 13500
+          },
+          {
+            "transaction_id": "TR-C14-003",
+            "date": "2024-09-21",
+            "sku": "LX-TR-052",
+            "product_name": "旅行收纳套装",
+            "amount_cny": 4800
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C14-001",
+          "opened_at": "2025-02-14",
+          "closed_at": "2025-03-06",
+          "related_transaction_id": "TR-C14-002",
+          "issue": "商务包提手边缘磨损咨询。",
+          "action_taken": "客户到店完成提手检查和护理。",
+          "status": "resolved"
+        },
+        {
+          "service_id": "SR-C14-002",
+          "opened_at": "2026-10-28",
+          "related_transaction_id": "TR-C14-001",
+          "issue": "短钱包边缘有轻微开线，客户咨询是否可以处理。",
+          "action_taken": "CA 说明可送门店检查，客户表示需要先安排时间。",
+          "status": "awaiting_customer_decision"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2025-02-14",
+          "text": "客户说商务包使用比较频繁，提手边缘有磨损，询问能否检查。"
+        },
+        {
+          "date": "2025-03-06",
+          "text": "客户到店完成提手检查和护理，对处理过程表示感谢。"
+        },
+        {
+          "date": "2026-10-28",
+          "text": "客户反馈短钱包边缘有一点开线。已说明可送门店检查，客户说需要先安排时间，暂未预约。"
+        }
+      ]
+    },
+    {
+      "client_id": "C15",
+      "identity": {
+        "name": "苏芮",
+        "birth_date": "2001-02-17",
+        "city": "上海"
+      },
+      "relationship": {
+        "since": "2026-10-17",
+        "advisor_id": "CA003",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2026-10-17",
+          "text": "客户和朋友一起到店，看了卡包、小号皮具和丝巾，问了价格和颜色。"
+        },
+        {
+          "date": "2026-10-17",
+          "text": "客户说想选一件可以经常使用的东西，也在考虑年底给朋友买礼物。"
+        },
+        {
+          "date": "2026-10-24",
+          "text": "客户微信问过一款卡包有没有深红色，表示目前还在考虑。"
+        }
+      ]
+    },
+    {
+      "client_id": "C16",
+      "identity": {
+        "name": "程知衡",
+        "birth_date": "1992-07-05",
+        "city": "广州"
+      },
+      "relationship": {
+        "since": "2022-04-30",
+        "advisor_id": "CA009",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C16-001",
+            "date": "2022-04-30",
+            "sku": "LX-WL-051",
+            "product_name": "皮革卡包",
+            "amount_cny": 2400
+          },
+          {
+            "transaction_id": "TR-C16-002",
+            "date": "2023-08-12",
+            "sku": "LX-TR-027",
+            "product_name": "护照夹",
+            "amount_cny": 2900
+          },
+          {
+            "transaction_id": "TR-C16-003",
+            "date": "2025-06-14",
+            "sku": "LX-TR-061",
+            "product_name": "旅行收纳包",
+            "amount_cny": 4100
+          }
+        ]
+      },
+      "service_history": [
+        {
+          "service_id": "SR-C16-001",
+          "opened_at": "2025-06-14",
+          "related_transaction_id": "TR-C16-003",
+          "issue": "客户咨询异地配送及礼品包装。",
+          "action_taken": "订单按确认方式完成配送。",
+          "status": "resolved"
+        }
+      ],
+      "crm_notes": [
+        {
+          "date": "2023-08-12",
+          "text": "客户微信咨询 passport holder 的不同颜色，最终选了深蓝色。"
+        },
+        {
+          "date": "2025-06-14",
+          "text": "客户说不方便到上海门店，询问能否线上确认商品细节并配送。"
+        },
+        {
+          "date": "2026-01-09",
+          "text": "客户表示微信发商品尺寸、细节照片比较方便，不需要特地安排视频介绍。"
+        }
+      ]
+    }
+  ]
+}
