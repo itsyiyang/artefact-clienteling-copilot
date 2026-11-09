@@ -1,0 +1,274 @@
+
+{
+  "database_name": "LIUXU Conversation History",
+  "version": "1.1",
+  "data_type": "synthetic_wechat_history",
+  "snapshot_date": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "conversations": [
+    {
+      "client_id": "C01",
+      "messages": [
+        {"message_id":"MSG-C01-001","timestamp":"2025-05-17T14:12:00+08:00","sender":"client","text":"这条方巾是送姐姐的，包装能简单一点吗？不要太花。"},
+        {"message_id":"MSG-C01-002","timestamp":"2025-05-17T14:14:00+08:00","sender":"advisor","text":"可以呀许女士。我们有比较简洁的包装方式，礼卡也可以不写内容。"},
+        {"message_id":"MSG-C01-003","timestamp":"2025-05-17T14:16:00+08:00","sender":"client","text":"嗯嗯，那就简单一点。"},
+        {"message_id":"MSG-C01-004","timestamp":"2025-05-17T14:17:00+08:00","sender":"client","text":"谢谢啦～"},
+        {"message_id":"MSG-C01-005","timestamp":"2025-11-09T09:30:00+08:00","sender":"advisor","text":"许女士生日快乐！🎂 祝您新的一岁顺顺利利，每天都有好心情。"},
+        {"message_id":"MSG-C01-006","timestamp":"2025-11-09T10:02:00+08:00","sender":"client","text":"谢谢你呀，还记得我生日😊"},
+        {"message_id":"MSG-C01-007","timestamp":"2025-11-09T10:05:00+08:00","sender":"advisor","text":"当然记得～今天好好过生日！"},
+        {"message_id":"MSG-C01-008","timestamp":"2026-03-18T19:24:00+08:00","sender":"client","text":"我自己还有一条丝巾，最近想试试系在包上。"},
+        {"message_id":"MSG-C01-009","timestamp":"2026-03-18T19:25:00+08:00","sender":"client","text":"有没有那种比较简单的系法？我手不太巧哈哈。"},
+        {"message_id":"MSG-C01-010","timestamp":"2026-03-18T19:31:00+08:00","sender":"advisor","text":"有的，我找两个日常一点的给您。其实不用系得特别复杂，简单打个结就挺好看。"},
+        {"message_id":"MSG-C01-011","timestamp":"2026-03-18T19:35:00+08:00","sender":"client","text":"好呀，周末试试。"},
+        {"message_id":"MSG-C01-012","timestamp":"2026-09-12T16:20:00+08:00","sender":"client","text":"对了，我工作日白天开会比较多。之后有事微信给我留言就行，不用特地打电话。"},
+        {"message_id":"MSG-C01-013","timestamp":"2026-09-12T16:27:00+08:00","sender":"advisor","text":"好的许女士，我记下了。之后优先微信联系您。"},
+        {"message_id":"MSG-C01-014","timestamp":"2026-09-12T16:29:00+08:00","sender":"client","text":"好～"}
+      ]
+    },
+    {
+      "client_id": "C02",
+      "messages": [
+        {"message_id":"MSG-C02-001","timestamp":"2026-05-12T17:42:00+08:00","sender":"client","text":"今天店里看的那几个小包，有亮一点的颜色吗？"},
+        {"message_id":"MSG-C02-002","timestamp":"2026-05-12T17:46:00+08:00","sender":"advisor","text":"有的，最近有两个颜色还蛮活泼。您想平时背还是周末用？"},
+        {"message_id":"MSG-C02-003","timestamp":"2026-05-12T17:48:00+08:00","sender":"client","text":"周末吧。平时上班已经够严肃了哈哈。"},
+        {"message_id":"MSG-C02-004","timestamp":"2026-05-12T17:49:00+08:00","sender":"client","text":"不过今天试的那款肩带有点短，我穿外套背不太舒服。"},
+        {"message_id":"MSG-C02-005","timestamp":"2026-05-12T17:55:00+08:00","sender":"advisor","text":"嗯，那我给您找两款肩带长一点的。"},
+        {"message_id":"MSG-C02-006","timestamp":"2026-08-21T15:10:00+08:00","sender":"advisor","text":"林女士，之前您看的小包新到两个颜色，我拍给您看看？"},
+        {"message_id":"MSG-C02-007","timestamp":"2026-08-21T18:36:00+08:00","sender":"client","text":"最近先不买啦，有需要再找你。"},
+        {"message_id":"MSG-C02-008","timestamp":"2026-08-21T18:40:00+08:00","sender":"advisor","text":"好哒。"},
+        {"message_id":"MSG-C02-009","timestamp":"2026-11-09T10:13:00+08:00","sender":"client","text":"最近想找个上班用的包。"},
+        {"message_id":"MSG-C02-010","timestamp":"2026-11-09T10:14:00+08:00","sender":"client","text":"有拉链的，logo别太明显。"},
+        {"message_id":"MSG-C02-011","timestamp":"2026-11-09T10:19:00+08:00","sender":"advisor","text":"好的，黑色的有几款。您方便来店里看吗？"},
+        {"message_id":"MSG-C02-012","timestamp":"2026-11-09T10:22:00+08:00","sender":"client","text":"黑色或者深棕都行，平时穿黑灰色多。"},
+        {"message_id":"MSG-C02-013","timestamp":"2026-11-09T10:23:00+08:00","sender":"client","text":"偶尔要带电脑，不是每天。"},
+        {"message_id":"MSG-C02-014","timestamp":"2026-11-09T10:24:00+08:00","sender":"client","text":"但也不想包太重。"},
+        {"message_id":"MSG-C02-015","timestamp":"2026-11-09T10:28:00+08:00","sender":"advisor","text":"那您还是到店试一下比较好，重量光看数据不太直观。"},
+        {"message_id":"MSG-C02-016","timestamp":"2026-11-09T10:31:00+08:00","sender":"client","text":"这周真的忙，先微信看吧。"},
+        {"message_id":"MSG-C02-017","timestamp":"2026-11-09T10:32:00+08:00","sender":"client","text":"你发两款照片和尺寸给我就行，我先比较一下。"}
+      ]
+    },
+    {
+      "client_id": "C03",
+      "messages": [
+        {"message_id":"MSG-C03-001","timestamp":"2026-10-29T18:12:00+08:00","sender":"client","text":"今天买的那个包，肩带可以自己调的对吧？"},
+        {"message_id":"MSG-C03-002","timestamp":"2026-10-29T18:16:00+08:00","sender":"advisor","text":"可以的周女士，回去试试就行。"},
+        {"message_id":"MSG-C03-003","timestamp":"2026-10-29T18:20:00+08:00","sender":"client","text":"好的。那这个皮子平时需要特别护理吗？"},
+        {"message_id":"MSG-C03-004","timestamp":"2026-10-29T18:25:00+08:00","sender":"advisor","text":"尽量别淋雨，也别长时间暴晒。我把护理说明发您，里面写得比较详细。"},
+        {"message_id":"MSG-C03-005","timestamp":"2026-11-02T20:04:00+08:00","sender":"client","text":"我刚试着调了一下肩带。"},
+        {"message_id":"MSG-C03-006","timestamp":"2026-11-02T20:05:00+08:00","sender":"client","text":"好像卡住了，不太敢使劲。是不是我弄错了？"},
+        {"message_id":"MSG-C03-007","timestamp":"2026-11-02T20:12:00+08:00","sender":"advisor","text":"您先别用力，我跟售后确认一下具体操作。这个位置如果硬拉，可能会伤到皮革。确认好了我再告诉您怎么调。"},
+        {"message_id":"MSG-C03-008","timestamp":"2026-11-02T20:18:00+08:00","sender":"client","text":"好，麻烦你了。"},
+        {"message_id":"MSG-C03-009","timestamp":"2026-11-07T11:20:00+08:00","sender":"advisor","text":"周女士，抱歉让您等了几天。我和售后同事确认过了，调节步骤的图示已经发给您。您有空可以先对照看一下，如果还是觉得卡住，就不要勉强操作，我们再帮您安排检查。"},
+        {"message_id":"MSG-C03-010","timestamp":"2026-11-07T14:07:00+08:00","sender":"client","text":"收到了，谢谢。"},
+        {"message_id":"MSG-C03-011","timestamp":"2026-11-07T14:08:00+08:00","sender":"client","text":"这两天还没顾上试，周末看看。"},
+        {"message_id":"MSG-C03-012","timestamp":"2026-11-07T14:10:00+08:00","sender":"advisor","text":"好的，您试完有问题再联系我。"}
+      ]
+    },
+    {
+      "client_id": "C04",
+      "messages": [
+        {"message_id":"MSG-C04-001","timestamp":"2025-07-18T16:21:00+08:00","sender":"client","text":"你好，今天店里看的那个深棕色公文包，尺寸再发我一下。"},
+        {"message_id":"MSG-C04-002","timestamp":"2025-07-18T16:26:00+08:00","sender":"advisor","text":"好的陈先生，您主要是通勤用还是出差带？"},
+        {"message_id":"MSG-C04-003","timestamp":"2025-07-18T16:31:00+08:00","sender":"client","text":"出差多。电脑和文件要能放，别太重。"},
+        {"message_id":"MSG-C04-004","timestamp":"2025-07-18T16:32:00+08:00","sender":"client","text":"今天那款我觉得稍微有点正式。"},
+        {"message_id":"MSG-C04-005","timestamp":"2025-07-18T16:36:00+08:00","sender":"advisor","text":"明白。其实商务包基本都偏正式，不过我们有几款线条简单一点的，我整理给您。"},
+        {"message_id":"MSG-C04-006","timestamp":"2025-07-18T16:40:00+08:00","sender":"client","text":"行，我最近一直在外面跑，过阵子再看。"},
+        {"message_id":"MSG-C04-007","timestamp":"2025-09-08T11:15:00+08:00","sender":"advisor","text":"陈先生您好，之前您看过的商务包我整理了几张细节图。最近如果有时间，可以来店里看看。"},
+        {"message_id":"MSG-C04-008","timestamp":"2025-09-08T11:16:00+08:00","sender":"advisor","text":"这款质感还是很不错的，比较适合商务场合。"}
+      ]
+    },
+    {
+      "client_id": "C05",
+      "messages": [
+        {"message_id":"MSG-C05-001","timestamp":"2025-05-22T16:18:00+08:00","sender":"client","text":"这条项链表面是怎么处理的？看着不是完全镜面的。"},
+        {"message_id":"MSG-C05-002","timestamp":"2025-05-22T16:22:00+08:00","sender":"advisor","text":"这款是缎面处理，表面会有比较细腻的光泽，不是那种特别亮的镜面效果。我可以把工艺介绍发您看看。"},
+        {"message_id":"MSG-C05-003","timestamp":"2025-05-22T16:25:00+08:00","sender":"client","text":"好，我对这个还挺感兴趣的。"},
+        {"message_id":"MSG-C05-004","timestamp":"2025-10-18T10:05:00+08:00","sender":"advisor","text":"沈女士您好～下周有一场首饰工艺展示，会有工艺师现场讲解和部分制作演示。想到您之前问过项链的表面处理，所以来问问您有没有兴趣。活动大概一个小时。"},
+        {"message_id":"MSG-C05-005","timestamp":"2025-10-18T11:14:00+08:00","sender":"client","text":"会看到实际制作过程吗？还是主要介绍成品？"},
+        {"message_id":"MSG-C05-006","timestamp":"2025-10-18T11:20:00+08:00","sender":"advisor","text":"有实际演示的，不只是讲成品。"},
+        {"message_id":"MSG-C05-007","timestamp":"2025-10-18T11:25:00+08:00","sender":"client","text":"那我想去看看，麻烦帮我确认一下名额。"},
+        {"message_id":"MSG-C05-008","timestamp":"2025-10-18T11:31:00+08:00","sender":"advisor","text":"好的，我帮您登记，确认后再通知您。"},
+        {"message_id":"MSG-C05-009","timestamp":"2025-10-28T17:06:00+08:00","sender":"advisor","text":"沈女士，上次活动感觉怎么样？"},
+        {"message_id":"MSG-C05-010","timestamp":"2025-10-28T18:33:00+08:00","sender":"client","text":"打磨那部分挺有意思的。"},
+        {"message_id":"MSG-C05-011","timestamp":"2025-10-28T18:34:00+08:00","sender":"client","text":"就是人有点多，后面没太看清楚。"},
+        {"message_id":"MSG-C05-012","timestamp":"2025-10-28T18:35:00+08:00","sender":"client","text":"下次有小一点的场次可以告诉我。"},
+        {"message_id":"MSG-C05-013","timestamp":"2025-10-28T18:39:00+08:00","sender":"advisor","text":"好的，我记下了。我们以后应该还会有类似活动，到时再邀请您。"},
+        {"message_id":"MSG-C05-014","timestamp":"2026-06-15T12:10:00+08:00","sender":"client","text":"最近还有类似的活动吗？"},
+        {"message_id":"MSG-C05-015","timestamp":"2026-06-15T12:16:00+08:00","sender":"advisor","text":"目前还没确定的场次。之后有消息我再告诉您。"},
+        {"message_id":"MSG-C05-016","timestamp":"2026-06-15T12:19:00+08:00","sender":"client","text":"好。周末下午比较方便，最好一个小时左右。"},
+        {"message_id":"MSG-C05-017","timestamp":"2026-06-15T12:21:00+08:00","sender":"client","text":"上次时间其实刚好，就是人太多了。"}
+      ]
+    },
+    {
+      "client_id": "C06",
+      "messages": [
+        {"message_id":"MSG-C06-001","timestamp":"2026-11-06T17:52:00+08:00","sender":"client","text":"你好，我今天在店里看的那两个小包，方便把照片发我吗？"},
+        {"message_id":"MSG-C06-002","timestamp":"2026-11-06T17:56:00+08:00","sender":"advisor","text":"可以的顾女士，我整理一下照片和尺寸给您。"},
+        {"message_id":"MSG-C06-003","timestamp":"2026-11-06T18:02:00+08:00","sender":"client","text":"我比较喜欢那个挺一点的。"},
+        {"message_id":"MSG-C06-004","timestamp":"2026-11-06T18:03:00+08:00","sender":"client","text":"软的那个背起来也不错，但感觉完全不一样。"},
+        {"message_id":"MSG-C06-005","timestamp":"2026-11-06T18:06:00+08:00","sender":"advisor","text":"嗯，结构款会更挺括，软款比较随性。两款都挺好看的，主要看您喜欢哪种感觉。"},
+        {"message_id":"MSG-C06-006","timestamp":"2026-11-08T14:20:00+08:00","sender":"client","text":"那个挺一点的是6800对吧？"},
+        {"message_id":"MSG-C06-007","timestamp":"2026-11-08T14:25:00+08:00","sender":"advisor","text":"对，6800。"},
+        {"message_id":"MSG-C06-008","timestamp":"2026-11-08T14:29:00+08:00","sender":"client","text":"嗯，有点超出预期。"},
+        {"message_id":"MSG-C06-009","timestamp":"2026-11-08T14:30:00+08:00","sender":"client","text":"我还看了另一家的，大小差不多，便宜不少。"},
+        {"message_id":"MSG-C06-010","timestamp":"2026-11-08T14:34:00+08:00","sender":"advisor","text":"我们这款用的是小牛皮，内部结构和制作工艺也比较讲究，所以价格会高一些。"},
+        {"message_id":"MSG-C06-011","timestamp":"2026-11-08T14:37:00+08:00","sender":"client","text":"嗯……"},
+        {"message_id":"MSG-C06-012","timestamp":"2026-11-09T09:41:00+08:00","sender":"client","text":"我还是想知道为什么差这么多。"},
+        {"message_id":"MSG-C06-013","timestamp":"2026-11-09T09:42:00+08:00","sender":"client","text":"平时用包比较频繁，也希望买一个能用久一点的。"},
+        {"message_id":"MSG-C06-014","timestamp":"2026-11-09T09:43:00+08:00","sender":"client","text":"但光看外形感觉差不多。你们这款具体好在哪里？"}
+      ]
+    },
+    {
+      "client_id": "C07",
+      "messages": [
+        {"message_id":"MSG-C07-001","timestamp":"2023-11-04T13:20:00+08:00","sender":"client","text":"刚才试的披肩，深灰色和米色我还是有点犹豫。"},
+        {"message_id":"MSG-C07-002","timestamp":"2023-11-04T13:25:00+08:00","sender":"advisor","text":"陆女士，我个人觉得深灰色很衬您今天的外套。不过米色会更柔和一些，两种都可以。"},
+        {"message_id":"MSG-C07-003","timestamp":"2023-11-04T13:31:00+08:00","sender":"client","text":"嗯，深灰吧。米色我已经有差不多的了。"},
+        {"message_id":"MSG-C07-004","timestamp":"2025-04-12T16:02:00+08:00","sender":"client","text":"今天看的酒红色那个包，小号和中号除了尺寸还有什么区别？"},
+        {"message_id":"MSG-C07-005","timestamp":"2025-04-12T16:08:00+08:00","sender":"advisor","text":"主要还是容量和上身比例不同。中号会更适合放日常物品，小号看起来精致一些。我把具体尺寸和细节图一起发您，您可以再对比。"},
+        {"message_id":"MSG-C07-006","timestamp":"2025-04-12T16:12:00+08:00","sender":"client","text":"好。颜色我挺喜欢的，不是特别亮的红。"},
+        {"message_id":"MSG-C07-007","timestamp":"2025-06-03T10:24:00+08:00","sender":"client","text":"酒红色那个包如果暂时不背，存放的时候需要特别注意什么？"},
+        {"message_id":"MSG-C07-008","timestamp":"2025-06-03T10:33:00+08:00","sender":"advisor","text":"建议放在防尘袋里，避免长时间受压，也不要放在潮湿或者阳光直射的地方。我把官方护理说明发您，里面有比较详细的存放建议。"},
+        {"message_id":"MSG-C07-009","timestamp":"2025-06-03T11:06:00+08:00","sender":"client","text":"收到，谢谢。"},
+        {"message_id":"MSG-C07-010","timestamp":"2026-02-18T15:10:00+08:00","sender":"advisor","text":"陆女士，最近有几款新到的皮具，您有兴趣看看吗？"},
+        {"message_id":"MSG-C07-011","timestamp":"2026-02-18T19:22:00+08:00","sender":"client","text":"最近先不用了，手上的包还没怎么轮换过来。"},
+        {"message_id":"MSG-C07-012","timestamp":"2026-02-18T19:28:00+08:00","sender":"advisor","text":"好的。"},
+        {"message_id":"MSG-C07-013","timestamp":"2026-06-20T17:14:00+08:00","sender":"client","text":"今天那条方巾颜色还挺特别的。"},
+        {"message_id":"MSG-C07-014","timestamp":"2026-06-20T17:19:00+08:00","sender":"advisor","text":"是的，这次的配色比较少见，和之前几季的风格不太一样。"},
+        {"message_id":"MSG-C07-015","timestamp":"2026-06-20T17:22:00+08:00","sender":"client","text":"以后有这种特别一点的颜色或者工艺可以告诉我。"},
+        {"message_id":"MSG-C07-016","timestamp":"2026-06-20T17:23:00+08:00","sender":"client","text":"但不用每次上新都发哈，我平时消息太多。"},
+        {"message_id":"MSG-C07-017","timestamp":"2026-06-20T17:30:00+08:00","sender":"advisor","text":"明白的陆女士。我会先帮您筛选，像比较特别的配色、工艺细节或者您之前关注过的系列，有合适的再联系您。其他常规上新就不打扰了。"},
+        {"message_id":"MSG-C07-018","timestamp":"2026-06-20T17:35:00+08:00","sender":"client","text":"嗯，这样就好。"}
+      ]
+    },
+    {
+      "client_id": "C08",
+      "messages": [
+        {"message_id":"MSG-C08-001","timestamp":"2026-07-11T18:02:00+08:00","sender":"client","text":"今天那个米白色的包我拿回家啦。"},
+        {"message_id":"MSG-C08-002","timestamp":"2026-07-11T18:03:00+08:00","sender":"client","text":"大小感觉挺合适！"},
+        {"message_id":"MSG-C08-003","timestamp":"2026-07-11T18:10:00+08:00","sender":"advisor","text":"太好了～希望您用得开心！"},
+        {"message_id":"MSG-C08-004","timestamp":"2026-07-19T12:34:00+08:00","sender":"client","text":"问一下，浅色皮是不是容易被牛仔裤染色啊？"},
+        {"message_id":"MSG-C08-005","timestamp":"2026-07-19T12:35:00+08:00","sender":"client","text":"我最近老背它，有点担心。"},
+        {"message_id":"MSG-C08-006","timestamp":"2026-07-19T12:43:00+08:00","sender":"advisor","text":"深色牛仔布确实需要注意颜色转移，尤其是摩擦比较频繁的时候。建议尽量避免长时间贴着深色面料，我也把品牌的护理说明发您，您可以参考一下。"},
+        {"message_id":"MSG-C08-007","timestamp":"2026-08-02T21:18:00+08:00","sender":"client","text":"最近用下来真的刚好，手机卡包钥匙都放得下。"},
+        {"message_id":"MSG-C08-008","timestamp":"2026-08-02T21:20:00+08:00","sender":"client","text":"现在都懒得背大包了哈哈。"}
+      ]
+    },
+    {
+      "client_id": "C09",
+      "messages": [
+        {"message_id":"MSG-C09-001","timestamp":"2022-12-10T15:11:00+08:00","sender":"client","text":"那条披肩有颜色稳重一点的吗？送我母亲。"},
+        {"message_id":"MSG-C09-002","timestamp":"2022-12-10T15:17:00+08:00","sender":"advisor","text":"有的何先生，我给您看看两种颜色比较柔和的。"},
+        {"message_id":"MSG-C09-003","timestamp":"2022-12-10T15:21:00+08:00","sender":"client","text":"别太鲜艳就行。"},
+        {"message_id":"MSG-C09-004","timestamp":"2024-05-08T11:36:00+08:00","sender":"client","text":"钱包包装里能不能不要放价格标签？"},
+        {"message_id":"MSG-C09-005","timestamp":"2024-05-08T11:38:00+08:00","sender":"client","text":"礼卡我自己写就行。"},
+        {"message_id":"MSG-C09-006","timestamp":"2024-05-08T11:45:00+08:00","sender":"advisor","text":"没问题，包装我会提前交代好。礼卡留空给您，价格相关的内容也不会放进礼盒里。"},
+        {"message_id":"MSG-C09-007","timestamp":"2024-05-08T12:02:00+08:00","sender":"client","text":"好的，谢谢。"},
+        {"message_id":"MSG-C09-008","timestamp":"2025-12-16T16:08:00+08:00","sender":"client","text":"这条手链尺寸可以调吗？"},
+        {"message_id":"MSG-C09-009","timestamp":"2025-12-16T16:14:00+08:00","sender":"advisor","text":"可以调整的。"},
+        {"message_id":"MSG-C09-010","timestamp":"2025-12-16T16:18:00+08:00","sender":"client","text":"是送伴侣的，我不太确定手围。"},
+        {"message_id":"MSG-C09-011","timestamp":"2025-12-16T16:25:00+08:00","sender":"advisor","text":"那最好先确认一下尺寸，不然可能戴着不太合适。"},
+        {"message_id":"MSG-C09-012","timestamp":"2025-12-16T16:29:00+08:00","sender":"client","text":"嗯，但想给个惊喜，不太方便直接问。"},
+        {"message_id":"MSG-C09-013","timestamp":"2025-12-16T16:33:00+08:00","sender":"advisor","text":"明白，那我先把尺寸范围发您参考。"}
+      ]
+    },
+    {
+      "client_id": "C10",
+      "messages": [
+        {"message_id":"MSG-C10-001","timestamp":"2024-10-19T13:16:00+08:00","sender":"client","text":"今天那个黑色托特包重量多少？出差带会不会太沉？"},
+        {"message_id":"MSG-C10-002","timestamp":"2024-10-19T13:24:00+08:00","sender":"advisor","text":"我帮您确认一下具体重量，尺寸也一起发您。"},
+        {"message_id":"MSG-C10-003","timestamp":"2024-10-19T13:28:00+08:00","sender":"client","text":"好，还有开口大小。我经常在路上拿东西，开口太小不方便。"},
+        {"message_id":"MSG-C10-004","timestamp":"2024-10-19T13:34:00+08:00","sender":"advisor","text":"明白，您主要考虑实际使用的方便程度。"},
+        {"message_id":"MSG-C10-005","timestamp":"2026-03-07T10:42:00+08:00","sender":"client","text":"护照夹能直接寄香港吗？我这阵子不在上海。"},
+        {"message_id":"MSG-C10-006","timestamp":"2026-03-07T11:03:00+08:00","sender":"advisor","text":"梁女士，我确认了目前这款的配送方式，具体说明发您了。不同地区的安排可能不太一样，您可以先看看。如果时间不急，也可以之后回上海到店取。"},
+        {"message_id":"MSG-C10-007","timestamp":"2026-03-07T11:28:00+08:00","sender":"client","text":"那我还是下次回上海取吧。"},
+        {"message_id":"MSG-C10-008","timestamp":"2026-03-07T11:35:00+08:00","sender":"advisor","text":"好的，您回来之前告诉我就行。"},
+        {"message_id":"MSG-C10-009","timestamp":"2026-05-26T18:12:00+08:00","sender":"client","text":"之后如果需要到店，最好提前几天跟我约一下。我不一定在上海，临时约真的很难安排。"},
+        {"message_id":"MSG-C10-010","timestamp":"2026-05-26T18:20:00+08:00","sender":"advisor","text":"好的梁女士，之后涉及到店的安排我会提前和您确认，不临时打扰您。"}
+      ]
+    },
+    {
+      "client_id": "C11",
+      "messages": []
+    },
+    {
+      "client_id": "C12",
+      "messages": [
+        {"message_id":"MSG-C12-001","timestamp":"2026-08-15T16:34:00+08:00","sender":"client","text":"今天看的两款包，皮面处理是一样的吗？"},
+        {"message_id":"MSG-C12-002","timestamp":"2026-08-15T16:41:00+08:00","sender":"advisor","text":"不完全一样。两款的皮面质感有区别，我整理一下材质说明给您。"},
+        {"message_id":"MSG-C12-003","timestamp":"2026-08-18T20:02:00+08:00","sender":"client","text":"结构款的缝线能拍近一点吗？"},
+        {"message_id":"MSG-C12-004","timestamp":"2026-08-18T20:03:00+08:00","sender":"client","text":"最好原图，不要滤镜。"},
+        {"message_id":"MSG-C12-005","timestamp":"2026-08-18T20:17:00+08:00","sender":"advisor","text":"可以，我明天到店拍一下。"},
+        {"message_id":"MSG-C12-006","timestamp":"2026-08-18T20:21:00+08:00","sender":"client","text":"主要想看边缘和针脚的处理。"},
+        {"message_id":"MSG-C12-007","timestamp":"2026-08-19T14:28:00+08:00","sender":"advisor","text":"江先生，我拍了几张细节照片，您看看。皮革和缝线部分都拍得比较近。"},
+        {"message_id":"MSG-C12-008","timestamp":"2026-08-19T15:46:00+08:00","sender":"client","text":"看到了。还有内部结构的图吗？"},
+        {"message_id":"MSG-C12-009","timestamp":"2026-08-19T16:03:00+08:00","sender":"advisor","text":"内部结构您到店看会更直观，照片可能不太容易看清。"},
+        {"message_id":"MSG-C12-010","timestamp":"2026-09-02T19:10:00+08:00","sender":"advisor","text":"江先生，之前看的那款您还在考虑吗？"},
+        {"message_id":"MSG-C12-011","timestamp":"2026-09-02T21:04:00+08:00","sender":"client","text":"还在比较，不着急决定。"},
+        {"message_id":"MSG-C12-012","timestamp":"2026-09-02T21:05:00+08:00","sender":"client","text":"如果有具体工艺资料可以发我，其他暂时不用。"}
+      ]
+    },
+    {
+      "client_id": "C13",
+      "messages": [
+        {"message_id":"MSG-C13-001","timestamp":"2021-05-15T15:12:00+08:00","sender":"client","text":"黑色那款能放A4文件吗？我主要上班用。"},
+        {"message_id":"MSG-C13-002","timestamp":"2021-05-15T15:18:00+08:00","sender":"advisor","text":"我帮您确认一下内部尺寸。您平时还会放电脑吗？"},
+        {"message_id":"MSG-C13-003","timestamp":"2021-05-15T15:21:00+08:00","sender":"client","text":"有时候放文件，电脑不一定。"},
+        {"message_id":"MSG-C13-004","timestamp":"2023-07-22T14:32:00+08:00","sender":"client","text":"这次想找个小一点的，周末出门背。"},
+        {"message_id":"MSG-C13-005","timestamp":"2023-07-22T14:34:00+08:00","sender":"client","text":"不用放电脑，手机钱包这些够了。"},
+        {"message_id":"MSG-C13-006","timestamp":"2023-07-22T14:40:00+08:00","sender":"advisor","text":"那这次可以看看小号款，轻便一些。您之前买的黑色通勤包容量比较大，这次换个用途，确实不用选那么大的。"},
+        {"message_id":"MSG-C13-007","timestamp":"2023-08-04T19:16:00+08:00","sender":"client","text":"浅色包日常要怎么清洁呀？"},
+        {"message_id":"MSG-C13-008","timestamp":"2023-08-04T19:24:00+08:00","sender":"advisor","text":"我把官方护理说明发您。浅色皮革平时尽量避免和容易掉色的衣物长时间摩擦，也不建议自己用清洁剂直接擦。"},
+        {"message_id":"MSG-C13-009","timestamp":"2023-08-04T19:30:00+08:00","sender":"client","text":"好，收到。"},
+        {"message_id":"MSG-C13-010","timestamp":"2025-03-29T12:06:00+08:00","sender":"client","text":"这条丝巾的图案挺好看的，颜色会不会太跳？"},
+        {"message_id":"MSG-C13-011","timestamp":"2025-03-29T12:12:00+08:00","sender":"advisor","text":"配素色衣服会比较好看，尤其是黑色或者米色。我觉得您可以试一下，不一定要系在脖子上，也可以搭在包上。"},
+        {"message_id":"MSG-C13-012","timestamp":"2025-03-29T12:16:00+08:00","sender":"client","text":"嗯，配黑色应该还不错。"},
+        {"message_id":"MSG-C13-013","timestamp":"2026-09-05T16:41:00+08:00","sender":"client","text":"今天那个深绿色我觉得比黑色特别一点。"},
+        {"message_id":"MSG-C13-014","timestamp":"2026-09-05T16:44:00+08:00","sender":"client","text":"我已经有黑色上班包了，这次不想再买一样的颜色。"},
+        {"message_id":"MSG-C13-015","timestamp":"2026-09-05T16:49:00+08:00","sender":"advisor","text":"明白，那深绿色确实更有变化。"},
+        {"message_id":"MSG-C13-016","timestamp":"2026-09-05T16:53:00+08:00","sender":"client","text":"那就这个吧。"}
+      ]
+    },
+    {
+      "client_id": "C14",
+      "messages": [
+        {"message_id":"MSG-C14-001","timestamp":"2025-02-14T09:42:00+08:00","sender":"client","text":"之前买的商务包提手边缘有点磨了，能处理吗？"},
+        {"message_id":"MSG-C14-002","timestamp":"2025-02-14T09:51:00+08:00","sender":"advisor","text":"吴先生您好，这种情况建议先带到门店检查一下。具体能怎么处理，要看实际磨损程度，我们不能只凭照片判断。"},
+        {"message_id":"MSG-C14-003","timestamp":"2025-02-14T10:03:00+08:00","sender":"client","text":"好，我找时间过去。"},
+        {"message_id":"MSG-C14-004","timestamp":"2025-03-06T16:18:00+08:00","sender":"client","text":"今天处理好了，谢谢你帮我安排。"},
+        {"message_id":"MSG-C14-005","timestamp":"2025-03-06T16:24:00+08:00","sender":"advisor","text":"不客气吴先生，您之后使用上有问题随时联系我。"},
+        {"message_id":"MSG-C14-006","timestamp":"2026-10-28T20:14:00+08:00","sender":"client","text":"我那个短钱包边上有一点开线。"},
+        {"message_id":"MSG-C14-007","timestamp":"2026-10-28T20:15:00+08:00","sender":"client","text":"用了挺久了，不知道还能不能处理。"},
+        {"message_id":"MSG-C14-008","timestamp":"2026-10-28T20:23:00+08:00","sender":"advisor","text":"您带来店里看看吧，具体要看实物情况。"},
+        {"message_id":"MSG-C14-009","timestamp":"2026-10-28T20:28:00+08:00","sender":"client","text":"那需要提前预约吗？"},
+        {"message_id":"MSG-C14-010","timestamp":"2026-10-28T20:35:00+08:00","sender":"advisor","text":"最好提前跟我说一声，我帮您安排。"},
+        {"message_id":"MSG-C14-011","timestamp":"2026-10-28T20:39:00+08:00","sender":"client","text":"行，我看看什么时候去。"},
+        {"message_id":"MSG-C14-012","timestamp":"2026-10-28T20:41:00+08:00","sender":"client","text":"最近工作有点忙。"},
+        {"message_id":"MSG-C14-013","timestamp":"2026-10-28T20:46:00+08:00","sender":"advisor","text":"好的，您确定时间再联系我。"}
+      ]
+    },
+    {
+      "client_id": "C15",
+      "messages": [
+        {"message_id":"MSG-C15-001","timestamp":"2026-10-24T19:22:00+08:00","sender":"client","text":"你好，上周看的那个卡包有深红色吗？"},
+        {"message_id":"MSG-C15-002","timestamp":"2026-10-24T19:30:00+08:00","sender":"advisor","text":"我帮您查一下。"},
+        {"message_id":"MSG-C15-003","timestamp":"2026-10-24T19:36:00+08:00","sender":"client","text":"好呀，不急。"}
+      ]
+    },
+    {
+      "client_id": "C16",
+      "messages": [
+        {"message_id":"MSG-C16-001","timestamp":"2023-08-12T10:16:00+08:00","sender":"client","text":"passport holder 还有其他颜色吗？"},
+        {"message_id":"MSG-C16-002","timestamp":"2023-08-12T10:22:00+08:00","sender":"advisor","text":"有深蓝和棕色，我把图片发您参考。"},
+        {"message_id":"MSG-C16-003","timestamp":"2023-08-12T10:27:00+08:00","sender":"client","text":"深蓝吧，看起来比较耐看。"},
+        {"message_id":"MSG-C16-004","timestamp":"2025-06-14T14:02:00+08:00","sender":"client","text":"这款 travel pouch 可以线上确认细节吗？"},
+        {"message_id":"MSG-C16-005","timestamp":"2025-06-14T14:03:00+08:00","sender":"client","text":"最近不太方便去上海。"},
+        {"message_id":"MSG-C16-006","timestamp":"2025-06-14T14:12:00+08:00","sender":"advisor","text":"可以的程先生。您需要的尺寸、材质和细节照片我都可以整理给您，配送方式也可以一起确认。不过具体能不能寄到您那边，还需要根据地址核实。"},
+        {"message_id":"MSG-C16-007","timestamp":"2025-06-14T14:19:00+08:00","sender":"client","text":"好，麻烦了。包装也帮我确认一下。"},
+        {"message_id":"MSG-C16-008","timestamp":"2025-06-14T14:25:00+08:00","sender":"advisor","text":"好的，一起确认。"},
+        {"message_id":"MSG-C16-009","timestamp":"2026-01-09T18:33:00+08:00","sender":"client","text":"以后尺寸、细节图直接微信发我就行。"},
+        {"message_id":"MSG-C16-010","timestamp":"2026-01-09T18:34:00+08:00","sender":"client","text":"不用专门video call，图片我看得比较方便。"}
+      ]
+    }
+  ]
+}
