@@ -38,6 +38,7 @@ The three candidates share one communication objective and use three dynamic, co
 ## Repository map
 
 - `docs/`: project baseline, business understanding, system design, evaluation direction, ADRs, work log, changelog, and open questions
+- `docs/clienteling_messaging_reference.md`: LIUXU 六场景 CA 话术策略、模板、回复分支、事实边界与工具字段参考
 - `TASKS.md`: project tracker
 - `config/`: future brand-policy configuration; no policy has been implemented
 - `src/`: planned module boundaries; no implementation code
