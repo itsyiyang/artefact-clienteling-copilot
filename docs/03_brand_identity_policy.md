@@ -2,7 +2,7 @@
 
 **Status:** Principles accepted; operational details pending (2026-11-09).
 
-最新共识见 [rules.md](../rules.md)，六场景讨论示例见 [scenario_rule_review.md](scenario_rule_review.md)。已确认皮具、精细工艺与长期使用、克制而有辨识度的设计、阶段性系列表达，以及主动服务但尊重客户自主性。客户等级只在影响明确权益或资格时使用。名称、产品事实、服务条款及Judge阈值仍未冻结。
+最新共识见 [rules.md](../rules.md)，六场景讨论示例见 [scenario_rule_review.md](scenario_rule_review.md)，完整 CA 话术参考见 [clienteling_messaging_reference.md](clienteling_messaging_reference.md)。已确认皮具、精细工艺与长期使用、克制而有辨识度的设计、阶段性系列表达，以及主动服务但尊重客户自主性。客户等级只在影响明确权益或资格时使用。名称、产品事实、服务条款及Judge阈值仍未冻结。
 
 Brand Policy constrains Understanding, Planning, Generation, and Validation. The Markdown rules are a discussion baseline, not a deployed executable policy.
 
