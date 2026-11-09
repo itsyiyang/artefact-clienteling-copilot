@@ -1,5 +1,7 @@
 # Artefact Luxury Clienteling Copilot — 执行计划与讨论稿
 
+2026-11-09：用户六例人工review已记录（S6笔误澄清，内容可用但称呼必改），随后独立运行Qwen Judge六例，未提供人工标签。结果：S1相关性漏判、S4部分命中且误判拒绝、S6称呼漏判；S5引用无效。原始输出未改。见evaluations/runs/pilot-judge-v1/findings.md。下一步校准Judge与生成规则，再复测，尚未扩大50例。
+
 2026-11-09实测：六场景18条Qwen原始回复已完成，review包evaluations/runs/pilot-six-review/review.md。首次5/6结构完成，S2-001连接失败后单独补跑191.5秒成功；不能当质量通过率。保留完整输入、请求、原始返回、耗时和版本。待用户先评，Judge未运行。当前为单调用理解/规划/生成基线，尚非独立规划流水线；下一步人工review→Judge对照→改进→50例。
 
 2026-11-09业务确认更新：活动按季前商品展示、正式邀请、VIP专属时间、实体/电子邀请函和预订意向登记落档；S4-001服务契机与S6-001型号已确认。可组装21/24例，六场景首轮输入已保存evaluations/assembled/pilot-six.json；其余3例重新激活继续待业务确认。六例模型实测尚未执行。

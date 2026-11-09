@@ -1,0 +1,133 @@
+{
+  "reviewer": "user",
+  "source": "本聊天两轮反馈及S6澄清",
+  "labels": [
+    {
+      "case_id": "S1-001",
+      "candidate": 1,
+      "human_label": "acceptable_in_user_review",
+      "reason": "候选1可以",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S1-001",
+      "candidate": 2,
+      "human_label": "needs_revision",
+      "reason": "不相关个性化：生日祝福不应强行引用包装或丝巾系法，应以祝福和适当品牌理念为主",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S1-001",
+      "candidate": 3,
+      "human_label": "needs_revision",
+      "reason": "不相关个性化：生日祝福不应强行引用包装或丝巾系法，应以祝福和适当品牌理念为主",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S2-001",
+      "candidate": 1,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S2-001",
+      "candidate": 2,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S2-001",
+      "candidate": 3,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S3-001",
+      "candidate": 1,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S3-001",
+      "candidate": 2,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S3-001",
+      "candidate": 3,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S4-001",
+      "candidate": 1,
+      "human_label": "needs_revision",
+      "reason": "太general，需更具体体现新的服务价值；用户为整组评价",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S4-001",
+      "candidate": 2,
+      "human_label": "needs_revision",
+      "reason": "太general，需更具体体现新的服务价值；用户为整组评价",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S4-001",
+      "candidate": 3,
+      "human_label": "needs_revision",
+      "reason": "太general，需更具体体现新的服务价值；用户为整组评价",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S5-001",
+      "candidate": 1,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S5-001",
+      "candidate": 2,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S5-001",
+      "candidate": 3,
+      "human_label": "acceptable_in_user_review",
+      "reason": "用户评价三条还可以；未提供数值评分",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S6-001",
+      "candidate": 1,
+      "human_label": "content_acceptable_salutation_must_change",
+      "reason": "内容还可以，称呼改为姓+女士/先生；此前三条都糟糕为笔误，已澄清",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S6-001",
+      "candidate": 2,
+      "human_label": "content_acceptable_salutation_must_change",
+      "reason": "内容还可以，称呼改为姓+女士/先生；此前三条都糟糕为笔误，已澄清",
+      "numeric_scores": null
+    },
+    {
+      "case_id": "S6-001",
+      "candidate": 3,
+      "human_label": "content_acceptable_salutation_must_change",
+      "reason": "内容还可以，称呼改为姓+女士/先生；此前三条都糟糕为笔误，已澄清",
+      "numeric_scores": null
+    }
+  ],
+  "note": "保留用户定性评价，不补造数值；不作为Judge输入。"
+}

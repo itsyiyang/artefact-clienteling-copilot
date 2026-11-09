@@ -1,0 +1,36 @@
+[
+  {
+    "case_id": "S1-001",
+    "errors": [],
+    "raw_verdict": "pass"
+  },
+  {
+    "case_id": "S2-001",
+    "errors": [],
+    "raw_verdict": "fail"
+  },
+  {
+    "case_id": "S3-001",
+    "errors": [],
+    "raw_verdict": "verify"
+  },
+  {
+    "case_id": "S4-001",
+    "errors": [],
+    "raw_verdict": "verify"
+  },
+  {
+    "case_id": "S5-001",
+    "errors": [
+      "candidate 1 quote not found: 活动内容包括工艺展示和超前一季商品的呈现。",
+      "candidate 2 quote not found: 活动内容包括工艺展示和超前一季商品的呈现。",
+      "candidate 3 quote not found: 活动内容包括工艺展示和超前一季商品的呈现。"
+    ],
+    "raw_verdict": "verify"
+  },
+  {
+    "case_id": "S6-001",
+    "errors": [],
+    "raw_verdict": "verify"
+  }
+]
