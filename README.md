@@ -1,5 +1,9 @@
 # Artefact Luxury Clienteling Copilot Challenge
 
+## Codex 50例交付文件（2026-11-09）
+
+新增[最终Excel、交付描述与复核总结](deliverables/clienteling-50-codex-final/README.md)，保留原8列及50例，包含阅读页和原始数据核对页。150个输出单元中，147条为客户话术，TC041的3条明确为不发送客户的处理建议。该内容是Codex编写与复核的独立交付稿，不代表本地Qwen运行完成或独立评测通过。
+
 ## 客户模拟 Agent（2026-11-09）
 
 本地离线测试数据工具已加入，使用 `npm run simulate:customer` 创建一个新的待审客户案例。先生成档案，再生成场景、商品事实与历史；必填姓名/生日/年龄/购物历史，其他信息允许缺失。详情见 [使用说明](docs/customer-agent.md)。它未接入网页，不替换已有人工评审案例，也不自动运行50例。

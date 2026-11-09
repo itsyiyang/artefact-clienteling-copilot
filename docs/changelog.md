@@ -1,5 +1,12 @@
 # Changelog
 
+## Codex natural messaging delivery — 2026-11-09
+
+- 归档最终50例Excel、中文交付说明、10处输出修订总结及标准库验证脚本，入口为 `deliverables/clienteling-50-codex-final/`。
+- 保留原8列；阅读页补齐业务信息，原始数据核对页完整保留源字段。
+- 明确150输出单元为147条客户话术与TC041的3条不发送建议；不计作50组三候选全部完成。
+- 与本地Qwen批次隔离，不覆盖模型原始输出、不新增Judge或人工评测成绩。
+
 ## Six-scenario messaging reference — 2026-11-09
 
 - 新增 LIUXU 六场景 CA 话术参考，包含策略、决策逻辑、工具字段、中文模板、英文关键表达、回复分支、时机与语气。

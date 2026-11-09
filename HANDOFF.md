@@ -10,6 +10,8 @@ Artefact Luxury Clienteling Copilot Challenge：输入客户/场景/聊天/相�
 
 ## 当前批次（2026-11-09）
 
+用户另外要求归档本聊天生成的Codex自然话术交付稿，位于 `deliverables/clienteling-50-codex-final/`。最终Excel含阅读页和原始数据核对页；150输出单元 = 147条客户候选 + TC041的3条不发送处理建议。具体描述、10处修订总结和核验命令见该目录README。此文件不覆盖下述Qwen批次，不证明正式50组三候选或独立evaluation已通过。
+
 用户要求依据新话术参考重新生成50例。运行 `node scripts/run-fifty.mjs`；当前正式目录 `evaluations/runs/fifty-generation-v0.3-8k/`，CSV每例更新。提示及完整请求、原始响应、耗时、代码commit和输入哈希均留存。六例旧基线不覆盖。此轮不运行Judge，不把结构成功当质量通过。使用说明：docs/fifty-local-run.md。
 
 ## 主要编辑入口
