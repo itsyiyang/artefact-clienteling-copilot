@@ -1,15 +1,15 @@
 {
-  "completed_cases": 18,
-  "nonempty_outputs": 54,
+  "completed_cases": 30,
+  "nonempty_outputs": 90,
   "expected_cases": 50,
   "inputs_unchanged": true,
   "csv_matches_raw": true,
   "prompt_and_input_hashes_match": true,
   "context_max_used_tokens": 4613,
   "latency_seconds": {
-    "sum": 2319.451,
-    "median": 125.349,
-    "min": 73.193,
+    "sum": 3105.838,
+    "median": 96.174,
+    "min": 41.971,
     "max": 199.427
   },
   "mechanical_review_hints": [
@@ -156,6 +156,54 @@
         "full_name_present_check_salutation"
       ],
       "text": "方雨桐女士，考虑到您偏爱深绿色包，搭配这款深蓝与奶油色的流纹真丝方巾，会更显层次感。它既适合系在包上，也能搭配外套，非常实用。"
+    },
+    {
+      "case_id": "TC021",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "唐予安女士，米白色小包日常保养建议您使用专用皮革清洁剂轻拭表面，避免使用含酸性成分的清洁产品。若担心染色，可定期用柔软布料蘸取少量清水轻擦，保持皮质干燥。"
+    },
+    {
+      "case_id": "TC021",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "唐予安女士，您提到包的容量刚好，建议日常使用时避免过度挤压或频繁摩擦，以延长使用寿命。若需存放，可使用柔软布料包裹后置于阴凉通风处。"
+    },
+    {
+      "case_id": "TC021",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "唐予安女士，关于米白色小包的护理细节，我们已整理了详细说明，您可参考使用。如有任何疑问，欢迎随时联系，我们会为您提供进一步支持。"
+    },
+    {
+      "case_id": "TC022",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "唐予安女士，米白色皮质确实容易沾染深色，建议避免长时间贴着牛仔裤或深色衣物，以减少颜色转移。"
+    },
+    {
+      "case_id": "TC022",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "唐予安女士，您提到的大小刚好，说明这款包非常实用。日常使用时，注意避免尖锐物品摩擦，以保持包体整洁。"
+    },
+    {
+      "case_id": "TC022",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "唐予安女士，保养时只需注意避免深色摩擦和尖锐物品接触，保持干燥通风即可。如有其他问题，随时联系我。"
     }
   ],
   "quality_status": "not_evaluated; hints are not Judge verdicts",

@@ -160,6 +160,90 @@
       "elapsed_ms": 130736,
       "attempts": 1,
       "result_file": "TC018.attempt-1.json"
+    },
+    {
+      "case_id": "TC019",
+      "status": "generated_pending_review",
+      "elapsed_ms": 63239,
+      "attempts": 1,
+      "result_file": "TC019.attempt-1.json"
+    },
+    {
+      "case_id": "TC020",
+      "status": "generated_pending_review",
+      "elapsed_ms": 49995,
+      "attempts": 1,
+      "result_file": "TC020.attempt-1.json"
+    },
+    {
+      "case_id": "TC021",
+      "status": "generated_pending_review",
+      "elapsed_ms": 45832,
+      "attempts": 1,
+      "result_file": "TC021.attempt-1.json"
+    },
+    {
+      "case_id": "TC022",
+      "status": "generated_pending_review",
+      "elapsed_ms": 41971,
+      "attempts": 1,
+      "result_file": "TC022.attempt-1.json"
+    },
+    {
+      "case_id": "TC023",
+      "status": "generated_pending_review",
+      "elapsed_ms": 52197,
+      "attempts": 1,
+      "result_file": "TC023.attempt-1.json"
+    },
+    {
+      "case_id": "TC024",
+      "status": "generated_pending_review",
+      "elapsed_ms": 48908,
+      "attempts": 1,
+      "result_file": "TC024.attempt-1.json"
+    },
+    {
+      "case_id": "TC025",
+      "status": "generated_pending_review",
+      "elapsed_ms": 60313,
+      "attempts": 1,
+      "result_file": "TC025.attempt-1.json"
+    },
+    {
+      "case_id": "TC026",
+      "status": "generated_pending_review",
+      "elapsed_ms": 70329,
+      "attempts": 1,
+      "result_file": "TC026.attempt-1.json"
+    },
+    {
+      "case_id": "TC027",
+      "status": "generated_pending_review",
+      "elapsed_ms": 94006,
+      "attempts": 1,
+      "result_file": "TC027.attempt-1.json"
+    },
+    {
+      "case_id": "TC028",
+      "status": "generated_pending_review",
+      "elapsed_ms": 87266,
+      "attempts": 1,
+      "result_file": "TC028.attempt-1.json"
+    },
+    {
+      "case_id": "TC029",
+      "status": "generated_pending_review",
+      "elapsed_ms": 89465,
+      "attempts": 1,
+      "result_file": "TC029.attempt-1.json"
+    },
+    {
+      "case_id": "TC030",
+      "status": "generated_pending_review",
+      "elapsed_ms": 82866,
+      "attempts": 1,
+      "result_file": "TC030.attempt-1.json"
     }
   ]
 }

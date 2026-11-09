@@ -1,0 +1,40 @@
+{
+  "case_id": "TC022",
+  "attempt": 1,
+  "started_at": "2026-11-09T14:28:47.251Z",
+  "raw": {
+    "model": "qwen3:8b",
+    "created_at": "2026-11-09T14:29:29.217102Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"candidates\": [\n    {\n      \"approach\": \"聚焦避免染色风险\",\n      \"text\": \"唐予安女士，米白色皮质确实容易沾染深色，建议避免长时间贴着牛仔裤或深色衣物，以减少颜色转移。\"\n    },\n    {\n      \"approach\": \"强调日常使用体验\",\n      \"text\": \"唐予安女士，您提到的大小刚好，说明这款包非常实用。日常使用时，注意避免尖锐物品摩擦，以保持包体整洁。\"\n    },\n    {\n      \"approach\": \"提供简明保养提示\",\n      \"text\": \"唐予安女士，保养时只需注意避免深色摩擦和尖锐物品接触，保持干燥通风即可。如有其他问题，随时联系我。\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 41962921083,
+    "load_duration": 6389708,
+    "prompt_eval_count": 2153,
+    "prompt_eval_cached_count": 926,
+    "prompt_eval_duration": 14064874000,
+    "eval_count": 175,
+    "eval_duration": 26476927000
+  },
+  "parsed": {
+    "candidates": [
+      {
+        "approach": "聚焦避免染色风险",
+        "text": "唐予安女士，米白色皮质确实容易沾染深色，建议避免长时间贴着牛仔裤或深色衣物，以减少颜色转移。"
+      },
+      {
+        "approach": "强调日常使用体验",
+        "text": "唐予安女士，您提到的大小刚好，说明这款包非常实用。日常使用时，注意避免尖锐物品摩擦，以保持包体整洁。"
+      },
+      {
+        "approach": "提供简明保养提示",
+        "text": "唐予安女士，保养时只需注意避免深色摩擦和尖锐物品接触，保持干燥通风即可。如有其他问题，随时联系我。"
+      }
+    ]
+  },
+  "status": "generated_pending_review",
+  "elapsed_ms": 41971
+}
