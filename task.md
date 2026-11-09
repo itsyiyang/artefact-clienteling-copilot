@@ -1,5 +1,7 @@
 # Artefact Luxury Clienteling Copilot — 执行计划与讨论稿
 
+最新进度（2026-11-09）：六例校准包 evaluations/pilot-v1 已准备（六场景、18条Codex拟写参考、空白人工表）；阶段1等待用户审核，后续生成/人工标注/Judge对比/修订均未执行。可先用Qwen独立调用作Judge，不再强制换模型；是否更换待人工分歧验证。实现与网页未改。
+
 ## Methodology材料进度（2026-11-09）
 
 - [x] 三份评审草案已写：带例子的质量评分表、50例及丰富聊天历史分布、三方案实验协议（evaluations/methodology/）。完成的是草案，不是案例数据或评测。
