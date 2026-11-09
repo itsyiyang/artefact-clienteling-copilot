@@ -1,5 +1,11 @@
 # 项目接手入口
 
+## 当前阅读入口（2026-11-09）
+
+项目首页、TASKS.md、deliverables/README.md 现为当前展示与交付状态入口。当前 Final Outputs 在 `deliverables/final-outputs/`；50例包含147条客户话术及TC041三条不发送建议。工作簿与源数据核对使用随附 verify_delivery.py。
+
+最新Qwen原始结果由另一聊天并发归档；本次保留其独立实验记录，后续整理展示时以 `qwen-timeframexxx` 归档。下文运行批次描述保留作历史背景，不覆盖最终成果口径。独立评分与交付截图仍待完成。
+
 最后更新：2026-11-09。私有仓库：https://github.com/itsyiyang/artefact-clienteling-copilot
 
 ## 目标与当前事实
@@ -10,15 +16,15 @@ Artefact Luxury Clienteling Copilot Challenge：输入客户/场景/聊天/相�
 
 ## 当前批次（2026-11-09，已完成50例原始生成）
 
-2026-11-09 最新完成：依据新话术Reference与人工review优化generation-v0.3提示，本地Qwen3:8b已完成50例150条原始回复，技术失败/重试0，累计78.9分钟。输入与CSV/原始响应一致性验证通过。旧六例及v0.2失败校准样本保留。结果：evaluations/test-set-50-v1/test-results-50.csv；完整证据：evaluations/runs/fifty-generation-v0.3-8k/。注意TC041联系限制遗漏等缺陷，不能当作可直接发送或质量通过。Judge/人工review、质量修订及三方案对比仍待完成。新合并Codex编写版Excel独立保留，不混入本批次。
+2026-11-09 最新完成：依据新话术Reference与人工review优化generation-v0.3提示，本地Qwen3:8b已完成50例150条原始回复，技术失败/重试0，累计78.9分钟。输入与CSV/原始响应一致性验证通过。旧六例及v0.2失败校准样本保留。结果：evaluations/test-set-50-v1/test-results-50.csv；完整证据：evaluations/runs/fifty-generation-v0.3-8k/。注意TC041联系限制遗漏等缺陷，不能当作可直接发送或质量通过。Judge/人工review、质量修订及三方案对比仍待完成。新合并项目Final Outputs Excel独立保留，不混入本批次。
 
-用户另外要求归档本聊天生成的Codex自然话术交付稿，位于 `deliverables/clienteling-50-codex-final/`。最终Excel含阅读页和原始数据核对页；150输出单元 = 147条客户候选 + TC041的3条不发送处理建议。具体描述、10处修订总结和核验命令见该目录README。此文件不覆盖下述Qwen批次，不证明正式50组三候选或独立evaluation已通过。
+用户另外要求归档本聊天生成的项目最终话术交付稿，位于 `deliverables/final-outputs/`。最终Excel含阅读页和原始数据核对页；150输出单元 = 147条客户候选 + TC041的3条不发送处理建议。具体描述、10处修订总结和核验命令见该目录README。此文件不覆盖下述Qwen批次，不证明正式50组三候选或独立evaluation已通过。
 
 用户要求依据新话术参考重新生成50例。运行 `node scripts/run-fifty.mjs`；当前正式目录 `evaluations/runs/fifty-generation-v0.3-8k/`，CSV每例更新。提示及完整请求、原始响应、耗时、代码commit和输入哈希均留存。六例旧基线不覆盖。此轮不运行Judge，不把结构成功当质量通过。使用说明：docs/fifty-local-run.md。
 
 ## 主要编辑入口
 
-- evaluations/pilot-v1/inputs.json：P01–P06客户/历史/事实。Codex拟写，P01/P02按用户review修改；其余参考话术待review。
+- evaluations/pilot-v1/inputs.json：P01–P06客户/历史/事实。AI助手拟写，P01/P02按用户review修改；其余参考话术待review。
 - evaluations/pilot-v1/review-key.json：独立评审依据/参考策略，不提供给生成器。
 - evaluations/pilot-v1/review-pack.md：可读快照，与JSON不自动同步；JSON为数据编辑入口。
 - public/cases.json：网页旧种子，与上述pilot不是自动联动。

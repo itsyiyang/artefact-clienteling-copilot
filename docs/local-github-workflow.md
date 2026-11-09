@@ -37,8 +37,8 @@ git push origin main
 
 让有GitHub访问权限的chat读取HANDOFF.md和当前相关文件。普通chat不一定能读取私有仓库；无权限时复制HANDOFF.md和需要讨论的案例，不能仅发送私有链接就假设它读到了。也可以给本地编码chat指定此仓库目录；只读讨论和独立分支开发分开。
 
-本地Qwen生成不消耗云端推理额度；其他chat与Codex协作各自按所用服务规则计量。Git同步本身不是模型推理，不需要每次让Codex执行。
+本地Qwen生成不消耗云端推理额度；其他chat与AI助手协作各自按所用服务规则计量。Git同步本身不是模型推理，不需要每次让AI助手执行。
 
 ## 尚未自动同步的内容
 
-outputs/是交付副本，当前未追踪；work/是忽略的本地运行草稿。review-pack.md是静态可读文档；JSON编辑不会自动刷新它。网页public/cases.json和pilot输入也不同步，勿误认为刷新网页就展示最新pilot。
+选定的最终输出、Demo截图与运行样本现已归档到 deliverables/final-outputs/、docs/assets/ 和 samples/。其他 outputs/ 包含重复或过时副本；work/ 继续作为忽略的本地草稿区。review-pack.md是静态可读文档；JSON编辑不会自动刷新它。网页public/cases.json和pilot输入也不同步，勿误认为刷新网页就展示最新pilot。

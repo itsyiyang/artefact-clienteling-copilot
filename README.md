@@ -1,58 +1,108 @@
-# Artefact Luxury Clienteling Copilot Challenge
+<div align="center">
 
-## 本地Qwen 50例原始结果（待评审）
+# 留序 · LIUXU
+### Brand-Grounded Client Messaging
 
-[八列结果CSV](evaluations/test-set-50-v1/test-results-50.csv) · [耗时、版本与原始证据](evaluations/runs/fifty-generation-v0.3-8k/README.md)。50例150条真实本地生成，技术失败0；存在已记录的业务缺陷，未运行本轮Judge，不等于质量通过。与下方Codex编写版分开保留。
+**留白之间，天地为序。**
+A relationship-first copilot for luxury Client Advisors.
 
-## Codex 50例交付文件（2026-11-09）
+[Final Outputs](deliverables/final-outputs/README.md) · [Workflow](docs/04_system_design.md) · [Results](evaluations/reports/project-results.md) · [Run Locally](#run-locally) · [Delivery Guide](deliverables/README.md)
 
-新增[最终Excel、交付描述与复核总结](deliverables/clienteling-50-codex-final/README.md)，保留原8列及50例，包含阅读页和原始数据核对页。150个输出单元中，147条为客户话术，TC041的3条明确为不发送客户的处理建议。该内容是Codex编写与复核的独立交付稿，不代表本地Qwen运行完成或独立评测通过。
+</div>
 
-## 客户模拟 Agent（2026-11-09）
+---
 
-本地离线测试数据工具已加入，使用 `npm run simulate:customer` 创建一个新的待审客户案例。先生成档案，再生成场景、商品事实与历史；必填姓名/生日/年龄/购物历史，其他信息允许缺失。详情见 [使用说明](docs/customer-agent.md)。它未接入网页，不替换已有人工评审案例，也不自动运行50例。
+LIUXU turns client context, conversation history, and verified product facts into three Chinese WeChat message candidates. Each candidate serves one communication objective through a different approach, giving the Client Advisor meaningful choice while respecting brand voice and contact boundaries.
 
-## Local prototype v0.1 (2026-11-09)
+**Six relationship moments:** birthday & festive greetings · product recommendation · post-purchase care · reactivation · event invitation · price objection.
 
-Implementation has now started with the user's approval; older Design v0.1 statements below describe the initial baseline.
+## Start with the deliverable
 
-Requirements: Node.js 22+ and Ollama running locally with `qwen3:8b` downloaded. Run `npm start`, then open http://127.0.0.1:3210 . No npm dependencies or cloud inference keys are required. Run `npm test` for contract checks. Both app and model stay local; do not expose their ports publicly.
+| Project output | What to open |
+| --- | --- |
+| **Final Outputs — 50 cases** | [Final Excel](deliverables/final-outputs/LIUXU_test_results_50_FINAL.xlsx), with a readable case sheet and an original-data sheet |
+| **150 output cells** | 147 client-message candidates and 3 clearly marked no-send handling notes for TC041 |
+| **Runnable Client Studio** | Local Node.js + Ollama Qwen3:8b; generation, Judge, one AI edit, selection, copy, and JSON export |
+| **Review evidence** | [Six-scenario user review](evaluations/runs/pilot-six-review/human-review-v1.md), [Judge comparison](evaluations/runs/pilot-judge-v1/findings.md), and [results report](evaluations/reports/project-results.md) |
 
-Six editable fictional seed cases, direct/explicit generation modes, three candidate previews, separate Judge scoring, one AI Edit with re-evaluation, CA selection/copy, session history and JSON export are available. Rules come from rules.md. Generation/analysis/planning are currently combined in one structured model call; Judge is a separate call to the same local model, not independent ground truth. Promptfoo-style grading is implemented directly; Promptfoo itself is not integrated.
+The final workbook is the project's current messaging deliverable, prepared through AI-assisted drafting and case-by-case revision. Local Qwen experiments are a separate evidence track; the latest results will be supplemented under a `qwen-timeframexxx` name. The workbook does not claim an independently measured quality pass rate.
 
-Runs are saved under ignored `work/runs/` and restored into the history list on reload. Intermediate UI snapshots remain in browser memory. Selection is retained in the browser/export. Explicit marketing-refusal conflicts may block generation with zero candidates: these cases do not satisfy the brief's three-output requirement and must not be counted as completed formal cases.
+## Workflow
 
-This is an initial reviewable prototype, not the final 50-case submission. Synthetic input generation is available for the selected scenario/direction and requires human review. Calibrated scoring, a side-by-side experiment table and final evaluation report remain future work. The first live run took 133 seconds for generation and exposed Judge false positives and overly generous diversity scores. Judge prompt v0.2 adds calibration examples and quote validation; quality remains unverified until human review.
+![LIUXU primary messaging workflow](docs/assets/liuxu_messaging_workflow_overview.png)
 
-Private project record for the Artefact Applied AI Engineer written challenge.
+**Understand → Plan → Generate → Judge → CA Review**
 
-## Current status
+Client context and LIUXU rules guide understanding and planning. Three approaches lead to three candidate messages; checks consider facts, context, and diversity. The CA retains the final editing and sending decision.
 
-- Local prototype exists; generation/planning remain a combined call.
-- 50 local Qwen cases (150 raw candidates) completed; human review and calibrated evaluation remain pending.
-- Independent planning, automatic quality gate/revision and final A/B/C comparison remain unfinished.
-- The older design baseline below is historical; task.md and HANDOFF.md describe current progress.
+This is the primary product overview. In the prototype, understanding, planning, and generation share one structured model call. Judge is a separate, manually triggered call; one AI edit can be followed by re-evaluation. Independent planning and automatic bounded quality revision remain engineering work.
 
-## Confirmed design baseline
+<details>
+<summary><strong>Next direction: a multi-agent workflow</strong></summary>
 
-The product is a human-in-the-loop, luxury-clienteling-aware copilot for Client Advisors. Its logical flow is:
+![LIUXU future multi-agent workflow](docs/assets/liuxu_multi_agent_messaging_workflow.png)
 
-`Input Context → Scenario-aware Client Understanding → Explicit Communication Planning → Three Chinese WeChat Candidates → Validation & CA Review`
+The next design separates ContentAgent, RetrievalAgent, TemplateAgent, and EvaluateAgent responsibilities. Retrieval and template selection need versioned evidence, contact-eligibility checks, and validation against the direct baseline before adoption.
 
-The three candidates share one communication objective and use three dynamic, context-appropriate approaches. Facts, supported interpretations, and unknowns must remain distinguishable.
+</details>
 
-## Repository map
+## Client Studio
 
-- `docs/`: project baseline, business understanding, system design, evaluation direction, ADRs, work log, changelog, and open questions
-- `docs/clienteling_messaging_reference.md`: LIUXU 六场景 CA 话术策略、模板、回复分支、事实边界与工具字段参考
-- `TASKS.md`: project tracker
-- `config/`: future brand-policy configuration; no policy has been implemented
-- `src/`: planned module boundaries; no implementation code
-- `tests/`: planned test-case and expected-check structure; no challenge data
-- `evaluations/`: future baselines, experiments, reports, and defects
-- `evidence/`: references to evidence kept outside Git where appropriate
-- `deliverables/`: future submission assembly notes
+![LIUXU Client Studio — local prototype](docs/assets/client-studio.png)
 
-## Confidentiality
+The workspace brings fictional client context, constraints, conversation, and product information into one view. Advisors compare candidates, inspect Judge findings, request one revision, and choose a message.
 
-The challenge PDF and any confidential recruitment materials must not be committed. The repository is intended to remain private.
+The screenshot records an early prototype run. Its messages remain development evidence; the current final writing examples are in the workbook.
+
+## Results and lessons
+
+- **A complete case collection:** 50 cases across six scenarios, two aligned Excel sheets, the original eight-column schema, and preserved source information.
+- **A concrete boundary decision:** TC041 restricts contact to craft information. Its three output cells explain why the advisor should withhold an event invitation.
+- **Traceable improvements:** 10 output cells revised during final review, covering product comparisons, unsupported detail, service timing, contact permission, and natural expression.
+- **Useful evaluation findings:** the pilot exposed irrelevant birthday personalization, generic reactivation, salutation errors, and Judge false positives or missed issues. [Read the evidence →](evaluations/reports/project-results.md)
+
+Technical completeness and business quality are reported separately. Sales uplift, calibrated accuracy, and superiority over a baseline have not been measured.
+
+## Run locally
+
+Prerequisites: **Node.js 22+**, **Python 3** for artifact checks, and **Ollama** with `qwen3:8b`. The app uses Node's built-in modules; no npm installation is required.
+
+```bash
+git clone https://github.com/itsyiyang/artefact-clienteling-copilot.git
+cd artefact-clienteling-copilot
+ollama pull qwen3:8b
+# Ensure Ollama is running, then:
+npm start
+```
+
+Open **http://127.0.0.1:3210**. The app and inference stay local. Initial model download requires network access; inference speed depends on the machine.
+
+```bash
+npm test
+python3 deliverables/final-outputs/verify_delivery.py
+```
+
+Additional tools: [customer simulation](docs/customer-agent.md), [input assembly](evaluations/assembled/README.md), and [batch reproduction](docs/fifty-local-run.md). The batch prompt is versioned separately from the Studio runtime prompt.
+
+## Explore the project
+
+| Area | Contents |
+| --- | --- |
+| [Final delivery](deliverables/README.md) | Workbook, verification, and A–E completion map |
+| [Business & voice](rules.md) | Brand policy; [six-scenario messaging reference](docs/clienteling_messaging_reference.md) |
+| [System design](docs/04_system_design.md) | Workflow, implementation, and multi-agent direction |
+| [Evaluation](evaluations/README.md) | Cases, frozen runs, review evidence, methodology, and defects |
+| [Roadmap](TASKS.md) | Completed capabilities and remaining work |
+| [Development record](docs/work_log.md) | Decisions, changes, and evidence; [ADRs](docs/decisions/) |
+
+## Next milestones
+
+1. Independently review the final outputs and complete submission evidence.
+2. Add the latest Qwen results under `qwen-timeframexxx`.
+3. Calibrate Judge against user labels, including quote validity and contact boundaries.
+4. Compare direct generation, independent planning, and bounded revision.
+5. Implement and evaluate the multi-agent design.
+
+All clients, histories, products, and events are fictional. The repository remains private; confidential challenge source documents are excluded. See the [delivery guide](deliverables/README.md) before external submission.
+
+Local synchronization and presentation references: [repository guide](docs/repository-guide.md).

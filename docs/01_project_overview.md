@@ -1,25 +1,21 @@
-# Project Overview — Design v0.1
+# Project Overview
 
-## Problem definition
-
-Luxury Client Advisors need help producing personalized, contextually appropriate, brand-consistent Chinese WeChat messages across relationship moments such as birthdays, recommendations, post-purchase care, reactivation, event invitations, and price objections.
-
-Fluent text alone is insufficient: an otherwise polished message can damage the relationship if it is mistimed, overly commercial, ungrounded, or too explicit about private client information.
+LIUXU helps luxury Client Advisors prepare personalized Chinese WeChat messages across six relationship moments. The fictional brand follows “留白之间，天地为序”: restrained expression, concrete service value, and respect for contact boundaries.
 
 ## Product objective
 
-> Build a clienteling-aware AI copilot that helps luxury Client Advisors craft personalized, contextually appropriate, brand-consistent WeChat messages while preserving long-term customer relationships.
+Turn client context, verified facts, and brand rules into three approaches serving one communication goal. The CA compares, edits, selects, and makes the sending decision.
 
-## Value layers
+Scenarios: birthday / festive greetings, product recommendation, post-purchase care, reactivation, event invitation, and price objection.
 
-1. Reliably produce three high-quality Chinese candidate messages.
-2. Understand the relevant client, conversation, scenario, and communication boundaries.
-3. Support the long-term relationship rather than optimize only for immediate conversion.
+## Available today
 
-## Product boundary
+- Local Node.js / Ollama Qwen3:8b Client Studio with three-candidate generation.
+- Separate Judge call, quote validation, one AI edit, and re-evaluation.
+- Fictional seeds, customer simulation, and evidence-aware assembly.
+- Six-case user review and Judge disagreement evidence.
+- [Final Outputs](../deliverables/final-outputs/README.md): 50 cases, 147 client-message candidates and three no-send notes.
 
-The system drafts and advises; the Client Advisor reviews, edits, selects, and sends. It is not an autonomous outreach system.
+The [primary overview](04_system_design.md) presents Understand → Plan → Generate → Judge → CA Review. Understanding, planning, and generation share one call today. Independent planning, automatic quality revision, and multi-agent orchestration are next steps.
 
-## Current phase
-
-Conceptual design is in progress. Brand Identity & Policy is the next major design topic. No engineering implementation has started.
+Read [results](../evaluations/reports/project-results.md) and the [delivery guide](../deliverables/README.md) for evidence and completion status.

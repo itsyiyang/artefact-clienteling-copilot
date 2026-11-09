@@ -1,8 +1,16 @@
 # Changelog
 
-## Codex natural messaging delivery — 2026-11-09
+## Repository presentation & Final Outputs — 2026-11-09
 
-- 归档最终50例Excel、中文交付说明、10处输出修订总结及标准库验证脚本，入口为 `deliverables/clienteling-50-codex-final/`。
+- 统一 Final Outputs 目录及链接，突出当前50例项目成果。
+- 首页加入工作流、原型截图、结果摘要、快速运行及文档导航。
+- 新增结果报告、交付完成度映射，更新过时状态与评估说明。
+- 补齐选定本地样本、截图与最终源数据，增强验证。
+- 最新Qwen结果后续单独补充；未来multi-agent设计保持明确标注。
+
+## Final Outputs — 2026-11-09
+
+- 归档最终50例Excel、中文交付说明、10处输出修订总结及标准库验证脚本，入口为 `deliverables/final-outputs/`。
 - 保留原8列；阅读页补齐业务信息，原始数据核对页完整保留源字段。
 - 明确150输出单元为147条客户话术与TC041的3条不发送建议；不计作50组三候选全部完成。
 - 与本地Qwen批次隔离，不覆盖模型原始输出、不新增Judge或人工评测成绩。

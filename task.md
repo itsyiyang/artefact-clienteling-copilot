@@ -1,6 +1,8 @@
 # Artefact Luxury Clienteling Copilot — 执行计划与讨论稿
 
-2026-11-09 最新完成：依据新话术Reference与人工review优化generation-v0.3提示，本地Qwen3:8b已完成50例150条原始回复，技术失败/重试0，累计78.9分钟。输入与CSV/原始响应一致性验证通过。旧六例及v0.2失败校准样本保留。结果：evaluations/test-set-50-v1/test-results-50.csv；完整证据：evaluations/runs/fifty-generation-v0.3-8k/。注意TC041联系限制遗漏等缺陷，不能当作可直接发送或质量通过。Judge/人工review、质量修订及三方案对比仍待完成。新合并Codex编写版Excel独立保留，不混入本批次。
+2026-11-09 最新完成：依据新话术Reference与人工review优化generation-v0.3提示，本地Qwen3:8b已完成50例150条原始回复，技术失败/重试0，累计78.9分钟。输入与CSV/原始响应一致性验证通过。旧六例及v0.2失败校准样本保留。结果：evaluations/test-set-50-v1/test-results-50.csv；完整证据：evaluations/runs/fifty-generation-v0.3-8k/。注意TC041联系限制遗漏等缺陷，不能当作可直接发送或质量通过。Judge/人工review、质量修订及三方案对比仍待完成。新合并项目Final Outputs Excel独立保留，不混入本批次。
+
+2026-11-09 当前状态：Final Outputs 已归档到 deliverables/final-outputs/，包含50例、147条客户候选及TC041三条不发送建议。应用、六例实测与Judge对照已存在；下文“未开始”条目为历史规划，当前高层进度以 TASKS.md 为准。交付缺口见 deliverables/README.md。最新Qwen运行结果后续按 qwen-timeframexxx 单独补充，本次不导入。
 
 2026-11-09 最新：按新话术文档及人工review完成generation-v0.3提示（v0.2生日抽查失败后追加场景提醒），正在本地Qwen重新运行全部50例。逐例保存八列CSV、原始请求/返回、耗时和版本；旧六例保留。此轮不运行Judge，不把结构成功当质量通过。复现方式见docs/fifty-local-run.md。
 
@@ -18,7 +20,7 @@
 
 最新review进度（2026-11-09）：P01/P02已按反馈修改、待复核；其余四例待用户继续评。客户模拟Agent提示规范已准备，待接入与实际生成；不把提示文件视为已运行Agent。测试输入需包含姓名、年龄、生日、购物历史，其余资料允许不同完整度。尚未运行新模型实验。
 
-最新进度（2026-11-09）：六例校准包 evaluations/pilot-v1 已准备（六场景、18条Codex拟写参考、空白人工表）；阶段1等待用户审核，后续生成/人工标注/Judge对比/修订均未执行。可先用Qwen独立调用作Judge，不再强制换模型；是否更换待人工分歧验证。实现与网页未改。
+最新进度（2026-11-09）：六例校准包 evaluations/pilot-v1 已准备（六场景、18条AI助手拟写参考、空白人工表）；阶段1等待用户审核，后续生成/人工标注/Judge对比/修订均未执行。可先用Qwen独立调用作Judge，不再强制换模型；是否更换待人工分歧验证。实现与网页未改。
 
 ## Methodology材料进度（2026-11-09）
 

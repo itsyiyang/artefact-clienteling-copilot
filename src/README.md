@@ -1,3 +1,7 @@
-# Source Skeleton
+# Logical Module Boundaries
 
-No implementation code exists yet. The child directories represent logical responsibility boundaries only and do not imply services, agents, packages, or separate LLM calls.
+The running prototype lives in [server.mjs](../server.mjs), with its interface in [public/](../public/) and offline tools in [scripts/](../scripts/).
+
+Child directories retain planned responsibilities for understanding, planning, generation, and validation. They are design notes; understanding, planning, and generation currently share one model call.
+
+See [system design](../docs/04_system_design.md) for the next architecture.

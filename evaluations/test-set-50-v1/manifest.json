@@ -14,7 +14,7 @@
     "Reactivation has 1 outbound and7 inbound follow-ups from same client; not8 independent clients",
     "Same client branches belong to same eval partition",
     "Original six outputs contain known defects, not revised or declared good",
-    "Latest outputs are actual local Qwen generation v0.3; known defects preserved; not the separate Codex-authored final workbook"
+    "Latest outputs are actual local Qwen generation v0.3; known defects preserved; not the separate AI助手-authored final workbook"
   ],
   "generation_run": "evaluations/runs/fifty-generation-v0.3-8k",
   "prompt_version": "generation-v0.3",

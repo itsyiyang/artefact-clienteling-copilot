@@ -1,6 +1,10 @@
 # System Design Baseline
 
-## 最新确认：Workflow v0.2（2026-11-09，待实现）
+## Current implementation
+
+The local Studio implements combined understanding / planning / generation, a manually triggered Judge, and one AI edit with re-evaluation. Independent planning and automatic bounded quality revision remain next steps.
+
+## 最新确认：Workflow v0.2（2026-11-09，待完整实现）
 
 本节优先于下文历史基线。独立规划三个情境相关方向；生成后自动Judge检查单条及整体差异；有限内部修正与整组复评，正常只交付通过的三候选。用户允许重试耗尽后的失败草稿作为明确标记的例外展示，不得伪装通过。CA修改和重新生成仍须检查；所有原始记录内部保留。
 

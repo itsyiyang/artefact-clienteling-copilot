@@ -1,3 +1,7 @@
-# Tests Placeholder
+# Contract & Data Tests
 
-Reserved for future test-case definitions. No challenge data or synthetic cases have been added.
+Run `npm test` from the root. The suite covers generation / Judge structure, quote handling, customer-profile rules, and input assembly.
+
+Final artifact checks: `python3 deliverables/final-outputs/verify_delivery.py`.
+
+These checks establish technical consistency. Message quality requires case-level review; see [results](../evaluations/reports/project-results.md).

@@ -1,5 +1,5 @@
-# Configuration Placeholder
+# Configuration
 
-Reserved for future, reviewed configuration such as `brand_policy.yaml`.
+Brand rules live in [rules.md](../rules.md) and are read by the local server. Customer simulation uses [customer-agent-config.json](../evaluations/pilot-v1/customer-agent-config.json).
 
-No brand policy has been defined or implemented. Do not infer one from this placeholder.
+This directory is reserved for a future reviewed configuration format. See [system design](../docs/04_system_design.md).

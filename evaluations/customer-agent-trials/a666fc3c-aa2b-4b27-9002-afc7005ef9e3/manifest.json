@@ -15,7 +15,7 @@
   "prompt_version": "customer-agent-0.2",
   "status": "rejected_after_assistant_review",
   "semantic_review": {
-    "reviewer": "Codex inspection, not user gold labels",
+    "reviewer": "AI助手 inspection, not user gold labels",
     "issues": [
       "missing product catalogue",
       "client addresses self as 林先生",

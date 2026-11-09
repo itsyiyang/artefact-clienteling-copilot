@@ -34,6 +34,9 @@ def main():
             assert [values[f'{col}1'] for col in 'ABCDEFGH'] == HEADERS
             sheets.append(values)
     readable, original = sheets
+    source = json.loads(FILE.with_name('source-data.json').read_text())
+    assert source == [[original[f'{col}{row}'] for col in 'ABCDEFGH']
+                      for row in range(1, 52)], 'Source data differs from workbook'
     outputs = []
     scenarios = collections.Counter()
     for row in range(2, 52):

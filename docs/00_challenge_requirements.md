@@ -14,4 +14,4 @@ Do not commit or redistribute the original challenge PDF or recruitment correspo
 
 ## Current boundary
 
-This repository does not yet contain implementation, prompts, test data, evaluation outputs, or submission artifacts.
+Implementation, prompts, fictional data, pilot evidence, and Final Outputs are now available. See [delivery status](../deliverables/README.md).
