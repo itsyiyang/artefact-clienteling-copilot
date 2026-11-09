@@ -1,4 +1,4 @@
-# 50例本地生成 v0.2
+# 50例本地生成 v0.3
 
 本轮依据 `clienteling_messaging_reference.md` 和用户六例人工反馈调整生成提示。参考文档是表达参考，不是商品或活动事实来源。
 
@@ -20,7 +20,7 @@
 node scripts/run-fifty.mjs
 ```
 
-默认目录 `evaluations/runs/fifty-generation-v0.2/`。同一命令会跳过已成功生成的案例，不重复覆盖输出。若要开始全新的实验，指定新目录：
+默认目录 `evaluations/runs/fifty-generation-v0.3-8k/`。同一命令会跳过已成功生成的案例，不重复覆盖输出。若要开始全新的实验，指定新目录：
 
 ```sh
 node scripts/run-fifty.mjs evaluations/runs/my-new-run
@@ -40,3 +40,7 @@ node scripts/run-fifty.mjs evaluations/runs/my-new-run
 ## 评估边界
 
 50例是21个来源案例＋29个显式合成分支；同一客户和对话的分支相关，不是50个独立客户。重新激活集中在C04，仅一个主动联系案例，覆盖弱点保留。旧六例与旧CSV留存，不把新输出写回历史基线。下一步由业务review，再校准Judge并运行对照；本轮没有生成质量通过率。
+
+## 校准记录
+
+v0.2首例仍出现生日无关丝巾个性化和近似重复，停止批量并保留bad case。v0.3在资料后增加当前场景提醒与生日正例，首例复测去除了这些细节；这只是定性抽查，不是独立评测。完整50例采用相同v0.3提示和8192上下文配置重新运行，避免混用校准输出。各次调用保留实际token数；触及容量上限则记技术失败。
