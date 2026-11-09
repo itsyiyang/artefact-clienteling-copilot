@@ -1,0 +1,5317 @@
+{
+  "catalog_name": "LIUXU Product Catalog",
+  "version": "1.2",
+  "snapshot_date": "2026-11-09",
+  "data_type": "synthetic_product_reference",
+  "currency": "CNY",
+  "counts": {
+    "historical_skus": 30,
+    "historical_transactions": 30,
+    "active_test_products": 20,
+    "active_variants": 38
+  },
+  "historical_products": [
+    {
+      "sku": "BAG-C01-001",
+      "name_zh": "黑色肩背包",
+      "transactions": [
+        {
+          "client_id": "C01",
+          "date": "2023-04-22",
+          "paid_cny": 7200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "SCARF-C01-001",
+      "name_zh": "真丝方巾",
+      "transactions": [
+        {
+          "client_id": "C01",
+          "date": "2025-05-17",
+          "paid_cny": 1800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "ARC-SH-BRN",
+      "name_zh": "浅棕色可调节肩带小牛皮肩背包",
+      "transactions": [
+        {
+          "client_id": "C03",
+          "date": "2026-10-29",
+          "paid_cny": 5900
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "BAG-C05-001",
+      "name_zh": "皮具",
+      "transactions": [
+        {
+          "client_id": "C05",
+          "date": "2023-09-15",
+          "paid_cny": 7600
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "JWL-C05-001",
+      "name_zh": "银质项链",
+      "transactions": [
+        {
+          "client_id": "C05",
+          "date": "2025-05-22",
+          "paid_cny": 4200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "SCARF-C05-001",
+      "name_zh": "真丝配饰",
+      "transactions": [
+        {
+          "client_id": "C05",
+          "date": "2026-04-18",
+          "paid_cny": 2100
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-201",
+      "name_zh": "深棕色手袋",
+      "transactions": [
+        {
+          "client_id": "C07",
+          "date": "2022-03-19",
+          "paid_cny": 19800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-SC-112",
+      "name_zh": "深灰色羊绒披肩",
+      "transactions": [
+        {
+          "client_id": "C07",
+          "date": "2023-11-04",
+          "paid_cny": 6200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-305",
+      "name_zh": "酒红色皮革肩背包",
+      "transactions": [
+        {
+          "client_id": "C07",
+          "date": "2025-04-12",
+          "paid_cny": 23600
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-SL-028",
+      "name_zh": "真丝方巾",
+      "transactions": [
+        {
+          "client_id": "C07",
+          "date": "2026-06-20",
+          "paid_cny": 2400
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-118",
+      "name_zh": "米白色迷你斜挎包",
+      "transactions": [
+        {
+          "client_id": "C08",
+          "date": "2026-07-11",
+          "paid_cny": 5600
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-SC-087",
+      "name_zh": "真丝披肩",
+      "transactions": [
+        {
+          "client_id": "C09",
+          "date": "2022-12-10",
+          "paid_cny": 3800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-WL-042",
+      "name_zh": "皮革长钱包",
+      "transactions": [
+        {
+          "client_id": "C09",
+          "date": "2024-05-08",
+          "paid_cny": 4600
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-JW-014",
+      "name_zh": "银质手链",
+      "transactions": [
+        {
+          "client_id": "C09",
+          "date": "2025-12-16",
+          "paid_cny": 5200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-TR-031",
+      "name_zh": "旅行收纳配件",
+      "transactions": [
+        {
+          "client_id": "C10",
+          "date": "2023-06-24",
+          "paid_cny": 3200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-220",
+      "name_zh": "黑色托特包",
+      "transactions": [
+        {
+          "client_id": "C10",
+          "date": "2024-10-19",
+          "paid_cny": 12800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-TR-045",
+      "name_zh": "皮革护照夹",
+      "transactions": [
+        {
+          "client_id": "C10",
+          "date": "2026-03-07",
+          "paid_cny": 2800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-SC-055",
+      "name_zh": "真丝长围巾",
+      "transactions": [
+        {
+          "client_id": "C11",
+          "date": "2021-09-18",
+          "paid_cny": 2600
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-180",
+      "name_zh": "深蓝色手袋",
+      "transactions": [
+        {
+          "client_id": "C11",
+          "date": "2023-04-29",
+          "paid_cny": 11600
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-AC-026",
+      "name_zh": "皮革腰带",
+      "transactions": [
+        {
+          "client_id": "C11",
+          "date": "2025-09-13",
+          "paid_cny": 3900
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-125",
+      "name_zh": "黑色工作包",
+      "transactions": [
+        {
+          "client_id": "C13",
+          "date": "2021-05-15",
+          "paid_cny": 9800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-208",
+      "name_zh": "米色小号肩背包",
+      "transactions": [
+        {
+          "client_id": "C13",
+          "date": "2023-07-22",
+          "paid_cny": 6400
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-SC-099",
+      "name_zh": "图案真丝围巾",
+      "transactions": [
+        {
+          "client_id": "C13",
+          "date": "2025-03-29",
+          "paid_cny": 2200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-312",
+      "name_zh": "深绿色手袋",
+      "transactions": [
+        {
+          "client_id": "C13",
+          "date": "2026-09-05",
+          "paid_cny": 14200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-WL-036",
+      "name_zh": "深棕色短钱包",
+      "transactions": [
+        {
+          "client_id": "C14",
+          "date": "2020-01-11",
+          "paid_cny": 3200
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-BG-176",
+      "name_zh": "黑色商务托特包",
+      "transactions": [
+        {
+          "client_id": "C14",
+          "date": "2022-06-18",
+          "paid_cny": 13500
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-TR-052",
+      "name_zh": "旅行收纳套装",
+      "transactions": [
+        {
+          "client_id": "C14",
+          "date": "2024-09-21",
+          "paid_cny": 4800
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-WL-051",
+      "name_zh": "皮革卡包",
+      "transactions": [
+        {
+          "client_id": "C16",
+          "date": "2022-04-30",
+          "paid_cny": 2400
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-TR-027",
+      "name_zh": "深蓝色护照夹",
+      "transactions": [
+        {
+          "client_id": "C16",
+          "date": "2023-08-12",
+          "paid_cny": 2900
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    },
+    {
+      "sku": "LX-TR-061",
+      "name_zh": "旅行收纳包",
+      "transactions": [
+        {
+          "client_id": "C16",
+          "date": "2025-06-14",
+          "paid_cny": 4100
+        }
+      ],
+      "current_price": null,
+      "current_availability": "unknown",
+      "specification_status": "partial_crm_record"
+    }
+  ],
+  "active_test_products": [
+    {
+      "product_id": "LX-BG-401",
+      "name": {
+        "zh": "衡线结构肩背包"
+      },
+      "category": "handbag",
+      "subcategory": "shoulder_bag",
+      "design": {
+        "silhouette": "structured_shoulder",
+        "hardware": null,
+        "colorways": [
+          "dark_brown",
+          "black"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-401-01",
+          "color": "dark_brown",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": "cotton_blend"
+            },
+            "dimensions_cm": {
+              "width": 24,
+              "height": 16,
+              "depth": 8
+            },
+            "weight_g": 680,
+            "construction": {
+              "closure": "magnetic",
+              "strap": "adjustable_shoulder",
+              "details": [
+                "structured_body",
+                "reinforced_base",
+                "two_internal_pockets"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_daily_essentials",
+                "phone_fit_requires_dimensions"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "internal_support_layer",
+                "reinforced_stitching"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_prolonged_moisture",
+                "avoid_rough_surface_friction"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 6800,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-401-02",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": "cotton_blend"
+            },
+            "dimensions_cm": {
+              "width": 24,
+              "height": 16,
+              "depth": 8
+            },
+            "weight_g": 680,
+            "construction": {
+              "closure": "magnetic",
+              "strap": "adjustable_shoulder",
+              "details": [
+                "structured_body",
+                "reinforced_base",
+                "two_internal_pockets"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_daily_essentials",
+                "phone_fit_requires_dimensions"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "internal_support_layer",
+                "reinforced_stitching"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_prolonged_moisture",
+                "avoid_rough_surface_friction"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 6800,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-401-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-401-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-401-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-401-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-401-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-401-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-401-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-401",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-BG-402",
+      "name": {
+        "zh": "轻序软肩包"
+      },
+      "category": "handbag",
+      "subcategory": "shoulder_bag",
+      "design": {
+        "silhouette": "soft_shoulder",
+        "hardware": null,
+        "colorways": [
+          "warm_grey",
+          "dark_brown"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-402-01",
+          "color": "warm_grey",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": "cotton_blend"
+            },
+            "dimensions_cm": {
+              "width": 27,
+              "height": 19,
+              "depth": 9
+            },
+            "weight_g": 540,
+            "construction": {
+              "closure": "zipper",
+              "strap": "fixed_shoulder",
+              "details": [
+                "soft_body",
+                "zippered_main_compartment",
+                "internal_zip_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_daily_essentials",
+                "tablet_fit_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "flexible_body_construction",
+                "zippered_opening"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "keep_dry"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 4900,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-402-02",
+          "color": "dark_brown",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": "cotton_blend"
+            },
+            "dimensions_cm": {
+              "width": 27,
+              "height": 19,
+              "depth": 9
+            },
+            "weight_g": 540,
+            "construction": {
+              "closure": "zipper",
+              "strap": "fixed_shoulder",
+              "details": [
+                "soft_body",
+                "zippered_main_compartment",
+                "internal_zip_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_daily_essentials",
+                "tablet_fit_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "flexible_body_construction",
+                "zippered_opening"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "keep_dry"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 4900,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-402-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-402-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-402-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-402-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-402-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-402-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-402-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-402",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-BG-403",
+      "name": {
+        "zh": "归途通勤托特包"
+      },
+      "category": "handbag",
+      "subcategory": "tote",
+      "design": {
+        "silhouette": "commuter_tote",
+        "hardware": null,
+        "colorways": [
+          "black",
+          "dark_brown"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-403-01",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 37,
+              "height": 28,
+              "depth": 13
+            },
+            "weight_g": 980,
+            "construction": {
+              "closure": "zipper",
+              "strap": "dual_handles",
+              "details": [
+                "structured_base",
+                "document_divider",
+                "key_hook"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "most_13_inch_laptops_check_dimensions",
+                "documents"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "reinforced_handle_attachment",
+                "base_support"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "avoid_damp_storage"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 12800,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-403-02",
+          "color": "dark_brown",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 37,
+              "height": 28,
+              "depth": 13
+            },
+            "weight_g": 980,
+            "construction": {
+              "closure": "zipper",
+              "strap": "dual_handles",
+              "details": [
+                "structured_base",
+                "document_divider",
+                "key_hook"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "most_13_inch_laptops_check_dimensions",
+                "documents"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "reinforced_handle_attachment",
+                "base_support"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "avoid_damp_storage"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 12800,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-403-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-403-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-403-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-403-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-403-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-403-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-403-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-403",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-BG-404",
+      "name": {
+        "zh": "轻弧迷你斜挎包"
+      },
+      "category": "handbag",
+      "subcategory": "crossbody",
+      "design": {
+        "silhouette": "mini_crossbody",
+        "hardware": null,
+        "colorways": [
+          "off_white",
+          "burgundy",
+          "black"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-404-01",
+          "color": "off_white",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 19,
+              "height": 13,
+              "depth": 6
+            },
+            "weight_g": 390,
+            "construction": {
+              "closure": "magnetic",
+              "strap": "adjustable_crossbody",
+              "details": [
+                "compact_body",
+                "card_pocket",
+                "edge_finished"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_phone_check_dimensions",
+                "cards",
+                "keys"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "compact_body_construction"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_color_transfer_on_light_colors"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 5600,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-404-02",
+          "color": "burgundy",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 19,
+              "height": 13,
+              "depth": 6
+            },
+            "weight_g": 390,
+            "construction": {
+              "closure": "magnetic",
+              "strap": "adjustable_crossbody",
+              "details": [
+                "compact_body",
+                "card_pocket",
+                "edge_finished"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_phone_check_dimensions",
+                "cards",
+                "keys"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "compact_body_construction"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_color_transfer_on_light_colors"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 5600,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-404-03",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 19,
+              "height": 13,
+              "depth": 6
+            },
+            "weight_g": 390,
+            "construction": {
+              "closure": "magnetic",
+              "strap": "adjustable_crossbody",
+              "details": [
+                "compact_body",
+                "card_pocket",
+                "edge_finished"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_phone_check_dimensions",
+                "cards",
+                "keys"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "compact_body_construction"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_color_transfer_on_light_colors"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 5600,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-404-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-404-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-404-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-404-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-404-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-404-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-404-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-404",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-BG-405",
+      "name": {
+        "zh": "远行商务手提包"
+      },
+      "category": "handbag",
+      "subcategory": "business_bag",
+      "design": {
+        "silhouette": "business_carryall",
+        "hardware": null,
+        "colorways": [
+          "dark_brown",
+          "black"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-405-01",
+          "color": "dark_brown",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 39,
+              "height": 29,
+              "depth": 10
+            },
+            "weight_g": 1150,
+            "construction": {
+              "closure": "two_way_zipper",
+              "strap": "dual_handles_detachable_shoulder",
+              "details": [
+                "document_divider",
+                "luggage_sleeve",
+                "internal_support"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "most_14_inch_laptops_check_dimensions",
+                "documents",
+                "travel_essentials"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "reinforced_handle_attachment",
+                "internal_structure_support"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "check_strap_connections"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 13500,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-405-02",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 39,
+              "height": 29,
+              "depth": 10
+            },
+            "weight_g": 1150,
+            "construction": {
+              "closure": "two_way_zipper",
+              "strap": "dual_handles_detachable_shoulder",
+              "details": [
+                "document_divider",
+                "luggage_sleeve",
+                "internal_support"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "most_14_inch_laptops_check_dimensions",
+                "documents",
+                "travel_essentials"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "reinforced_handle_attachment",
+                "internal_structure_support"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "check_strap_connections"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 13500,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-405-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-405-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-405-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-405-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-405-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-405-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-405-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-405",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-405",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-WL-401",
+      "name": {
+        "zh": "折序卡包"
+      },
+      "category": "small_leather_goods",
+      "subcategory": "card_holder",
+      "design": {
+        "silhouette": "flat_card_holder",
+        "hardware": null,
+        "colorways": [
+          "deep_red",
+          "black",
+          "grey_beige"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-WL-401-01",
+          "color": "deep_red",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 10,
+              "height": 7.5,
+              "depth": 1
+            },
+            "weight_g": 55,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "four_card_slots",
+                "center_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "four_standard_cards",
+                "center_pocket_capacity_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "layered_card_slots"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2200,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-WL-401-02",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 10,
+              "height": 7.5,
+              "depth": 1
+            },
+            "weight_g": 55,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "four_card_slots",
+                "center_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "four_standard_cards",
+                "center_pocket_capacity_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "layered_card_slots"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2200,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-WL-401-03",
+          "color": "grey_beige",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 10,
+              "height": 7.5,
+              "depth": 1
+            },
+            "weight_g": 55,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "four_card_slots",
+                "center_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "four_standard_cards",
+                "center_pocket_capacity_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "layered_card_slots"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2200,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-WL-401-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-401-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-401-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-401-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-401-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-401-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-401-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-WL-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-WL-401",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-WL-402",
+      "name": {
+        "zh": "叠影短钱包"
+      },
+      "category": "small_leather_goods",
+      "subcategory": "wallet",
+      "design": {
+        "silhouette": "bifold_wallet",
+        "hardware": null,
+        "colorways": [
+          "dark_brown",
+          "black"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-WL-402-01",
+          "color": "dark_brown",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 11,
+              "height": 9,
+              "depth": 2
+            },
+            "weight_g": 110,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "six_card_slots",
+                "bill_compartment",
+                "coin_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "six_standard_cards",
+                "banknotes",
+                "small_coins"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "layered_leather_structure",
+                "edge_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 3400,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-WL-402-02",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 11,
+              "height": 9,
+              "depth": 2
+            },
+            "weight_g": 110,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "six_card_slots",
+                "bill_compartment",
+                "coin_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "six_standard_cards",
+                "banknotes",
+                "small_coins"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "layered_leather_structure",
+                "edge_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 3400,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-WL-402-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-402-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-402-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-402-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-402-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-402-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-402-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-WL-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-WL-402",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-WL-403",
+      "name": {
+        "zh": "细边长钱包"
+      },
+      "category": "small_leather_goods",
+      "subcategory": "wallet",
+      "design": {
+        "silhouette": "long_wallet",
+        "hardware": null,
+        "colorways": [
+          "black",
+          "navy"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-WL-403-01",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 19,
+              "height": 10,
+              "depth": 2
+            },
+            "weight_g": 180,
+            "construction": {
+              "closure": "zipper_coin_pocket",
+              "strap": null,
+              "details": [
+                "twelve_card_slots",
+                "receipt_dividers",
+                "coin_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "twelve_standard_cards",
+                "banknotes",
+                "receipts"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "multiple_internal_dividers",
+                "edge_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 4600,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-WL-403-02",
+          "color": "navy",
+          "specifications": {
+            "materials": {
+              "primary": "calfskin",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 19,
+              "height": 10,
+              "depth": 2
+            },
+            "weight_g": 180,
+            "construction": {
+              "closure": "zipper_coin_pocket",
+              "strap": null,
+              "details": [
+                "twelve_card_slots",
+                "receipt_dividers",
+                "coin_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "twelve_standard_cards",
+                "banknotes",
+                "receipts"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "multiple_internal_dividers",
+                "edge_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 4600,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-WL-403-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-403-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-403-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-403-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-403-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-403-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-WL-403-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-WL-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-WL-403",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-SC-401",
+      "name": {
+        "zh": "流纹真丝方巾"
+      },
+      "category": "scarves_shawls",
+      "subcategory": "silk_square",
+      "design": {
+        "silhouette": "square_70",
+        "hardware": null,
+        "colorways": [
+          "navy_cream",
+          "burgundy_grey"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-SC-401-01",
+          "color": "navy_cream",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_mulberry_silk",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 70,
+              "height": 70,
+              "depth": null
+            },
+            "weight_g": 45,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "digital_print",
+                "rolled_hem"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "neck_styling",
+                "bag_decoration"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "digital_print",
+                "rolled_edge"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_cleaning",
+                "avoid_snagging"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2400,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-SC-401-02",
+          "color": "burgundy_grey",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_mulberry_silk",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 70,
+              "height": 70,
+              "depth": null
+            },
+            "weight_g": 45,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "digital_print",
+                "rolled_hem"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "neck_styling",
+                "bag_decoration"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "digital_print",
+                "rolled_edge"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_cleaning",
+                "avoid_snagging"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2400,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-SC-401-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-401-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-401-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-401-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-401-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-401-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-401-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-SC-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-SC-401",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-SC-402",
+      "name": {
+        "zh": "静影羊绒披肩"
+      },
+      "category": "scarves_shawls",
+      "subcategory": "cashmere_shawl",
+      "design": {
+        "silhouette": "rectangular_shawl",
+        "hardware": null,
+        "colorways": [
+          "charcoal",
+          "oatmeal"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-SC-402-01",
+          "color": "charcoal",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_cashmere",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 180,
+              "height": 65,
+              "depth": null
+            },
+            "weight_g": 240,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "woven_body",
+                "fringe_edges"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "shoulder_drape",
+                "cold_weather_layering"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "fine_weave",
+                "fringe_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_cleaning",
+                "folded_storage"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 6200,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-SC-402-02",
+          "color": "oatmeal",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_cashmere",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 180,
+              "height": 65,
+              "depth": null
+            },
+            "weight_g": 240,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "woven_body",
+                "fringe_edges"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "shoulder_drape",
+                "cold_weather_layering"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "fine_weave",
+                "fringe_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_cleaning",
+                "folded_storage"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 6200,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-SC-402-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-402-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-402-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-402-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-402-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-402-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-402-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-SC-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-SC-402",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-TR-401",
+      "name": {
+        "zh": "远途护照夹"
+      },
+      "category": "travel_accessories",
+      "subcategory": "passport_holder",
+      "design": {
+        "silhouette": "passport_cover",
+        "hardware": null,
+        "colorways": [
+          "navy",
+          "dark_brown"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-TR-401-01",
+          "color": "navy",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 14,
+              "height": 10,
+              "depth": 1.5
+            },
+            "weight_g": 95,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "passport_slot",
+                "boarding_pass_slot",
+                "two_card_slots"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "passport",
+                "boarding_pass",
+                "two_standard_cards"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "interior_dividers"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_compression",
+                "keep_dry"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2800,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-TR-401-02",
+          "color": "dark_brown",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 14,
+              "height": 10,
+              "depth": 1.5
+            },
+            "weight_g": 95,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "passport_slot",
+                "boarding_pass_slot",
+                "two_card_slots"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "passport",
+                "boarding_pass",
+                "two_standard_cards"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_finishing",
+                "interior_dividers"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_compression",
+                "keep_dry"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 2800,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-TR-401-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-401-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-401-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-401-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-401-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-401-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-401-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-TR-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-TR-401",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-TR-402",
+      "name": {
+        "zh": "行间旅行收纳包"
+      },
+      "category": "travel_accessories",
+      "subcategory": "travel_pouch",
+      "design": {
+        "silhouette": "rectangular_pouch",
+        "hardware": null,
+        "colorways": [
+          "navy",
+          "black"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-TR-402-01",
+          "color": "navy",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide_and_textile",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 23,
+              "height": 14,
+              "depth": 7
+            },
+            "weight_g": 310,
+            "construction": {
+              "closure": "two_way_zipper",
+              "strap": null,
+              "details": [
+                "three_organizer_sections",
+                "lined_body"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_travel_essentials",
+                "no_max_load_verified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "reinforced_zipper_attachment",
+                "textile_lining"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing",
+                "avoid_damp_storage"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 4100,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-TR-402-02",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "grained_cowhide_and_textile",
+              "lining": "textile"
+            },
+            "dimensions_cm": {
+              "width": 23,
+              "height": 14,
+              "depth": 7
+            },
+            "weight_g": 310,
+            "construction": {
+              "closure": "two_way_zipper",
+              "strap": null,
+              "details": [
+                "three_organizer_sections",
+                "lined_body"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "small_travel_essentials",
+                "no_max_load_verified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "reinforced_zipper_attachment",
+                "textile_lining"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overstuffing",
+                "avoid_damp_storage"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 4100,
+            "currency": "CNY",
+            "effective_from": "2026-11-01",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-TR-402-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-402-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-402-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-402-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-402-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-402-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-TR-402-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-TR-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-TR-402",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-BG-406",
+      "name": {
+        "zh": "叠序翻盖手袋"
+      },
+      "category": "handbag",
+      "subcategory": "flap_bag",
+      "design": {
+        "silhouette": "structured_flap",
+        "hardware": {
+          "tone": "brushed_gold",
+          "composition": "unknown"
+        },
+        "colorways": [
+          "burgundy",
+          "black"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-406-01",
+          "color": "burgundy",
+          "specifications": {
+            "materials": {
+              "primary": "smooth_calfskin",
+              "lining": "lambskin"
+            },
+            "dimensions_cm": {
+              "width": 27,
+              "height": 18,
+              "depth": 9
+            },
+            "weight_g": 790,
+            "construction": {
+              "closure": "turn_lock",
+              "strap": "detachable_adjustable_shoulder",
+              "details": [
+                "structured_body",
+                "reinforced_base",
+                "two_compartments",
+                "zippered_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "daily_essentials",
+                "phone_fit_requires_dimensions"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_painting",
+                "reinforced_strap_stitching",
+                "brushed_hardware_finish"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_moisture",
+                "avoid_color_transfer",
+                "store_uncompressed"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": {
+              "tone": "brushed_gold",
+              "composition": "unknown"
+            }
+          },
+          "price": {
+            "amount_cny": 18800,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-406-02",
+          "color": "black",
+          "specifications": {
+            "materials": {
+              "primary": "smooth_calfskin",
+              "lining": "lambskin"
+            },
+            "dimensions_cm": {
+              "width": 27,
+              "height": 18,
+              "depth": 9
+            },
+            "weight_g": 790,
+            "construction": {
+              "closure": "turn_lock",
+              "strap": "detachable_adjustable_shoulder",
+              "details": [
+                "structured_body",
+                "reinforced_base",
+                "two_compartments",
+                "zippered_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "daily_essentials",
+                "phone_fit_requires_dimensions"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "edge_painting",
+                "reinforced_strap_stitching",
+                "brushed_hardware_finish"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_moisture",
+                "avoid_color_transfer",
+                "store_uncompressed"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": {
+              "tone": "brushed_gold",
+              "composition": "unknown"
+            }
+          },
+          "price": {
+            "amount_cny": 18800,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-406-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-406-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-406-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-406-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-406-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-406-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-406-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-406",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-406",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-BG-407",
+      "name": {
+        "zh": "柔廓半月肩包"
+      },
+      "category": "handbag",
+      "subcategory": "hobo",
+      "design": {
+        "silhouette": "soft_hobo",
+        "hardware": {
+          "tone": "silver",
+          "composition": "unknown"
+        },
+        "colorways": [
+          "dark_chocolate",
+          "stone_grey"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-BG-407-01",
+          "color": "dark_chocolate",
+          "specifications": {
+            "materials": {
+              "primary": "grained_calfskin",
+              "lining": "cotton_blend"
+            },
+            "dimensions_cm": {
+              "width": 32,
+              "height": 25,
+              "depth": 11
+            },
+            "weight_g": 610,
+            "construction": {
+              "closure": "zipper",
+              "strap": "adjustable_shoulder",
+              "details": [
+                "soft_body",
+                "curved_opening",
+                "internal_zip_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "daily_essentials",
+                "tablet_fit_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "flexible_body_construction",
+                "reinforced_handle_attachment",
+                "finished_edges"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "avoid_moisture"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": {
+              "tone": "silver",
+              "composition": "unknown"
+            }
+          },
+          "price": {
+            "amount_cny": 9600,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-BG-407-02",
+          "color": "stone_grey",
+          "specifications": {
+            "materials": {
+              "primary": "grained_calfskin",
+              "lining": "cotton_blend"
+            },
+            "dimensions_cm": {
+              "width": 32,
+              "height": 25,
+              "depth": 11
+            },
+            "weight_g": 610,
+            "construction": {
+              "closure": "zipper",
+              "strap": "adjustable_shoulder",
+              "details": [
+                "soft_body",
+                "curved_opening",
+                "internal_zip_pocket"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "daily_essentials",
+                "tablet_fit_unverified"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "flexible_body_construction",
+                "reinforced_handle_attachment",
+                "finished_edges"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_overloading",
+                "avoid_moisture"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": {
+              "tone": "silver",
+              "composition": "unknown"
+            }
+          },
+          "price": {
+            "amount_cny": 9600,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-BG-407-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-407-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-407-WEIGHT_G",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.weight_g",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-407-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-407-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-407-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-BG-407-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-BG-407",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-BG-407",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-JW-401",
+      "name": {
+        "zh": "初序钻石吊坠"
+      },
+      "category": "fine_jewelry",
+      "subcategory": "necklace",
+      "design": {
+        "silhouette": "geometric_pendant",
+        "hardware": null,
+        "colorways": [
+          "yellow_gold"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-JW-401-01",
+          "color": "yellow_gold",
+          "specifications": {
+            "materials": {
+              "primary": "18k_yellow_gold",
+              "lining": null
+            },
+            "dimensions_cm": null,
+            "weight_g": null,
+            "construction": {
+              "closure": "clasp",
+              "strap": "adjustable_chain_40_42_45cm",
+              "details": [
+                "round_brilliant_natural_diamond_0_12ct",
+                "polished_finish"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "necklace_wear",
+                "chain_length_40_42_45cm"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "polished_gold_finish",
+                "gemstone_setting_details_unverified"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_chemicals",
+                "store_separately",
+                "professional_cleaning"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 16800,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-JW-401-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-JW-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-401-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-JW-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-401-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-JW-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-401-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-JW-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-401-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-JW-401",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-JW-401",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-JW-402",
+      "name": {
+        "zh": "双弧金戒"
+      },
+      "category": "fine_jewelry",
+      "subcategory": "ring",
+      "design": {
+        "silhouette": "double_arc_ring",
+        "hardware": null,
+        "colorways": [
+          "rose_gold"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-JW-402-01",
+          "color": "rose_gold",
+          "specifications": {
+            "materials": {
+              "primary": "18k_rose_gold",
+              "lining": null
+            },
+            "dimensions_cm": null,
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "double_arc_profile",
+                "polished_and_satin_surfaces",
+                "sizes_50_52_54_56"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "ring_sizes_50_52_54_56",
+                "resizing_requires_confirmation"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "polished_finish",
+                "satin_finish"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_hard_impact",
+                "store_separately"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 12600,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-JW-402-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-JW-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-402-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-JW-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-402-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-JW-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-402-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-JW-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-402-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-JW-402",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-JW-402",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-JW-403",
+      "name": {
+        "zh": "静面银手镯"
+      },
+      "category": "fine_jewelry",
+      "subcategory": "bracelet",
+      "design": {
+        "silhouette": "open_cuff",
+        "hardware": null,
+        "colorways": [
+          "silver"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-JW-403-01",
+          "color": "silver",
+          "specifications": {
+            "materials": {
+              "primary": "925_sterling_silver",
+              "lining": null
+            },
+            "dimensions_cm": null,
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "open_cuff",
+                "satin_brushed_surface",
+                "rounded_edges"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "sizes_S_M_L",
+                "not_freely_adjustable"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "satin_brushed_finish",
+                "rounded_edge_finishing"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_chemicals",
+                "use_suitable_silver_cloth",
+                "avoid_repeated_bending"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 5800,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-JW-403-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-JW-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-403-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-JW-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-403-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-JW-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-403-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-JW-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-403-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-JW-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-JW-403",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-JW-404",
+      "name": {
+        "zh": "映月珍珠耳饰"
+      },
+      "category": "fine_jewelry",
+      "subcategory": "earrings",
+      "design": {
+        "silhouette": "pearl_drop",
+        "hardware": null,
+        "colorways": [
+          "white_gold"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-JW-404-01",
+          "color": "white_gold",
+          "specifications": {
+            "materials": {
+              "primary": "18k_white_gold",
+              "lining": null
+            },
+            "dimensions_cm": null,
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "cultured_freshwater_pearls_7_8mm",
+                "detachable_drop"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "two_wearing_configurations"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "polished_metal_finish",
+                "detachable_drop_construction"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "avoid_perfume",
+                "avoid_ultrasonic_cleaning",
+                "store_soft_pouch"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 14200,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-JW-404-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-JW-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-404-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-JW-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-404-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-JW-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-404-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-JW-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-JW-404-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-JW-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-JW-404",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-SC-403",
+      "name": {
+        "zh": "城影真丝方巾"
+      },
+      "category": "scarves_shawls",
+      "subcategory": "silk_square",
+      "design": {
+        "silhouette": "square_90",
+        "hardware": null,
+        "colorways": [
+          "navy_burgundy_cream",
+          "sage_grey_cream"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-SC-403-01",
+          "color": "navy_burgundy_cream",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_mulberry_silk_twill",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 90,
+              "height": 90,
+              "depth": null
+            },
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "abstract_architectural_motif",
+                "digital_print",
+                "hand_rolled_hem"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "neck_scarf",
+                "shoulder_drape",
+                "bag_accessory"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "digital_print",
+                "hand_rolled_hem"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_dry_cleaning",
+                "avoid_sunlight",
+                "avoid_snagging"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 3200,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-SC-403-02",
+          "color": "sage_grey_cream",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_mulberry_silk_twill",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 90,
+              "height": 90,
+              "depth": null
+            },
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "abstract_architectural_motif",
+                "digital_print",
+                "hand_rolled_hem"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "neck_scarf",
+                "shoulder_drape",
+                "bag_accessory"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "digital_print",
+                "hand_rolled_hem"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_dry_cleaning",
+                "avoid_sunlight",
+                "avoid_snagging"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 3200,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-SC-403-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-SC-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-403-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-SC-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-403-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-SC-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-403-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-SC-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-403-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-SC-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-403-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-SC-403",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-SC-403",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    },
+    {
+      "product_id": "LX-SC-404",
+      "name": {
+        "zh": "游线窄幅丝巾"
+      },
+      "category": "scarves_shawls",
+      "subcategory": "narrow_scarf",
+      "design": {
+        "silhouette": "narrow_ribbon",
+        "hardware": null,
+        "colorways": [
+          "burgundy_cream",
+          "forest_green_cream"
+        ]
+      },
+      "variants": [
+        {
+          "variant_id": "LX-SC-404-01",
+          "color": "burgundy_cream",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_mulberry_silk_twill",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 5,
+              "height": 86,
+              "depth": null
+            },
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "abstract_interwoven_motif",
+                "digital_print",
+                "machine_finished_hem"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "bag_handle_decoration",
+                "hair_accessory",
+                "neck_ribbon"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "digital_print",
+                "machine_finished_hem"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_dry_cleaning",
+                "avoid_sharp_hardware"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 1600,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        },
+        {
+          "variant_id": "LX-SC-404-02",
+          "color": "forest_green_cream",
+          "specifications": {
+            "materials": {
+              "primary": "100_percent_mulberry_silk_twill",
+              "lining": null
+            },
+            "dimensions_cm": {
+              "width": 5,
+              "height": 86,
+              "depth": null
+            },
+            "weight_g": null,
+            "construction": {
+              "closure": null,
+              "strap": null,
+              "details": [
+                "abstract_interwoven_motif",
+                "digital_print",
+                "machine_finished_hem"
+              ]
+            },
+            "functional_capacity": {
+              "supported_uses": [
+                "bag_handle_decoration",
+                "hair_accessory",
+                "neck_ribbon"
+              ],
+              "maximum_load_kg": null
+            },
+            "craftsmanship": {
+              "documented_techniques": [
+                "digital_print",
+                "machine_finished_hem"
+              ],
+              "labor_hours": null,
+              "origin": null
+            },
+            "care": {
+              "instructions": [
+                "professional_dry_cleaning",
+                "avoid_sharp_hardware"
+              ],
+              "service_eligibility": "requires_confirmation"
+            },
+            "hardware": null
+          },
+          "price": {
+            "amount_cny": 1600,
+            "currency": "CNY",
+            "effective_from": "2026-11-09",
+            "effective_until": null
+          },
+          "availability": {
+            "status": "unknown",
+            "last_verified_at": null
+          }
+        }
+      ],
+      "claim_evidence": [
+        {
+          "claim_id": "LX-SC-404-MATERIALS",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.materials",
+          "source_id": "SPEC-LX-SC-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-404-DIMENSIONS_CM",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.dimensions_cm",
+          "source_id": "SPEC-LX-SC-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-404-CONSTRUCTION",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.construction",
+          "source_id": "SPEC-LX-SC-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-404-FUNCTIONAL_CAPACITY",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.functional_capacity",
+          "source_id": "SPEC-LX-SC-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-404-CRAFTSMANSHIP",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.craftsmanship",
+          "source_id": "SPEC-LX-SC-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        },
+        {
+          "claim_id": "LX-SC-404-CARE",
+          "claim_type": "direct_fact",
+          "evidence_path": "specifications.care",
+          "source_id": "SPEC-LX-SC-404",
+          "verification_status": "verified_in_synthetic_dataset",
+          "allowed_usage": [
+            "factual_description",
+            "product_comparison"
+          ],
+          "limitations": [
+            "No independent real-world verification",
+            "Does not prove comparative durability or production cost"
+          ],
+          "applies_to": "all_listed_variants"
+        }
+      ],
+      "provenance": {
+        "source_id": "SPEC-LX-SC-404",
+        "source_type": "synthetic_product_specification",
+        "verification_scope": "LIUXU_test_environment",
+        "real_world_verified": false
+      }
+    }
+  ],
+  "comparison_evidence": [
+    {
+      "comparison_id": "CMP-LX-BG-402-LX-BG-401-WEIGHT",
+      "claim_type": "derived_comparison",
+      "sku_a": "LX-BG-402",
+      "sku_b": "LX-BG-401",
+      "dimension": "weight_g",
+      "a_value": 540,
+      "b_value": 680,
+      "difference_b_minus_a_g": 140,
+      "supporting_claim_ids": [
+        "LX-BG-402-WEIGHT_G",
+        "LX-BG-401-WEIGHT_G"
+      ],
+      "allowed_conclusion": "LX-BG-402 is 140g lighter than LX-BG-401.",
+      "prohibited_inferences": [
+        "better_quality",
+        "longer_lifespan",
+        "lower_manufacturing_cost"
+      ]
+    },
+    {
+      "comparison_id": "CMP-LX-BG-404-LX-BG-401-WEIGHT",
+      "claim_type": "derived_comparison",
+      "sku_a": "LX-BG-404",
+      "sku_b": "LX-BG-401",
+      "dimension": "weight_g",
+      "a_value": 390,
+      "b_value": 680,
+      "difference_b_minus_a_g": 290,
+      "supporting_claim_ids": [
+        "LX-BG-404-WEIGHT_G",
+        "LX-BG-401-WEIGHT_G"
+      ],
+      "allowed_conclusion": "LX-BG-404 is 290g lighter than LX-BG-401.",
+      "prohibited_inferences": [
+        "better_quality",
+        "longer_lifespan",
+        "lower_manufacturing_cost"
+      ]
+    },
+    {
+      "comparison_id": "CMP-LX-BG-407-LX-BG-406-WEIGHT",
+      "claim_type": "derived_comparison",
+      "sku_a": "LX-BG-407",
+      "sku_b": "LX-BG-406",
+      "dimension": "weight_g",
+      "a_value": 610,
+      "b_value": 790,
+      "difference_b_minus_a_g": 180,
+      "supporting_claim_ids": [
+        "LX-BG-407-WEIGHT_G",
+        "LX-BG-406-WEIGHT_G"
+      ],
+      "allowed_conclusion": "LX-BG-407 is 180g lighter than LX-BG-406.",
+      "prohibited_inferences": [
+        "better_quality",
+        "longer_lifespan",
+        "lower_manufacturing_cost"
+      ]
+    }
+  ],
+  "global_claim_rules": {
+    "historical_paid_amount_is_not_current_list_price": true,
+    "availability_unknown_by_default": true,
+    "synthetic_verification_is_not_real_world_verification": true,
+    "competitor_claims_require_external_evidence": true,
+    "cost_and_durability_inferences_not_supported": true,
+    "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context"
+  }
+}
