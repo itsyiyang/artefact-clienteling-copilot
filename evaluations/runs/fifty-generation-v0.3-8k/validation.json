@@ -1,14 +1,14 @@
 {
-  "completed_cases": 30,
-  "nonempty_outputs": 90,
+  "completed_cases": 40,
+  "nonempty_outputs": 120,
   "expected_cases": 50,
   "inputs_unchanged": true,
   "csv_matches_raw": true,
   "prompt_and_input_hashes_match": true,
   "context_max_used_tokens": 4613,
   "latency_seconds": {
-    "sum": 3105.838,
-    "median": 96.174,
+    "sum": 3945.617,
+    "median": 88.3655,
     "min": 41.971,
     "max": 199.427
   },
