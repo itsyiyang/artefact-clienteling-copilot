@@ -154,11 +154,14 @@
       "client_id": "C04",
       "scenario_type": "reactivation",
       "as_of_datetime": "2026-11-19T14:00:00+08:00",
-      "trigger": "relationship_review_for_possible_reconnection",
+      "trigger": "2026年11月19日新增通勤包尺寸、重量与收纳对照资料，可微信提供给曾咨询电脑收纳的客户；不代表新品或到货。",
       "latest_client_message": null,
-      "task_goal": "Consider low-pressure reconnection using only verified relationship context.",
-      "reference_ids": [],
-      "validation_status": "pending_business_confirmation"
+      "task_goal": "基于新增对照资料与客户历史电脑收纳需求提供具体服务价值，不编造近期购买意愿或现货。",
+      "reference_ids": [
+        "LX-BG-401",
+        "LX-BG-402",
+        "LX-BG-403"
+      ]
     },
     {
       "scenario_id": "S4-002",
@@ -202,7 +205,7 @@
       "as_of_datetime": "2026-11-12T14:00:00+08:00",
       "trigger": "craftsmanship_event_invitation",
       "latest_client_message": null,
-      "task_goal": "Invite to craftsmanship salon based on verified interests without assuming booking.",
+      "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
       "reference_ids": [
         "EVT-001"
       ]
@@ -214,7 +217,7 @@
       "as_of_datetime": "2026-11-18T15:00:00+08:00",
       "trigger": "private_preview_invitation",
       "latest_client_message": null,
-      "task_goal": "Offer discreet private-preview invitation respecting contact preferences.",
+      "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
       "reference_ids": [
         "EVT-002"
       ]
@@ -226,7 +229,7 @@
       "as_of_datetime": "2026-11-20T11:30:00+08:00",
       "trigger": "private_preview_invitation",
       "latest_client_message": "月底可能有空，不过还没确定行程。",
-      "task_goal": "Present event information without implying a reservation is held.",
+      "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
       "reference_ids": [
         "EVT-002"
       ]
@@ -238,7 +241,7 @@
       "as_of_datetime": "2026-11-25T16:00:00+08:00",
       "trigger": "silk_styling_event_invitation",
       "latest_client_message": null,
-      "task_goal": "Offer relevant silk styling event without assuming interest or availability.",
+      "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
       "reference_ids": [
         "EVT-003"
       ]
@@ -249,13 +252,13 @@
       "scenario_type": "price_objection",
       "as_of_datetime": "2026-11-13T16:30:00+08:00",
       "trigger": "client_questions_bag_price",
-      "latest_client_message": "这款6800的包我还挺喜欢的，就是觉得价格有点高。它跟便宜一些的款式主要差在哪里？",
+      "latest_client_message": "这款6800元的衡线结构肩背包我还挺喜欢的，就是觉得价格有点高。它跟便宜一些的款式主要差在哪里？",
       "task_goal": "Explain verifiable differences and relevant alternatives without discount or cost inventions.",
       "reference_ids": [
         "LX-BG-401",
         "LX-BG-402"
       ],
-      "validation_status": "pending_business_confirmation"
+      "identity_basis": "用户明确确认LX-BG-401"
     },
     {
       "scenario_id": "S6-002",

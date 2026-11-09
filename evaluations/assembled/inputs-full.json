@@ -4378,6 +4378,2343 @@
     ]
   },
   {
+    "case_id": "S4-001",
+    "condition": "full",
+    "as_of_datetime": "2026-11-19T14:00:00+08:00",
+    "scenario": "reactivation",
+    "direction": "CA主动触达",
+    "trigger": "2026年11月19日新增通勤包尺寸、重量与收纳对照资料，可微信提供给曾咨询电脑收纳的客户；不代表新品或到货。",
+    "task_goal": "基于新增对照资料与客户历史电脑收纳需求提供具体服务价值，不编造近期购买意愿或现货。",
+    "client_information": {
+      "client_id": "C04",
+      "identity": {
+        "name": "陈致远",
+        "birth_date": "1991-02-16",
+        "city": "上海",
+        "age": 35
+      },
+      "relationship": {
+        "since": "2025-07-18",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2025-07-18",
+          "text": "客户到店看过商务手提包，询问重量、电脑收纳及出差携带方式。"
+        },
+        {
+          "date": "2025-09-08",
+          "text": "发送商品资料后未收到回复，没有记录客户明确拒绝后续联系。"
+        }
+      ]
+    },
+    "conversation_history": [
+      {
+        "message_id": "MSG-C04-001",
+        "timestamp": "2025-07-18T16:21:00+08:00",
+        "sender": "client",
+        "text": "你好，今天店里看的那个深棕色公文包，尺寸再发我一下。"
+      },
+      {
+        "message_id": "MSG-C04-002",
+        "timestamp": "2025-07-18T16:26:00+08:00",
+        "sender": "advisor",
+        "text": "好的陈先生，您主要是通勤用还是出差带？"
+      },
+      {
+        "message_id": "MSG-C04-003",
+        "timestamp": "2025-07-18T16:31:00+08:00",
+        "sender": "client",
+        "text": "出差多。电脑和文件要能放，别太重。"
+      },
+      {
+        "message_id": "MSG-C04-004",
+        "timestamp": "2025-07-18T16:32:00+08:00",
+        "sender": "client",
+        "text": "今天那款我觉得稍微有点正式。"
+      },
+      {
+        "message_id": "MSG-C04-005",
+        "timestamp": "2025-07-18T16:36:00+08:00",
+        "sender": "advisor",
+        "text": "明白。其实商务包基本都偏正式，不过我们有几款线条简单一点的，我整理给您。"
+      },
+      {
+        "message_id": "MSG-C04-006",
+        "timestamp": "2025-07-18T16:40:00+08:00",
+        "sender": "client",
+        "text": "行，我最近一直在外面跑，过阵子再看。"
+      },
+      {
+        "message_id": "MSG-C04-007",
+        "timestamp": "2025-09-08T11:15:00+08:00",
+        "sender": "advisor",
+        "text": "陈先生您好，之前您看过的商务包我整理了几张细节图。最近如果有时间，可以来店里看看。"
+      },
+      {
+        "message_id": "MSG-C04-008",
+        "timestamp": "2025-09-08T11:16:00+08:00",
+        "sender": "advisor",
+        "text": "这款质感还是很不错的，比较适合商务场合。"
+      }
+    ],
+    "current_client_message": null,
+    "product_information": [
+      {
+        "product_id": "LX-BG-401",
+        "name": {
+          "zh": "衡线结构肩背包"
+        },
+        "category": "handbag",
+        "subcategory": "shoulder_bag",
+        "design": {
+          "silhouette": "structured_shoulder",
+          "hardware": null,
+          "colorways": [
+            "dark_brown",
+            "black"
+          ]
+        },
+        "variants": [
+          {
+            "variant_id": "LX-BG-401-01",
+            "color": "dark_brown",
+            "specifications": {
+              "materials": {
+                "primary": "calfskin",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 24,
+                "height": 16,
+                "depth": 8
+              },
+              "weight_g": 680,
+              "construction": {
+                "closure": "magnetic",
+                "strap": "adjustable_shoulder",
+                "details": [
+                  "structured_body",
+                  "reinforced_base",
+                  "two_internal_pockets"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "phone_fit_requires_dimensions"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "internal_support_layer",
+                  "reinforced_stitching"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_prolonged_moisture",
+                  "avoid_rough_surface_friction"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 6800,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          },
+          {
+            "variant_id": "LX-BG-401-02",
+            "color": "black",
+            "specifications": {
+              "materials": {
+                "primary": "calfskin",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 24,
+                "height": 16,
+                "depth": 8
+              },
+              "weight_g": 680,
+              "construction": {
+                "closure": "magnetic",
+                "strap": "adjustable_shoulder",
+                "details": [
+                  "structured_body",
+                  "reinforced_base",
+                  "two_internal_pockets"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "phone_fit_requires_dimensions"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "internal_support_layer",
+                  "reinforced_stitching"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_prolonged_moisture",
+                  "avoid_rough_surface_friction"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 6800,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          }
+        ],
+        "claim_evidence": [
+          {
+            "claim_id": "LX-BG-401-MATERIALS",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.materials",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-DIMENSIONS_CM",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.dimensions_cm",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-WEIGHT_G",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.weight_g",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-CONSTRUCTION",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.construction",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-FUNCTIONAL_CAPACITY",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.functional_capacity",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-CRAFTSMANSHIP",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.craftsmanship",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-CARE",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.care",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          }
+        ],
+        "provenance": {
+          "source_id": "SPEC-LX-BG-401",
+          "source_type": "synthetic_product_specification",
+          "verification_scope": "LIUXU_test_environment",
+          "real_world_verified": false
+        }
+      },
+      {
+        "product_id": "LX-BG-402",
+        "name": {
+          "zh": "轻序软肩包"
+        },
+        "category": "handbag",
+        "subcategory": "shoulder_bag",
+        "design": {
+          "silhouette": "soft_shoulder",
+          "hardware": null,
+          "colorways": [
+            "warm_grey",
+            "dark_brown"
+          ]
+        },
+        "variants": [
+          {
+            "variant_id": "LX-BG-402-01",
+            "color": "warm_grey",
+            "specifications": {
+              "materials": {
+                "primary": "grained_cowhide",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 27,
+                "height": 19,
+                "depth": 9
+              },
+              "weight_g": 540,
+              "construction": {
+                "closure": "zipper",
+                "strap": "fixed_shoulder",
+                "details": [
+                  "soft_body",
+                  "zippered_main_compartment",
+                  "internal_zip_pocket"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "tablet_fit_unverified"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "flexible_body_construction",
+                  "zippered_opening"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_overloading",
+                  "keep_dry"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 4900,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          },
+          {
+            "variant_id": "LX-BG-402-02",
+            "color": "dark_brown",
+            "specifications": {
+              "materials": {
+                "primary": "grained_cowhide",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 27,
+                "height": 19,
+                "depth": 9
+              },
+              "weight_g": 540,
+              "construction": {
+                "closure": "zipper",
+                "strap": "fixed_shoulder",
+                "details": [
+                  "soft_body",
+                  "zippered_main_compartment",
+                  "internal_zip_pocket"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "tablet_fit_unverified"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "flexible_body_construction",
+                  "zippered_opening"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_overloading",
+                  "keep_dry"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 4900,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          }
+        ],
+        "claim_evidence": [
+          {
+            "claim_id": "LX-BG-402-MATERIALS",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.materials",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-DIMENSIONS_CM",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.dimensions_cm",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-WEIGHT_G",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.weight_g",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-CONSTRUCTION",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.construction",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-FUNCTIONAL_CAPACITY",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.functional_capacity",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-CRAFTSMANSHIP",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.craftsmanship",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-CARE",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.care",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          }
+        ],
+        "provenance": {
+          "source_id": "SPEC-LX-BG-402",
+          "source_type": "synthetic_product_specification",
+          "verification_scope": "LIUXU_test_environment",
+          "real_world_verified": false
+        }
+      },
+      {
+        "product_id": "LX-BG-403",
+        "name": {
+          "zh": "归途通勤托特包"
+        },
+        "category": "handbag",
+        "subcategory": "tote",
+        "design": {
+          "silhouette": "commuter_tote",
+          "hardware": null,
+          "colorways": [
+            "black",
+            "dark_brown"
+          ]
+        },
+        "variants": [
+          {
+            "variant_id": "LX-BG-403-01",
+            "color": "black",
+            "specifications": {
+              "materials": {
+                "primary": "grained_cowhide",
+                "lining": "textile"
+              },
+              "dimensions_cm": {
+                "width": 37,
+                "height": 28,
+                "depth": 13
+              },
+              "weight_g": 980,
+              "construction": {
+                "closure": "zipper",
+                "strap": "dual_handles",
+                "details": [
+                  "structured_base",
+                  "document_divider",
+                  "key_hook"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "most_13_inch_laptops_check_dimensions",
+                  "documents"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "reinforced_handle_attachment",
+                  "base_support"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_overloading",
+                  "avoid_damp_storage"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 12800,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          },
+          {
+            "variant_id": "LX-BG-403-02",
+            "color": "dark_brown",
+            "specifications": {
+              "materials": {
+                "primary": "grained_cowhide",
+                "lining": "textile"
+              },
+              "dimensions_cm": {
+                "width": 37,
+                "height": 28,
+                "depth": 13
+              },
+              "weight_g": 980,
+              "construction": {
+                "closure": "zipper",
+                "strap": "dual_handles",
+                "details": [
+                  "structured_base",
+                  "document_divider",
+                  "key_hook"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "most_13_inch_laptops_check_dimensions",
+                  "documents"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "reinforced_handle_attachment",
+                  "base_support"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_overloading",
+                  "avoid_damp_storage"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 12800,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          }
+        ],
+        "claim_evidence": [
+          {
+            "claim_id": "LX-BG-403-MATERIALS",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.materials",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-403-DIMENSIONS_CM",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.dimensions_cm",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-403-WEIGHT_G",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.weight_g",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-403-CONSTRUCTION",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.construction",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-403-FUNCTIONAL_CAPACITY",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.functional_capacity",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-403-CRAFTSMANSHIP",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.craftsmanship",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-403-CARE",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.care",
+            "source_id": "SPEC-LX-BG-403",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          }
+        ],
+        "provenance": {
+          "source_id": "SPEC-LX-BG-403",
+          "source_type": "synthetic_product_specification",
+          "verification_scope": "LIUXU_test_environment",
+          "real_world_verified": false
+        }
+      }
+    ],
+    "event_information": [],
+    "comparison_evidence": [
+      {
+        "comparison_id": "CMP-LX-BG-402-LX-BG-401-WEIGHT",
+        "claim_type": "derived_comparison",
+        "sku_a": "LX-BG-402",
+        "sku_b": "LX-BG-401",
+        "dimension": "weight_g",
+        "a_value": 540,
+        "b_value": 680,
+        "difference_b_minus_a_g": 140,
+        "supporting_claim_ids": [
+          "LX-BG-402-WEIGHT_G",
+          "LX-BG-401-WEIGHT_G"
+        ],
+        "allowed_conclusion": "LX-BG-402 is 140g lighter than LX-BG-401.",
+        "prohibited_inferences": [
+          "better_quality",
+          "longer_lifespan",
+          "lower_manufacturing_cost"
+        ]
+      }
+    ],
+    "policy": {
+      "historical_paid_amount_is_not_current_list_price": true,
+      "availability_unknown_by_default": true,
+      "synthetic_verification_is_not_real_world_verification": true,
+      "competitor_claims_require_external_evidence": true,
+      "cost_and_durability_inferences_not_supported": true,
+      "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context",
+      "routine_CA_service_assistance_allowed": true,
+      "service_entitlement_does_not_limit_assistance": true
+    },
+    "warnings": []
+  },
+  {
+    "case_id": "S5-001",
+    "condition": "full",
+    "as_of_datetime": "2026-11-12T14:00:00+08:00",
+    "scenario": "event_invitation",
+    "direction": "CA主动触达",
+    "trigger": "craftsmanship_event_invitation",
+    "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
+    "client_information": {
+      "client_id": "C05",
+      "identity": {
+        "name": "沈知微",
+        "birth_date": "1980-03-12",
+        "city": "上海",
+        "age": 46
+      },
+      "relationship": {
+        "since": "2021-04-16",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C05-001",
+            "date": "2023-09-15",
+            "sku": "BAG-C05-001",
+            "product_name": "皮具",
+            "amount_cny": 7600
+          },
+          {
+            "transaction_id": "TR-C05-002",
+            "date": "2025-05-22",
+            "sku": "JWL-C05-001",
+            "product_name": "银质项链",
+            "amount_cny": 4200
+          },
+          {
+            "transaction_id": "TR-C05-003",
+            "date": "2026-04-18",
+            "sku": "SCARF-C05-001",
+            "product_name": "真丝配饰",
+            "amount_cny": 2100
+          }
+        ]
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2025-05-22",
+          "text": "客户购买项链时询问表面打磨和日常维护方式。"
+        },
+        {
+          "date": "2025-10-28",
+          "text": "客户参加工艺展示后表示对打磨演示感兴趣，希望以后有规模更小的活动可以通知。"
+        },
+        {
+          "date": "2026-06-15",
+          "text": "客户询问之后是否还有工艺展示活动，表示周末下午比较方便，活动时长最好在一小时左右。"
+        }
+      ]
+    },
+    "conversation_history": [
+      {
+        "message_id": "MSG-C05-001",
+        "timestamp": "2025-05-22T16:18:00+08:00",
+        "sender": "client",
+        "text": "这条项链表面是怎么处理的？看着不是完全镜面的。"
+      },
+      {
+        "message_id": "MSG-C05-002",
+        "timestamp": "2025-05-22T16:22:00+08:00",
+        "sender": "advisor",
+        "text": "这款是缎面处理，表面会有比较细腻的光泽，不是那种特别亮的镜面效果。我可以把工艺介绍发您看看。"
+      },
+      {
+        "message_id": "MSG-C05-003",
+        "timestamp": "2025-05-22T16:25:00+08:00",
+        "sender": "client",
+        "text": "好，我对这个还挺感兴趣的。"
+      },
+      {
+        "message_id": "MSG-C05-004",
+        "timestamp": "2025-10-18T10:05:00+08:00",
+        "sender": "advisor",
+        "text": "沈女士您好～下周有一场首饰工艺展示，会有工艺师现场讲解和部分制作演示。想到您之前问过项链的表面处理，所以来问问您有没有兴趣。活动大概一个小时。"
+      },
+      {
+        "message_id": "MSG-C05-005",
+        "timestamp": "2025-10-18T11:14:00+08:00",
+        "sender": "client",
+        "text": "会看到实际制作过程吗？还是主要介绍成品？"
+      },
+      {
+        "message_id": "MSG-C05-006",
+        "timestamp": "2025-10-18T11:20:00+08:00",
+        "sender": "advisor",
+        "text": "有实际演示的，不只是讲成品。"
+      },
+      {
+        "message_id": "MSG-C05-007",
+        "timestamp": "2025-10-18T11:25:00+08:00",
+        "sender": "client",
+        "text": "那我想去看看，麻烦帮我确认一下名额。"
+      },
+      {
+        "message_id": "MSG-C05-008",
+        "timestamp": "2025-10-18T11:31:00+08:00",
+        "sender": "advisor",
+        "text": "好的，我帮您登记，确认后再通知您。"
+      },
+      {
+        "message_id": "MSG-C05-009",
+        "timestamp": "2025-10-28T17:06:00+08:00",
+        "sender": "advisor",
+        "text": "沈女士，上次活动感觉怎么样？"
+      },
+      {
+        "message_id": "MSG-C05-010",
+        "timestamp": "2025-10-28T18:33:00+08:00",
+        "sender": "client",
+        "text": "打磨那部分挺有意思的。"
+      },
+      {
+        "message_id": "MSG-C05-011",
+        "timestamp": "2025-10-28T18:34:00+08:00",
+        "sender": "client",
+        "text": "就是人有点多，后面没太看清楚。"
+      },
+      {
+        "message_id": "MSG-C05-012",
+        "timestamp": "2025-10-28T18:35:00+08:00",
+        "sender": "client",
+        "text": "下次有小一点的场次可以告诉我。"
+      },
+      {
+        "message_id": "MSG-C05-013",
+        "timestamp": "2025-10-28T18:39:00+08:00",
+        "sender": "advisor",
+        "text": "好的，我记下了。我们以后应该还会有类似活动，到时再邀请您。"
+      },
+      {
+        "message_id": "MSG-C05-014",
+        "timestamp": "2026-06-15T12:10:00+08:00",
+        "sender": "client",
+        "text": "最近还有类似的活动吗？"
+      },
+      {
+        "message_id": "MSG-C05-015",
+        "timestamp": "2026-06-15T12:16:00+08:00",
+        "sender": "advisor",
+        "text": "目前还没确定的场次。之后有消息我再告诉您。"
+      },
+      {
+        "message_id": "MSG-C05-016",
+        "timestamp": "2026-06-15T12:19:00+08:00",
+        "sender": "client",
+        "text": "好。周末下午比较方便，最好一个小时左右。"
+      },
+      {
+        "message_id": "MSG-C05-017",
+        "timestamp": "2026-06-15T12:21:00+08:00",
+        "sender": "client",
+        "text": "上次时间其实刚好，就是人太多了。"
+      }
+    ],
+    "current_client_message": null,
+    "product_information": [],
+    "event_information": [
+      {
+        "event_id": "EVT-001",
+        "announced_at": "2026-11-09T09:00:00+08:00",
+        "name": "皮具工艺沙龙",
+        "date": "2026-11-15",
+        "location": "上海青庭店（虚构）",
+        "sessions": [
+          "14:00",
+          "16:00"
+        ],
+        "duration_minutes": 45,
+        "invited_client_ids": [
+          "C05"
+        ],
+        "invitation_status": "invited",
+        "exclusive_appointment": "受邀客户可协商VIP专属到店时段，不按历史消费自动推断资格；尚未确认具体个人时段",
+        "preview": "展示超前一季商品；具体款式清单未设定，不据此虚构SKU或售价",
+        "invitations": {
+          "electronic": "可提前发送电子邀请函",
+          "physical": "客户愿意提供或确认收件信息后可提前寄送实体邀请函",
+          "sent": false
+        },
+        "reservation": "可登记预订需求或意向，不等于确认订单、付款、库存锁定或交付承诺",
+        "communication": "以正式受邀口吻表达诚挚邀请，可请客户拨冗出席；不使用余位待确认作为客户话术，不编造稀缺；感谢既有喜爱须与CRM和历史关系一致",
+        "booking_status": "not_booked",
+        "discount": false,
+        "gift": false
+      }
+    ],
+    "comparison_evidence": [],
+    "policy": {
+      "historical_paid_amount_is_not_current_list_price": true,
+      "availability_unknown_by_default": true,
+      "synthetic_verification_is_not_real_world_verification": true,
+      "competitor_claims_require_external_evidence": true,
+      "cost_and_durability_inferences_not_supported": true,
+      "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context",
+      "routine_CA_service_assistance_allowed": true,
+      "service_entitlement_does_not_limit_assistance": true
+    },
+    "warnings": []
+  },
+  {
+    "case_id": "S5-002",
+    "condition": "full",
+    "as_of_datetime": "2026-11-18T15:00:00+08:00",
+    "scenario": "event_invitation",
+    "direction": "CA主动触达",
+    "trigger": "private_preview_invitation",
+    "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
+    "client_information": {
+      "client_id": "C07",
+      "identity": {
+        "name": "陆嘉仪",
+        "birth_date": "1975-08-21",
+        "city": "上海",
+        "age": 51
+      },
+      "relationship": {
+        "since": "2017-09-16",
+        "advisor_id": "CA002",
+        "preferred_channel": "wechat",
+        "alternative_channel": "phone"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C07-001",
+            "date": "2022-03-19",
+            "sku": "LX-BG-201",
+            "product_name": "深棕色手提包",
+            "amount_cny": 19800
+          },
+          {
+            "transaction_id": "TR-C07-002",
+            "date": "2023-11-04",
+            "sku": "LX-SC-112",
+            "product_name": "羊绒披肩",
+            "amount_cny": 6200
+          },
+          {
+            "transaction_id": "TR-C07-003",
+            "date": "2025-04-12",
+            "sku": "LX-BG-305",
+            "product_name": "酒红色皮革肩包",
+            "amount_cny": 23600
+          },
+          {
+            "transaction_id": "TR-C07-004",
+            "date": "2026-06-20",
+            "sku": "LX-SL-028",
+            "product_name": "丝质方巾",
+            "amount_cny": 2400
+          }
+        ]
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2023-11-04",
+          "text": "陆女士选披肩时对羊绒手感和颜色看得比较仔细，试了三种颜色后选了深灰色。"
+        },
+        {
+          "date": "2025-04-12",
+          "text": "客户问过酒红色皮革的养护方式，也比较了同系列两个不同尺寸。"
+        },
+        {
+          "date": "2026-06-20",
+          "text": "客户表示新品信息可以微信发，但不需要每次上新都通知，有特别的颜色或工艺再联系。"
+        }
+      ]
+    },
+    "conversation_history": [
+      {
+        "message_id": "MSG-C07-001",
+        "timestamp": "2023-11-04T13:20:00+08:00",
+        "sender": "client",
+        "text": "刚才试的披肩，深灰色和米色我还是有点犹豫。"
+      },
+      {
+        "message_id": "MSG-C07-002",
+        "timestamp": "2023-11-04T13:25:00+08:00",
+        "sender": "advisor",
+        "text": "陆女士，我个人觉得深灰色很衬您今天的外套。不过米色会更柔和一些，两种都可以。"
+      },
+      {
+        "message_id": "MSG-C07-003",
+        "timestamp": "2023-11-04T13:31:00+08:00",
+        "sender": "client",
+        "text": "嗯，深灰吧。米色我已经有差不多的了。"
+      },
+      {
+        "message_id": "MSG-C07-004",
+        "timestamp": "2025-04-12T16:02:00+08:00",
+        "sender": "client",
+        "text": "今天看的酒红色那个包，小号和中号除了尺寸还有什么区别？"
+      },
+      {
+        "message_id": "MSG-C07-005",
+        "timestamp": "2025-04-12T16:08:00+08:00",
+        "sender": "advisor",
+        "text": "主要还是容量和上身比例不同。中号会更适合放日常物品，小号看起来精致一些。我把具体尺寸和细节图一起发您，您可以再对比。"
+      },
+      {
+        "message_id": "MSG-C07-006",
+        "timestamp": "2025-04-12T16:12:00+08:00",
+        "sender": "client",
+        "text": "好。颜色我挺喜欢的，不是特别亮的红。"
+      },
+      {
+        "message_id": "MSG-C07-007",
+        "timestamp": "2025-06-03T10:24:00+08:00",
+        "sender": "client",
+        "text": "酒红色那个包如果暂时不背，存放的时候需要特别注意什么？"
+      },
+      {
+        "message_id": "MSG-C07-008",
+        "timestamp": "2025-06-03T10:33:00+08:00",
+        "sender": "advisor",
+        "text": "建议放在防尘袋里，避免长时间受压，也不要放在潮湿或者阳光直射的地方。我把官方护理说明发您，里面有比较详细的存放建议。"
+      },
+      {
+        "message_id": "MSG-C07-009",
+        "timestamp": "2025-06-03T11:06:00+08:00",
+        "sender": "client",
+        "text": "收到，谢谢。"
+      },
+      {
+        "message_id": "MSG-C07-010",
+        "timestamp": "2026-02-18T15:10:00+08:00",
+        "sender": "advisor",
+        "text": "陆女士，最近有几款新到的皮具，您有兴趣看看吗？"
+      },
+      {
+        "message_id": "MSG-C07-011",
+        "timestamp": "2026-02-18T19:22:00+08:00",
+        "sender": "client",
+        "text": "最近先不用了，手上的包还没怎么轮换过来。"
+      },
+      {
+        "message_id": "MSG-C07-012",
+        "timestamp": "2026-02-18T19:28:00+08:00",
+        "sender": "advisor",
+        "text": "好的。"
+      },
+      {
+        "message_id": "MSG-C07-013",
+        "timestamp": "2026-06-20T17:14:00+08:00",
+        "sender": "client",
+        "text": "今天那条方巾颜色还挺特别的。"
+      },
+      {
+        "message_id": "MSG-C07-014",
+        "timestamp": "2026-06-20T17:19:00+08:00",
+        "sender": "advisor",
+        "text": "是的，这次的配色比较少见，和之前几季的风格不太一样。"
+      },
+      {
+        "message_id": "MSG-C07-015",
+        "timestamp": "2026-06-20T17:22:00+08:00",
+        "sender": "client",
+        "text": "以后有这种特别一点的颜色或者工艺可以告诉我。"
+      },
+      {
+        "message_id": "MSG-C07-016",
+        "timestamp": "2026-06-20T17:23:00+08:00",
+        "sender": "client",
+        "text": "但不用每次上新都发哈，我平时消息太多。"
+      },
+      {
+        "message_id": "MSG-C07-017",
+        "timestamp": "2026-06-20T17:30:00+08:00",
+        "sender": "advisor",
+        "text": "明白的陆女士。我会先帮您筛选，像比较特别的配色、工艺细节或者您之前关注过的系列，有合适的再联系您。其他常规上新就不打扰了。"
+      },
+      {
+        "message_id": "MSG-C07-018",
+        "timestamp": "2026-06-20T17:35:00+08:00",
+        "sender": "client",
+        "text": "嗯，这样就好。"
+      }
+    ],
+    "current_client_message": null,
+    "product_information": [],
+    "event_information": [
+      {
+        "event_id": "EVT-002",
+        "announced_at": "2026-11-09T09:00:00+08:00",
+        "name": "下一季新品预览",
+        "date": "2026-11-28",
+        "location": "上海青庭店（虚构）",
+        "sessions": [
+          "14:00",
+          "16:00"
+        ],
+        "duration_minutes": 45,
+        "invited_client_ids": [
+          "C07",
+          "C10"
+        ],
+        "invitation_status": "invited",
+        "exclusive_appointment": "受邀客户可协商VIP专属到店时段，不按历史消费自动推断资格；尚未确认具体个人时段",
+        "preview": "展示超前一季商品；具体款式清单未设定，不据此虚构SKU或售价",
+        "invitations": {
+          "electronic": "可提前发送电子邀请函",
+          "physical": "客户愿意提供或确认收件信息后可提前寄送实体邀请函",
+          "sent": false
+        },
+        "reservation": "可登记预订需求或意向，不等于确认订单、付款、库存锁定或交付承诺",
+        "communication": "以正式受邀口吻表达诚挚邀请，可请客户拨冗出席；不使用余位待确认作为客户话术，不编造稀缺；感谢既有喜爱须与CRM和历史关系一致",
+        "booking_status": "not_booked",
+        "discount": false,
+        "gift": false
+      }
+    ],
+    "comparison_evidence": [],
+    "policy": {
+      "historical_paid_amount_is_not_current_list_price": true,
+      "availability_unknown_by_default": true,
+      "synthetic_verification_is_not_real_world_verification": true,
+      "competitor_claims_require_external_evidence": true,
+      "cost_and_durability_inferences_not_supported": true,
+      "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context",
+      "routine_CA_service_assistance_allowed": true,
+      "service_entitlement_does_not_limit_assistance": true
+    },
+    "warnings": [
+      "Service opened before cutoff but latest snapshot is later; omitted to prevent future leakage."
+    ]
+  },
+  {
+    "case_id": "S5-003",
+    "condition": "full",
+    "as_of_datetime": "2026-11-20T11:30:00+08:00",
+    "scenario": "event_invitation",
+    "direction": "回复客户",
+    "trigger": "private_preview_invitation",
+    "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
+    "client_information": {
+      "client_id": "C10",
+      "identity": {
+        "name": "梁舒宁",
+        "birth_date": "1990-09-27",
+        "city": "上海",
+        "other_frequent_city": "香港",
+        "age": 36
+      },
+      "relationship": {
+        "since": "2023-06-24",
+        "advisor_id": "CA002",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "available",
+        "transactions": [
+          {
+            "transaction_id": "TR-C10-001",
+            "date": "2023-06-24",
+            "sku": "LX-TR-031",
+            "product_name": "旅行收纳包",
+            "amount_cny": 3200
+          },
+          {
+            "transaction_id": "TR-C10-002",
+            "date": "2024-10-19",
+            "sku": "LX-BG-220",
+            "product_name": "黑色托特包",
+            "amount_cny": 12800
+          },
+          {
+            "transaction_id": "TR-C10-003",
+            "date": "2026-03-07",
+            "sku": "LX-TR-045",
+            "product_name": "皮革护照夹",
+            "amount_cny": 2800
+          }
+        ]
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2024-10-19",
+          "text": "客户选托特包时提到经常短途出行，问过包的重量、开口大小和能否放在行李箱上。"
+        },
+        {
+          "date": "2026-03-07",
+          "text": "客户表示有时不在上海，确认商品或取货时间前先微信联系。"
+        },
+        {
+          "date": "2026-05-26",
+          "text": "客户说如果需要到店，最好提前几天约，不太方便临时安排。"
+        }
+      ]
+    },
+    "conversation_history": [
+      {
+        "message_id": "MSG-C10-001",
+        "timestamp": "2024-10-19T13:16:00+08:00",
+        "sender": "client",
+        "text": "今天那个黑色托特包重量多少？出差带会不会太沉？"
+      },
+      {
+        "message_id": "MSG-C10-002",
+        "timestamp": "2024-10-19T13:24:00+08:00",
+        "sender": "advisor",
+        "text": "我帮您确认一下具体重量，尺寸也一起发您。"
+      },
+      {
+        "message_id": "MSG-C10-003",
+        "timestamp": "2024-10-19T13:28:00+08:00",
+        "sender": "client",
+        "text": "好，还有开口大小。我经常在路上拿东西，开口太小不方便。"
+      },
+      {
+        "message_id": "MSG-C10-004",
+        "timestamp": "2024-10-19T13:34:00+08:00",
+        "sender": "advisor",
+        "text": "明白，您主要考虑实际使用的方便程度。"
+      },
+      {
+        "message_id": "MSG-C10-005",
+        "timestamp": "2026-03-07T10:42:00+08:00",
+        "sender": "client",
+        "text": "护照夹能直接寄香港吗？我这阵子不在上海。"
+      },
+      {
+        "message_id": "MSG-C10-006",
+        "timestamp": "2026-03-07T11:03:00+08:00",
+        "sender": "advisor",
+        "text": "梁女士，我确认了目前这款的配送方式，具体说明发您了。不同地区的安排可能不太一样，您可以先看看。如果时间不急，也可以之后回上海到店取。"
+      },
+      {
+        "message_id": "MSG-C10-007",
+        "timestamp": "2026-03-07T11:28:00+08:00",
+        "sender": "client",
+        "text": "那我还是下次回上海取吧。"
+      },
+      {
+        "message_id": "MSG-C10-008",
+        "timestamp": "2026-03-07T11:35:00+08:00",
+        "sender": "advisor",
+        "text": "好的，您回来之前告诉我就行。"
+      },
+      {
+        "message_id": "MSG-C10-009",
+        "timestamp": "2026-05-26T18:12:00+08:00",
+        "sender": "client",
+        "text": "之后如果需要到店，最好提前几天跟我约一下。我不一定在上海，临时约真的很难安排。"
+      },
+      {
+        "message_id": "MSG-C10-010",
+        "timestamp": "2026-05-26T18:20:00+08:00",
+        "sender": "advisor",
+        "text": "好的梁女士，之后涉及到店的安排我会提前和您确认，不临时打扰您。"
+      }
+    ],
+    "current_client_message": {
+      "message_id": "S5-003-CURRENT",
+      "timestamp": "2026-11-20T11:30:00+08:00",
+      "sender": "client",
+      "text": "月底可能有空，不过还没确定行程。"
+    },
+    "product_information": [],
+    "event_information": [
+      {
+        "event_id": "EVT-002",
+        "announced_at": "2026-11-09T09:00:00+08:00",
+        "name": "下一季新品预览",
+        "date": "2026-11-28",
+        "location": "上海青庭店（虚构）",
+        "sessions": [
+          "14:00",
+          "16:00"
+        ],
+        "duration_minutes": 45,
+        "invited_client_ids": [
+          "C07",
+          "C10"
+        ],
+        "invitation_status": "invited",
+        "exclusive_appointment": "受邀客户可协商VIP专属到店时段，不按历史消费自动推断资格；尚未确认具体个人时段",
+        "preview": "展示超前一季商品；具体款式清单未设定，不据此虚构SKU或售价",
+        "invitations": {
+          "electronic": "可提前发送电子邀请函",
+          "physical": "客户愿意提供或确认收件信息后可提前寄送实体邀请函",
+          "sent": false
+        },
+        "reservation": "可登记预订需求或意向，不等于确认订单、付款、库存锁定或交付承诺",
+        "communication": "以正式受邀口吻表达诚挚邀请，可请客户拨冗出席；不使用余位待确认作为客户话术，不编造稀缺；感谢既有喜爱须与CRM和历史关系一致",
+        "booking_status": "not_booked",
+        "discount": false,
+        "gift": false
+      }
+    ],
+    "comparison_evidence": [],
+    "policy": {
+      "historical_paid_amount_is_not_current_list_price": true,
+      "availability_unknown_by_default": true,
+      "synthetic_verification_is_not_real_world_verification": true,
+      "competitor_claims_require_external_evidence": true,
+      "cost_and_durability_inferences_not_supported": true,
+      "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context",
+      "routine_CA_service_assistance_allowed": true,
+      "service_entitlement_does_not_limit_assistance": true
+    },
+    "warnings": [
+      "Service opened before cutoff but latest snapshot is later; omitted to prevent future leakage."
+    ]
+  },
+  {
+    "case_id": "S5-004",
+    "condition": "full",
+    "as_of_datetime": "2026-11-25T16:00:00+08:00",
+    "scenario": "event_invitation",
+    "direction": "CA主动触达",
+    "trigger": "silk_styling_event_invitation",
+    "task_goal": "依据正式受邀资格及客户兴趣邀请出席，提供提前实体/电子邀请函和VIP专属时段选择，可登记预订意向；不编造已寄送、已预约、订单或长期关系。",
+    "client_information": {
+      "client_id": "C12",
+      "identity": {
+        "name": "江亦舟",
+        "birth_date": "1995-03-08",
+        "city": "深圳",
+        "age": 31
+      },
+      "relationship": {
+        "since": "2026-08-15",
+        "advisor_id": "CA006",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2026-08-15",
+          "text": "客户在店里看过两款皮具，询问皮革表面处理和包身内部结构，没有当场购买。"
+        },
+        {
+          "date": "2026-08-18",
+          "text": "客户微信问了结构款的缝线细节，希望看没有滤镜的近距离照片。"
+        },
+        {
+          "date": "2026-09-02",
+          "text": "客户说目前还在比较，不着急决定。如果有工艺资料可以发他参考。"
+        }
+      ]
+    },
+    "conversation_history": [
+      {
+        "message_id": "MSG-C12-001",
+        "timestamp": "2026-08-15T16:34:00+08:00",
+        "sender": "client",
+        "text": "今天看的两款包，皮面处理是一样的吗？"
+      },
+      {
+        "message_id": "MSG-C12-002",
+        "timestamp": "2026-08-15T16:41:00+08:00",
+        "sender": "advisor",
+        "text": "不完全一样。两款的皮面质感有区别，我整理一下材质说明给您。"
+      },
+      {
+        "message_id": "MSG-C12-003",
+        "timestamp": "2026-08-18T20:02:00+08:00",
+        "sender": "client",
+        "text": "结构款的缝线能拍近一点吗？"
+      },
+      {
+        "message_id": "MSG-C12-004",
+        "timestamp": "2026-08-18T20:03:00+08:00",
+        "sender": "client",
+        "text": "最好原图，不要滤镜。"
+      },
+      {
+        "message_id": "MSG-C12-005",
+        "timestamp": "2026-08-18T20:17:00+08:00",
+        "sender": "advisor",
+        "text": "可以，我明天到店拍一下。"
+      },
+      {
+        "message_id": "MSG-C12-006",
+        "timestamp": "2026-08-18T20:21:00+08:00",
+        "sender": "client",
+        "text": "主要想看边缘和针脚的处理。"
+      },
+      {
+        "message_id": "MSG-C12-007",
+        "timestamp": "2026-08-19T14:28:00+08:00",
+        "sender": "advisor",
+        "text": "江先生，我拍了几张细节照片，您看看。皮革和缝线部分都拍得比较近。"
+      },
+      {
+        "message_id": "MSG-C12-008",
+        "timestamp": "2026-08-19T15:46:00+08:00",
+        "sender": "client",
+        "text": "看到了。还有内部结构的图吗？"
+      },
+      {
+        "message_id": "MSG-C12-009",
+        "timestamp": "2026-08-19T16:03:00+08:00",
+        "sender": "advisor",
+        "text": "内部结构您到店看会更直观，照片可能不太容易看清。"
+      },
+      {
+        "message_id": "MSG-C12-010",
+        "timestamp": "2026-09-02T19:10:00+08:00",
+        "sender": "advisor",
+        "text": "江先生，之前看的那款您还在考虑吗？"
+      },
+      {
+        "message_id": "MSG-C12-011",
+        "timestamp": "2026-09-02T21:04:00+08:00",
+        "sender": "client",
+        "text": "还在比较，不着急决定。"
+      },
+      {
+        "message_id": "MSG-C12-012",
+        "timestamp": "2026-09-02T21:05:00+08:00",
+        "sender": "client",
+        "text": "如果有具体工艺资料可以发我，其他暂时不用。"
+      }
+    ],
+    "current_client_message": null,
+    "product_information": [],
+    "event_information": [
+      {
+        "event_id": "EVT-003",
+        "announced_at": "2026-11-09T09:00:00+08:00",
+        "name": "丝巾搭配活动",
+        "date": "2026-11-29",
+        "location": "上海青庭店（虚构）",
+        "sessions": [
+          "14:00",
+          "16:00"
+        ],
+        "duration_minutes": 45,
+        "invited_client_ids": [
+          "C12"
+        ],
+        "invitation_status": "invited",
+        "exclusive_appointment": "受邀客户可协商VIP专属到店时段，不按历史消费自动推断资格；尚未确认具体个人时段",
+        "preview": "展示超前一季商品；具体款式清单未设定，不据此虚构SKU或售价",
+        "invitations": {
+          "electronic": "可提前发送电子邀请函",
+          "physical": "客户愿意提供或确认收件信息后可提前寄送实体邀请函",
+          "sent": false
+        },
+        "reservation": "可登记预订需求或意向，不等于确认订单、付款、库存锁定或交付承诺",
+        "communication": "以正式受邀口吻表达诚挚邀请，可请客户拨冗出席；不使用余位待确认作为客户话术，不编造稀缺；感谢既有喜爱须与CRM和历史关系一致",
+        "booking_status": "not_booked",
+        "discount": false,
+        "gift": false
+      }
+    ],
+    "comparison_evidence": [],
+    "policy": {
+      "historical_paid_amount_is_not_current_list_price": true,
+      "availability_unknown_by_default": true,
+      "synthetic_verification_is_not_real_world_verification": true,
+      "competitor_claims_require_external_evidence": true,
+      "cost_and_durability_inferences_not_supported": true,
+      "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context",
+      "routine_CA_service_assistance_allowed": true,
+      "service_entitlement_does_not_limit_assistance": true
+    },
+    "warnings": []
+  },
+  {
+    "case_id": "S6-001",
+    "condition": "full",
+    "as_of_datetime": "2026-11-13T16:30:00+08:00",
+    "scenario": "price_objection",
+    "direction": "回复客户",
+    "trigger": "client_questions_bag_price",
+    "task_goal": "Explain verifiable differences and relevant alternatives without discount or cost inventions.",
+    "client_information": {
+      "client_id": "C06",
+      "identity": {
+        "name": "顾清禾",
+        "birth_date": "1997-07-26",
+        "city": "上海",
+        "age": 29
+      },
+      "relationship": {
+        "since": "2026-11-06",
+        "advisor_id": "CA001",
+        "preferred_channel": "wechat"
+      },
+      "purchase_history": {
+        "record_status": "no_record",
+        "transactions": []
+      },
+      "service_history": [],
+      "crm_notes": [
+        {
+          "date": "2026-11-06",
+          "text": "客户到店试背两款斜挎包，要求后续通过微信发送照片和尺寸。"
+        }
+      ]
+    },
+    "conversation_history": [
+      {
+        "message_id": "MSG-C06-001",
+        "timestamp": "2026-11-06T17:52:00+08:00",
+        "sender": "client",
+        "text": "你好，我今天在店里看的那两个小包，方便把照片发我吗？"
+      },
+      {
+        "message_id": "MSG-C06-002",
+        "timestamp": "2026-11-06T17:56:00+08:00",
+        "sender": "advisor",
+        "text": "可以的顾女士，我整理一下照片和尺寸给您。"
+      },
+      {
+        "message_id": "MSG-C06-003",
+        "timestamp": "2026-11-06T18:02:00+08:00",
+        "sender": "client",
+        "text": "我比较喜欢那个挺一点的。"
+      },
+      {
+        "message_id": "MSG-C06-004",
+        "timestamp": "2026-11-06T18:03:00+08:00",
+        "sender": "client",
+        "text": "软的那个背起来也不错，但感觉完全不一样。"
+      },
+      {
+        "message_id": "MSG-C06-005",
+        "timestamp": "2026-11-06T18:06:00+08:00",
+        "sender": "advisor",
+        "text": "嗯，结构款会更挺括，软款比较随性。两款都挺好看的，主要看您喜欢哪种感觉。"
+      },
+      {
+        "message_id": "MSG-C06-006",
+        "timestamp": "2026-11-08T14:20:00+08:00",
+        "sender": "client",
+        "text": "那个挺一点的是6800对吧？"
+      },
+      {
+        "message_id": "MSG-C06-007",
+        "timestamp": "2026-11-08T14:25:00+08:00",
+        "sender": "advisor",
+        "text": "对，6800。"
+      },
+      {
+        "message_id": "MSG-C06-008",
+        "timestamp": "2026-11-08T14:29:00+08:00",
+        "sender": "client",
+        "text": "嗯，有点超出预期。"
+      },
+      {
+        "message_id": "MSG-C06-009",
+        "timestamp": "2026-11-08T14:30:00+08:00",
+        "sender": "client",
+        "text": "我还看了另一家的，大小差不多，便宜不少。"
+      },
+      {
+        "message_id": "MSG-C06-010",
+        "timestamp": "2026-11-08T14:34:00+08:00",
+        "sender": "advisor",
+        "text": "我们这款用的是小牛皮，内部结构和制作工艺也比较讲究，所以价格会高一些。"
+      },
+      {
+        "message_id": "MSG-C06-011",
+        "timestamp": "2026-11-08T14:37:00+08:00",
+        "sender": "client",
+        "text": "嗯……"
+      },
+      {
+        "message_id": "MSG-C06-012",
+        "timestamp": "2026-11-09T09:41:00+08:00",
+        "sender": "client",
+        "text": "我还是想知道为什么差这么多。"
+      },
+      {
+        "message_id": "MSG-C06-013",
+        "timestamp": "2026-11-09T09:42:00+08:00",
+        "sender": "client",
+        "text": "平时用包比较频繁，也希望买一个能用久一点的。"
+      },
+      {
+        "message_id": "MSG-C06-014",
+        "timestamp": "2026-11-09T09:43:00+08:00",
+        "sender": "client",
+        "text": "但光看外形感觉差不多。你们这款具体好在哪里？"
+      }
+    ],
+    "current_client_message": {
+      "message_id": "S6-001-CURRENT",
+      "timestamp": "2026-11-13T16:30:00+08:00",
+      "sender": "client",
+      "text": "这款6800元的衡线结构肩背包我还挺喜欢的，就是觉得价格有点高。它跟便宜一些的款式主要差在哪里？"
+    },
+    "product_information": [
+      {
+        "product_id": "LX-BG-401",
+        "name": {
+          "zh": "衡线结构肩背包"
+        },
+        "category": "handbag",
+        "subcategory": "shoulder_bag",
+        "design": {
+          "silhouette": "structured_shoulder",
+          "hardware": null,
+          "colorways": [
+            "dark_brown",
+            "black"
+          ]
+        },
+        "variants": [
+          {
+            "variant_id": "LX-BG-401-01",
+            "color": "dark_brown",
+            "specifications": {
+              "materials": {
+                "primary": "calfskin",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 24,
+                "height": 16,
+                "depth": 8
+              },
+              "weight_g": 680,
+              "construction": {
+                "closure": "magnetic",
+                "strap": "adjustable_shoulder",
+                "details": [
+                  "structured_body",
+                  "reinforced_base",
+                  "two_internal_pockets"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "phone_fit_requires_dimensions"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "internal_support_layer",
+                  "reinforced_stitching"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_prolonged_moisture",
+                  "avoid_rough_surface_friction"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 6800,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          },
+          {
+            "variant_id": "LX-BG-401-02",
+            "color": "black",
+            "specifications": {
+              "materials": {
+                "primary": "calfskin",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 24,
+                "height": 16,
+                "depth": 8
+              },
+              "weight_g": 680,
+              "construction": {
+                "closure": "magnetic",
+                "strap": "adjustable_shoulder",
+                "details": [
+                  "structured_body",
+                  "reinforced_base",
+                  "two_internal_pockets"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "phone_fit_requires_dimensions"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "internal_support_layer",
+                  "reinforced_stitching"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_prolonged_moisture",
+                  "avoid_rough_surface_friction"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 6800,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          }
+        ],
+        "claim_evidence": [
+          {
+            "claim_id": "LX-BG-401-MATERIALS",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.materials",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-DIMENSIONS_CM",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.dimensions_cm",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-WEIGHT_G",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.weight_g",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-CONSTRUCTION",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.construction",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-FUNCTIONAL_CAPACITY",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.functional_capacity",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-CRAFTSMANSHIP",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.craftsmanship",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-401-CARE",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.care",
+            "source_id": "SPEC-LX-BG-401",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          }
+        ],
+        "provenance": {
+          "source_id": "SPEC-LX-BG-401",
+          "source_type": "synthetic_product_specification",
+          "verification_scope": "LIUXU_test_environment",
+          "real_world_verified": false
+        }
+      },
+      {
+        "product_id": "LX-BG-402",
+        "name": {
+          "zh": "轻序软肩包"
+        },
+        "category": "handbag",
+        "subcategory": "shoulder_bag",
+        "design": {
+          "silhouette": "soft_shoulder",
+          "hardware": null,
+          "colorways": [
+            "warm_grey",
+            "dark_brown"
+          ]
+        },
+        "variants": [
+          {
+            "variant_id": "LX-BG-402-01",
+            "color": "warm_grey",
+            "specifications": {
+              "materials": {
+                "primary": "grained_cowhide",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 27,
+                "height": 19,
+                "depth": 9
+              },
+              "weight_g": 540,
+              "construction": {
+                "closure": "zipper",
+                "strap": "fixed_shoulder",
+                "details": [
+                  "soft_body",
+                  "zippered_main_compartment",
+                  "internal_zip_pocket"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "tablet_fit_unverified"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "flexible_body_construction",
+                  "zippered_opening"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_overloading",
+                  "keep_dry"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 4900,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          },
+          {
+            "variant_id": "LX-BG-402-02",
+            "color": "dark_brown",
+            "specifications": {
+              "materials": {
+                "primary": "grained_cowhide",
+                "lining": "cotton_blend"
+              },
+              "dimensions_cm": {
+                "width": 27,
+                "height": 19,
+                "depth": 9
+              },
+              "weight_g": 540,
+              "construction": {
+                "closure": "zipper",
+                "strap": "fixed_shoulder",
+                "details": [
+                  "soft_body",
+                  "zippered_main_compartment",
+                  "internal_zip_pocket"
+                ]
+              },
+              "functional_capacity": {
+                "supported_uses": [
+                  "small_daily_essentials",
+                  "tablet_fit_unverified"
+                ],
+                "maximum_load_kg": null
+              },
+              "craftsmanship": {
+                "documented_techniques": [
+                  "flexible_body_construction",
+                  "zippered_opening"
+                ],
+                "labor_hours": null,
+                "origin": null
+              },
+              "care": {
+                "instructions": [
+                  "avoid_overloading",
+                  "keep_dry"
+                ],
+                "service_eligibility": "requires_confirmation"
+              },
+              "hardware": null
+            },
+            "price": {
+              "amount_cny": 4900,
+              "currency": "CNY",
+              "effective_from": "2026-11-01",
+              "effective_until": null
+            },
+            "availability": {
+              "status": "unknown",
+              "source_observation": null
+            }
+          }
+        ],
+        "claim_evidence": [
+          {
+            "claim_id": "LX-BG-402-MATERIALS",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.materials",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-DIMENSIONS_CM",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.dimensions_cm",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-WEIGHT_G",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.weight_g",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-CONSTRUCTION",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.construction",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-FUNCTIONAL_CAPACITY",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.functional_capacity",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-CRAFTSMANSHIP",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.craftsmanship",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          },
+          {
+            "claim_id": "LX-BG-402-CARE",
+            "claim_type": "direct_fact",
+            "evidence_path": "specifications.care",
+            "source_id": "SPEC-LX-BG-402",
+            "verification_status": "verified_in_synthetic_dataset",
+            "allowed_usage": [
+              "factual_description",
+              "product_comparison"
+            ],
+            "limitations": [
+              "No independent real-world verification",
+              "Does not prove comparative durability or production cost"
+            ],
+            "applies_to": "all_listed_variants"
+          }
+        ],
+        "provenance": {
+          "source_id": "SPEC-LX-BG-402",
+          "source_type": "synthetic_product_specification",
+          "verification_scope": "LIUXU_test_environment",
+          "real_world_verified": false
+        }
+      }
+    ],
+    "event_information": [],
+    "comparison_evidence": [
+      {
+        "comparison_id": "CMP-LX-BG-402-LX-BG-401-WEIGHT",
+        "claim_type": "derived_comparison",
+        "sku_a": "LX-BG-402",
+        "sku_b": "LX-BG-401",
+        "dimension": "weight_g",
+        "a_value": 540,
+        "b_value": 680,
+        "difference_b_minus_a_g": 140,
+        "supporting_claim_ids": [
+          "LX-BG-402-WEIGHT_G",
+          "LX-BG-401-WEIGHT_G"
+        ],
+        "allowed_conclusion": "LX-BG-402 is 140g lighter than LX-BG-401.",
+        "prohibited_inferences": [
+          "better_quality",
+          "longer_lifespan",
+          "lower_manufacturing_cost"
+        ]
+      }
+    ],
+    "policy": {
+      "historical_paid_amount_is_not_current_list_price": true,
+      "availability_unknown_by_default": true,
+      "synthetic_verification_is_not_real_world_verification": true,
+      "competitor_claims_require_external_evidence": true,
+      "cost_and_durability_inferences_not_supported": true,
+      "missing_value_semantics": "null=unknown_or_not_applicable; inspect field context",
+      "routine_CA_service_assistance_allowed": true,
+      "service_entitlement_does_not_limit_assistance": true
+    },
+    "warnings": []
+  },
+  {
     "case_id": "S6-002",
     "condition": "full",
     "as_of_datetime": "2026-11-15T14:45:00+08:00",

@@ -34,10 +34,6 @@
   },
   "blocked": [
     {
-      "case_id": "S4-001",
-      "reason": "Business confirmation pending: S4-001"
-    },
-    {
       "case_id": "S4-002",
       "reason": "Business confirmation pending: S4-002"
     },
@@ -48,34 +44,15 @@
     {
       "case_id": "S4-004",
       "reason": "Business confirmation pending: S4-004"
-    },
-    {
-      "case_id": "S5-001",
-      "reason": "Unresolved reference: EVT-001"
-    },
-    {
-      "case_id": "S5-002",
-      "reason": "Unresolved reference: EVT-002"
-    },
-    {
-      "case_id": "S5-003",
-      "reason": "Unresolved reference: EVT-002"
-    },
-    {
-      "case_id": "S5-004",
-      "reason": "Unresolved reference: EVT-003"
-    },
-    {
-      "case_id": "S6-001",
-      "reason": "Business confirmation pending: S6-001"
     }
   ],
-  "assembled": 15,
+  "assembled": 21,
   "hashes": {
     "data/reference/client-database-v1.1.json": "ef09e78883bc9f69f0f8c2989d9104e56ea316c8f8aa3359ab8b483c5b09090b",
     "data/reference/conversation-history-v1.1.json": "bdc854942760c724e86e9438ad8b3218628d891aff80000a2cc1ade2fc29f1fa",
     "data/reference/product-catalog-v1.2.json": "ea0fa66726feb7dfebddc2a9400ff7f0ef4c91aa44b6f36e94739cef1d3aeb08",
-    "evaluations/scenarios/scenario-dataset-v1.1.json": "4200dd66cadc1e935e4ee1b427b26d2575d029b86998660a8e1eb21da7067eae"
+    "evaluations/scenarios/scenario-dataset-v1.1.json": "0c6279bb5bfc6913815696574a7647321dd7074da82679efdf173aad0d75b492",
+    "data/reference/event-reference-v1.0.json": "9810d6cc09340060da192f5c6815e6f7e962c410d9fcb323e61e31a78b3022d2"
   },
   "status": "partial_pending_business"
 }
