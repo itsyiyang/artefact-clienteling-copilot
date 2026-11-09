@@ -1,0 +1,40 @@
+{
+  "case_id": "TC002",
+  "attempt": 1,
+  "started_at": "2026-11-09T13:50:18.661Z",
+  "raw": {
+    "model": "qwen3:8b",
+    "created_at": "2026-11-09T13:52:09.759705Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"candidates\": [\n    {\n      \"approach\": \"日常安好\",\n      \"text\": \"许女士，生日快乐。我是LIUXU的客户顾问，愿您新的一岁从容自在，所愿皆有回响。\"\n    },\n    {\n      \"approach\": \"未来心愿\",\n      \"text\": \"许女士，感谢您一直以来对LIUXU的喜爱，愿新的一岁留白有意，自有天地。\"\n    },\n    {\n      \"approach\": \"感谢陪伴与理念\",\n      \"text\": \"许女士，感谢您一直以来的陪伴与信任。LIUXU愿以留白之间，与您共度每一个值得珍藏的时刻。\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 111067398167,
+    "load_duration": 28021084,
+    "prompt_eval_count": 2540,
+    "prompt_eval_cached_count": 926,
+    "prompt_eval_duration": 44943703000,
+    "eval_count": 151,
+    "eval_duration": 65478550000
+  },
+  "parsed": {
+    "candidates": [
+      {
+        "approach": "日常安好",
+        "text": "许女士，生日快乐。我是LIUXU的客户顾问，愿您新的一岁从容自在，所愿皆有回响。"
+      },
+      {
+        "approach": "未来心愿",
+        "text": "许女士，感谢您一直以来对LIUXU的喜爱，愿新的一岁留白有意，自有天地。"
+      },
+      {
+        "approach": "感谢陪伴与理念",
+        "text": "许女士，感谢您一直以来的陪伴与信任。LIUXU愿以留白之间，与您共度每一个值得珍藏的时刻。"
+      }
+    ]
+  },
+  "status": "generated_pending_review",
+  "elapsed_ms": 111129
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "TC006",
+  "attempt": 1,
+  "started_at": "2026-11-09T13:57:52.715Z",
+  "raw": {
+    "model": "qwen3:8b",
+    "created_at": "2026-11-09T13:59:30.746845Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"candidates\": [\n    {\n      \"approach\": \"日常安好\",\n      \"text\": \"罗敏女士，新年快乐。愿您新的一岁步履从容，日常皆有光亮。LIUXU始终在这里，陪伴您走过每一个值得珍藏的时刻。\"\n    },\n    {\n      \"approach\": \"未来心愿\",\n      \"text\": \"罗敏女士，新年快乐。愿您在新的一年里，心有所向，行有所至。LIUXU相信，留白之间，自有天地成序。\"\n    },\n    {\n      \"approach\": \"感谢陪伴与理念\",\n      \"text\": \"罗敏女士，新年快乐。感谢您一直以来对LIUXU的陪伴与信任。愿您新的一岁，留白有意，自有天地成序。\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 98010879750,
+    "load_duration": 46967500,
+    "prompt_eval_count": 1811,
+    "prompt_eval_cached_count": 926,
+    "prompt_eval_duration": 24134449000,
+    "eval_count": 175,
+    "eval_duration": 73098832000
+  },
+  "parsed": {
+    "candidates": [
+      {
+        "approach": "日常安好",
+        "text": "罗敏女士，新年快乐。愿您新的一岁步履从容，日常皆有光亮。LIUXU始终在这里，陪伴您走过每一个值得珍藏的时刻。"
+      },
+      {
+        "approach": "未来心愿",
+        "text": "罗敏女士，新年快乐。愿您在新的一年里，心有所向，行有所至。LIUXU相信，留白之间，自有天地成序。"
+      },
+      {
+        "approach": "感谢陪伴与理念",
+        "text": "罗敏女士，新年快乐。感谢您一直以来对LIUXU的陪伴与信任。愿您新的一岁，留白有意，自有天地成序。"
+      }
+    ]
+  },
+  "status": "generated_pending_review",
+  "elapsed_ms": 98342
+}

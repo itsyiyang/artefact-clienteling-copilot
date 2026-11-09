@@ -1,0 +1,40 @@
+{
+  "case_id": "TC004",
+  "attempt": 1,
+  "started_at": "2026-11-09T13:54:31.058Z",
+  "raw": {
+    "model": "qwen3:8b",
+    "created_at": "2026-11-09T13:56:31.097459Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"candidates\": [\n    {\n      \"approach\": \"日常安好\",\n      \"text\": \"陆女士，生日快乐。新的一岁愿您日常从容，身心安稳，愿您忙碌之余也能找到属于自己的宁静时光。\"\n    },\n    {\n      \"approach\": \"未来心愿\",\n      \"text\": \"陆女士，生日快乐。愿您在新的一年里，愿想皆成，步履轻盈，生活如您所期，自在如风。\"\n    },\n    {\n      \"approach\": \"感谢陪伴与理念\",\n      \"text\": \"陆女士，感谢您一直以来对LIUXU的陪伴与信任。愿新的一岁，留白之间，天地为序，愿您与美好不期而遇。\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 120026907625,
+    "load_duration": 19831375,
+    "prompt_eval_count": 3056,
+    "prompt_eval_cached_count": 926,
+    "prompt_eval_duration": 58359721000,
+    "eval_count": 165,
+    "eval_duration": 60842318000
+  },
+  "parsed": {
+    "candidates": [
+      {
+        "approach": "日常安好",
+        "text": "陆女士，生日快乐。新的一岁愿您日常从容，身心安稳，愿您忙碌之余也能找到属于自己的宁静时光。"
+      },
+      {
+        "approach": "未来心愿",
+        "text": "陆女士，生日快乐。愿您在新的一年里，愿想皆成，步履轻盈，生活如您所期，自在如风。"
+      },
+      {
+        "approach": "感谢陪伴与理念",
+        "text": "陆女士，感谢您一直以来对LIUXU的陪伴与信任。愿新的一岁，留白之间，天地为序，愿您与美好不期而遇。"
+      }
+    ]
+  },
+  "status": "generated_pending_review",
+  "elapsed_ms": 120290
+}

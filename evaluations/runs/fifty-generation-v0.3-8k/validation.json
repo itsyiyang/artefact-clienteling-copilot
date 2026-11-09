@@ -1,0 +1,115 @@
+{
+  "completed_cases": 8,
+  "nonempty_outputs": 24,
+  "expected_cases": 50,
+  "inputs_unchanged": true,
+  "csv_matches_raw": true,
+  "prompt_and_input_hashes_match": true,
+  "context_max_used_tokens": 3221,
+  "latency_seconds": {
+    "sum": 882.932,
+    "median": 104.7355,
+    "min": 73.193,
+    "max": 172.075
+  },
+  "mechanical_review_hints": [
+    {
+      "case_id": "TC005",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "罗敏女士，新年快乐。我是LIUXU的客户顾问，愿您新的一岁从容自在，生活如您所愿，安稳而丰盈。"
+    },
+    {
+      "case_id": "TC005",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "罗敏女士，感谢您一直以来对LIUXU的喜爱。愿新的一岁，留白有意，自有天地，愿您心中所念，皆能成真。"
+    },
+    {
+      "case_id": "TC005",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "罗敏女士，新年之际，衷心感谢您一直以来的信任与陪伴。LIUXU愿以留白之间，为您序写一份宁静而有力量的新年。"
+    },
+    {
+      "case_id": "TC006",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "罗敏女士，新年快乐。愿您新的一岁步履从容，日常皆有光亮。LIUXU始终在这里，陪伴您走过每一个值得珍藏的时刻。"
+    },
+    {
+      "case_id": "TC006",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "罗敏女士，新年快乐。愿您在新的一年里，心有所向，行有所至。LIUXU相信，留白之间，自有天地成序。"
+    },
+    {
+      "case_id": "TC006",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "罗敏女士，新年快乐。感谢您一直以来对LIUXU的陪伴与信任。愿您新的一岁，留白有意，自有天地成序。"
+    },
+    {
+      "case_id": "TC007",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，新年快乐。我是LIUXU的客户顾问，愿您新的一岁从容自在，生活如您所愿，步履轻盈。"
+    },
+    {
+      "case_id": "TC007",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，新年快乐。愿您在新的一年里，心有所向，行有所至，每一步都踏出属于自己的序章。"
+    },
+    {
+      "case_id": "TC007",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，感谢您一直以来对LIUXU的关注与支持。愿新的一岁，留白有意，自有天地，与您共赴美好序章。"
+    },
+    {
+      "case_id": "TC008",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，新年快乐。愿您新的一岁从容自在，日常点滴皆有欢喜。LIUXU愿与您一同见证时光的沉淀。"
+    },
+    {
+      "case_id": "TC008",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，新年快乐。愿您在未来的日子里，心有所向，步履不停，每一份期待都能如期而至。"
+    },
+    {
+      "case_id": "TC008",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "苏芮女士，新年快乐。感谢您一直以来对LIUXU的关注与陪伴，愿新的一年留白有意，自有天地，与您共度美好时光。"
+    }
+  ],
+  "quality_status": "not_evaluated; hints are not Judge verdicts",
+  "all_50_complete": false
+}
