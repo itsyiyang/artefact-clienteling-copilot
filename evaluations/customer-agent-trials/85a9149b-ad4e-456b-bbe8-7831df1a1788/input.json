@@ -1,0 +1,123 @@
+{
+  "id": "85a9149b-ad4e-456b-bbe8-7831df1a1788",
+  "current_date": "2026-11-09",
+  "scenario": "产品推荐",
+  "direction": "回复客户",
+  "client_profile": {
+    "name": "林晓阳",
+    "salutation": "林先生",
+    "birth_date": "1992-04-15",
+    "occupation": null,
+    "preferences": [
+      "商务休闲风格",
+      "深色系"
+    ],
+    "interests": [
+      "收藏复古手表",
+      "户外徒步"
+    ],
+    "purchase_history": {
+      "status": "known_purchases",
+      "items": [
+        {
+          "date": "2024-03-12",
+          "product": "鳄鱼纹公文包",
+          "material": "小牛皮",
+          "price": 2899
+        },
+        {
+          "date": "2025-07-21",
+          "product": "黑色皮质笔记本",
+          "material": "植鞣革",
+          "price": 699
+        }
+      ]
+    },
+    "birthday": "04-15",
+    "age": 34,
+    "zodiac": "猴",
+    "zodiac_basis": "Intl Chinese calendar，按农历新年分界；仅档案信息，不推断性格或购买偏好",
+    "normalizations": [
+      "occupation: literal string null converted to JSON null; raw model output retained"
+    ]
+  },
+  "trigger": "林先生询问近期是否有适合商务休闲风格的通勤包推荐，并表示本周不方便到店，但愿意先查看微信资料。",
+  "product_catalog": [
+    {
+      "id": "P01",
+      "name": "深灰色植鞣革通勤包",
+      "color": "深灰色",
+      "material": "植鞣革",
+      "width_cm": 32,
+      "height_cm": 28,
+      "depth_cm": 12,
+      "weight_g": 850,
+      "price": 1299,
+      "stock_as_of": "2026-11-08",
+      "stock_status": "in_stock",
+      "photos_available": true
+    },
+    {
+      "id": "P02",
+      "name": "黑色小牛皮托特包",
+      "color": "黑色",
+      "material": "小牛皮",
+      "width_cm": 36,
+      "height_cm": 30,
+      "depth_cm": 14,
+      "weight_g": 1100,
+      "price": 1799,
+      "stock_as_of": "2026-11-08",
+      "stock_status": "in_stock",
+      "photos_available": true
+    }
+  ],
+  "history": [
+    {
+      "id": "H01",
+      "date": "2026-11-09",
+      "role": "client",
+      "text": "最近有没有适合商务休闲风格的通勤包推荐？我这周不方便到店，但可以先看看微信资料。"
+    },
+    {
+      "id": "H02",
+      "date": "2026-11-09",
+      "role": "CA",
+      "text": "林先生，您好！感谢您选择我们。根据您之前购买的黑色皮质笔记本和鳄鱼纹公文包，您的风格偏商务休闲，偏爱深色系。我为您推荐两款近期上新的通勤包，分别是深灰色植鞣革通勤包和黑色小牛皮托特包。"
+    },
+    {
+      "id": "H03",
+      "date": "2026-11-09",
+      "role": "client",
+      "text": "深灰色的看起来比较适合我，但托特包的尺寸会不会太大？"
+    },
+    {
+      "id": "H04",
+      "date": "2026-11-09",
+      "role": "CA",
+      "text": "您提到的尺寸问题我理解，这款托特包的宽度是36厘米，高度30厘米，深度14厘米，整体设计偏方正，适合日常通勤使用。如果您觉得尺寸偏大，我们也可以为您推荐更紧凑的款式。"
+    },
+    {
+      "id": "H05",
+      "date": "2026-11-09",
+      "role": "client",
+      "text": "那我可以先看看深灰色的详细资料吗？"
+    },
+    {
+      "id": "H06",
+      "date": "2026-11-09",
+      "role": "CA",
+      "text": "当然可以，我马上为您发送这款深灰色植鞣革通勤包的详细资料，包括材质、尺寸、价格和现货状态。如果您还有其他问题，随时可以问我。"
+    }
+  ],
+  "facts": [
+    {
+      "id": "P01",
+      "text": "深灰色植鞣革通勤包采用天然植鞣革材质，具有独特的纹理和耐用性，适合商务休闲风格，尺寸适中，适合日常通勤。"
+    },
+    {
+      "id": "P02",
+      "text": "黑色小牛皮托特包采用优质小牛皮，质感细腻，尺寸较大，适合需要较大容量的通勤需求，整体设计简约大方。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {demographics,validateProfile,validateWorld} from '../scripts/customer-agent.mjs';
+test('birthday age and zodiac use date, including lunar year boundary',()=>{assert.equal(demographics('1993-11-10','2026-11-09').age,32);assert.equal(demographics('1993-11-09','2026-11-09').age,33);assert.equal(demographics('2024-02-09','2026-11-09').zodiac,'兔');assert.equal(demographics('2024-02-10','2026-11-09').zodiac,'龙');assert.throws(()=>demographics('1993-02-30','2026-11-09'));});
+const config={current_date:'2026-11-09',scenario:'产品推荐',min_messages:1,max_messages:3};
+const profile={name:'林晓',salutation:'林女士',birth_date:'1993-05-12',occupation:null,preferences:[],interests:[],purchase_history:{status:'no_record',items:[]}};
+test('no-record is not silently converted to confirmed-no-purchase',()=>{assert.equal(validateProfile(profile,config).purchase_history.status,'no_record');assert.throws(()=>validateProfile({...profile,purchase_history:{status:'known_purchases',items:[]}},config));});
+test('future messages and nonexistent grading evidence fail before release',()=>{const w={trigger:'咨询',product_catalog:[1,2].map(n=>({id:'P0'+n,name:'包',color:'黑',material:'牛皮',width_cm:30,height_cm:20,depth_cm:10,weight_g:500,price:6800,stock_as_of:'2026-11-09',stock_status:'in_stock',photos_available:true})),history:[{id:'H01',date:'2026-11-09',role:'client',text:'想看看包'}],facts:[{id:'B01',text:'虚构品牌不打折'}],review_key:{checks:[{type:'must',expectation:'回应咨询',evidence_ids:['H01']}],open_questions:[]}};assert.doesNotThrow(()=>validateWorld(w,config,profile));w.review_key.checks[0].evidence_ids=['H99'];assert.throws(()=>validateWorld(w,config,profile));w.review_key.checks[0].evidence_ids=['H01'];w.history[0].date='2026-11-10';assert.throws(()=>validateWorld(w,config,profile));});
+
+test('literal null is normalized transparently without inventing an occupation',()=>{const p=validateProfile({...profile,occupation:'null'},config);assert.equal(p.occupation,null);assert.equal(p.normalizations.length,1);});
+
+test('customer descriptions cannot substitute for a product catalogue',()=>{assert.throws(()=>validateWorld({trigger:'咨询',history:[],facts:[],review_key:{checks:[],open_questions:[]}},config,profile));});

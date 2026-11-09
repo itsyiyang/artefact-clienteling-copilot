@@ -1,0 +1,11 @@
+[
+  {
+    "stage": "profile",
+    "elapsed_ms": 67285,
+    "model": "qwen3:8b",
+    "raw": "{\n  \"name\": \"林晓峰\",\n  \"salutation\": \"林先生\",\n  \"birth_date\": \"1990-04-15\",\n  \"occupation\": \"null\",\n  \"preferences\": [\n    \"简约风格\",\n    \"经典配色\"\n  ],\n  \"interests\": [\n    \"户外徒步\",\n    \"摄影\"\n  ],\n  \"purchase_history\": {\n    \"status\": \"known_purchases\",\n    \"items\": [\n      {\n        \"date\": \"2025-08-12\",\n        \"product\": \"帆布托特包\",\n        \"material\": \"帆布\",\n        \"price\": \"299\"\n      },\n      {\n        \"date\": \"2024-11-20\",\n        \"product\": \"牛皮公文包\",\n        \"material\": \"牛皮\",\n        \"price\": \"699\"\n      }\n    ]\n  }\n}",
+    "prompt_eval_count": 806,
+    "eval_count": 200,
+    "done_reason": "stop"
+  }
+]

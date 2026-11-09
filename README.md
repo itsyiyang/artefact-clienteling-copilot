@@ -1,5 +1,9 @@
 # Artefact Luxury Clienteling Copilot Challenge
 
+## 客户模拟 Agent（2026-11-09）
+
+本地离线测试数据工具已加入，使用 `npm run simulate:customer` 创建一个新的待审客户案例。先生成档案，再生成场景、商品事实与历史；必填姓名/生日/年龄/购物历史，其他信息允许缺失。详情见 [使用说明](docs/customer-agent.md)。它未接入网页，不替换已有人工评审案例，也不自动运行50例。
+
 ## Local prototype v0.1 (2026-11-09)
 
 Implementation has now started with the user's approval; older Design v0.1 statements below describe the initial baseline.

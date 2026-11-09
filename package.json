@@ -1,1 +1,10 @@
-{"name":"liuxu-clienteling","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node --test tests/app.test.mjs"}}
+{
+  "name": "liuxu-clienteling",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "simulate:customer": "node scripts/customer-agent.mjs evaluations/pilot-v1/customer-agent-config.json"
+  }
+}

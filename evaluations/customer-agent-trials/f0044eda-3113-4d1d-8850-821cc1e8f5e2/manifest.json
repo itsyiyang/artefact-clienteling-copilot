@@ -1,0 +1,19 @@
+{
+  "id": "f0044eda-3113-4d1d-8850-821cc1e8f5e2",
+  "created_at": "2026-11-09T08:27:39.117Z",
+  "config": {
+    "current_date": "2026-11-09",
+    "scenario": "产品推荐",
+    "direction": "回复客户",
+    "completeness": "partial",
+    "category": "皮具/通勤包",
+    "min_messages": 6,
+    "max_messages": 8,
+    "test_focus": "历史穿搭偏好用于确定商品比较；客户本周不方便到店，但愿意先看微信资料。商品目录需足够支持主动提供选择，电脑尺寸可保留未知。"
+  },
+  "model": "qwen3:8b",
+  "prompt_version": "customer-agent-0.1",
+  "status": "failed",
+  "semantic_review": "not_run",
+  "error": "交易日期/商品信息不合法"
+}

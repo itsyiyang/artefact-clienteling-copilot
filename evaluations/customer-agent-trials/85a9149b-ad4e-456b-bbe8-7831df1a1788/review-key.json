@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "type": "must",
+      "expectation": "CA应主动提供符合客户风格和需求的商品推荐，并解释商品特性。",
+      "evidence_ids": [
+        "H02",
+        "H04",
+        "H06"
+      ]
+    },
+    {
+      "type": "must_not",
+      "expectation": "CA不应机械回复，需根据客户反馈调整推荐内容。",
+      "evidence_ids": [
+        "H03",
+        "H05"
+      ]
+    },
+    {
+      "type": "verify",
+      "expectation": "商品目录中的信息应与推荐内容一致，包括材质、尺寸和价格。",
+      "evidence_ids": [
+        "P01",
+        "P02"
+      ]
+    }
+  ],
+  "open_questions": []
+}

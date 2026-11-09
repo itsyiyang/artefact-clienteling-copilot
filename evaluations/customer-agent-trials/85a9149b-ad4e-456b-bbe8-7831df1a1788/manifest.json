@@ -1,0 +1,29 @@
+{
+  "id": "85a9149b-ad4e-456b-bbe8-7831df1a1788",
+  "created_at": "2026-11-09T08:35:06.814Z",
+  "config": {
+    "current_date": "2026-11-09",
+    "scenario": "产品推荐",
+    "direction": "回复客户",
+    "completeness": "partial",
+    "category": "皮具/通勤包",
+    "min_messages": 6,
+    "max_messages": 8,
+    "test_focus": "历史穿搭偏好用于确定商品比较；客户本周不方便到店，但愿意先看微信资料。商品目录需足够支持主动提供选择，电脑尺寸可保留未知。"
+  },
+  "model": "qwen3:8b",
+  "prompt_version": "customer-agent-0.3",
+  "profile_source": "work/customer-agent/a666fc3c-aa2b-4b27-9002-afc7005ef9e3/profile.json",
+  "status": "pending_user_review",
+  "semantic_review": {
+    "reviewer": "Codex preliminary inspection, not user labels",
+    "issues": [
+      "1299/1799元手袋定价与当前奢侈品牌方向不一致，需用户确认价格带；未擅自修改",
+      "CA H02机械罗列购物历史并据此推断风格，未直接承接客户原话",
+      "缺少留序/CA身份；聊天及评审条件仍需业务review"
+    ]
+  },
+  "previous_validation_error": "事实编号或内容无效",
+  "validation_revision": "0.4: fact row may reference the same catalog product ID as supplemental description; original raw output unchanged",
+  "elapsed_ms": 267899
+}

@@ -1,0 +1,28 @@
+{
+  "id": "a666fc3c-aa2b-4b27-9002-afc7005ef9e3",
+  "created_at": "2026-11-09T08:29:15.225Z",
+  "config": {
+    "current_date": "2026-11-09",
+    "scenario": "产品推荐",
+    "direction": "回复客户",
+    "completeness": "partial",
+    "category": "皮具/通勤包",
+    "min_messages": 6,
+    "max_messages": 8,
+    "test_focus": "历史穿搭偏好用于确定商品比较；客户本周不方便到店，但愿意先看微信资料。商品目录需足够支持主动提供选择，电脑尺寸可保留未知。"
+  },
+  "model": "qwen3:8b",
+  "prompt_version": "customer-agent-0.2",
+  "status": "rejected_after_assistant_review",
+  "semantic_review": {
+    "reviewer": "Codex inspection, not user gold labels",
+    "issues": [
+      "missing product catalogue",
+      "client addresses self as 林先生",
+      "CA exposes test instruction 保留电脑尺寸的未知项",
+      "trigger is schema placeholder",
+      "review key requires unnecessary purchase-history recitation"
+    ]
+  },
+  "structural_checks": "passed"
+}

@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "type": "must",
+      "expectation": "CA需根据客户的偏好（深色系、商务休闲风格）推荐合适的商品",
+      "evidence_ids": [
+        "H02",
+        "H04"
+      ]
+    },
+    {
+      "type": "must",
+      "expectation": "CA需提及客户之前购买的材质（小牛皮、植鞣革）作为推荐依据",
+      "evidence_ids": [
+        "H04"
+      ]
+    },
+    {
+      "type": "must",
+      "expectation": "CA需识别客户对电脑尺寸的模糊需求，并保留未知项",
+      "evidence_ids": [
+        "H06"
+      ]
+    },
+    {
+      "type": "must",
+      "expectation": "CA需确认客户对材质和舒适度的偏好，并结合历史购买行为进行推荐",
+      "evidence_ids": [
+        "H03",
+        "H04"
+      ]
+    },
+    {
+      "type": "must_not",
+      "expectation": "CA不应假设客户对电脑尺寸的具体需求，而是保留未知项",
+      "evidence_ids": [
+        "H06"
+      ]
+    }
+  ],
+  "open_questions": [
+    "客户是否会在后续沟通中进一步明确电脑尺寸需求？",
+    "CA是否能根据客户的兴趣（收藏复古手表、户外徒步）推荐更合适的商品？"
+  ]
+}
