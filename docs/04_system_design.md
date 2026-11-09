@@ -1,5 +1,11 @@
 # System Design Baseline
 
+## 最新确认：Workflow v0.2（2026-11-09，待实现）
+
+本节优先于下文历史基线。独立规划三个情境相关方向；生成后自动Judge检查单条及整体差异；有限内部修正与整组复评，正常只交付通过的三候选。用户允许重试耗尽后的失败草稿作为明确标记的例外展示，不得伪装通过。CA修改和重新生成仍须检查；所有原始记录内部保留。
+
+模型/部署已确定为本地网页、Node服务、Ollama Qwen3:8b，零云端推理预算；逻辑职责不预设Agent数量。详见[ADR-013](decisions/ADR-013-workflow-quality-gate.md)。现有实现尚未采用上述新编排。
+
 **Status:** Logical architecture confirmed; engineering topology open.
 
 ## Logical flow
