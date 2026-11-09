@@ -1,16 +1,16 @@
 {
-  "completed_cases": 8,
-  "nonempty_outputs": 24,
+  "completed_cases": 18,
+  "nonempty_outputs": 54,
   "expected_cases": 50,
   "inputs_unchanged": true,
   "csv_matches_raw": true,
   "prompt_and_input_hashes_match": true,
-  "context_max_used_tokens": 3221,
+  "context_max_used_tokens": 4613,
   "latency_seconds": {
-    "sum": 882.932,
-    "median": 104.7355,
+    "sum": 2319.451,
+    "median": 125.349,
     "min": 73.193,
-    "max": 172.075
+    "max": 199.427
   },
   "mechanical_review_hints": [
     {
@@ -108,6 +108,54 @@
         "full_name_present_check_salutation"
       ],
       "text": "苏芮女士，新年快乐。感谢您一直以来对LIUXU的关注与陪伴，愿新的一年留白有意，自有天地，与您共度美好时光。"
+    },
+    {
+      "case_id": "TC017",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "方雨桐女士，您之前喜欢用丝巾搭配黑色或米色单品，这次我们有两款新丝巾，一款是流纹真丝方巾，颜色为深蓝与奶油色搭配，另一款是城影真丝方巾，有深蓝与奶油色及灰绿色调。您觉得哪种更符合您的搭配需求？"
+    },
+    {
+      "case_id": "TC017",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "方雨桐女士，您提到希望丝巾能搭配外套和系在包上，城影真丝方巾的尺寸较大，适合作为包饰或肩披，颜色选择深蓝与奶油色或灰绿色调，能与您日常的黑色或米色单品很好地协调。"
+    },
+    {
+      "case_id": "TC017",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "方雨桐女士，考虑到您偏好低调但有层次感的颜色，我们推荐流纹真丝方巾的深蓝与奶油色搭配，或城影真丝方巾的灰绿色调。这两种颜色都能在不夸张的前提下，为您的造型增添细节感。"
+    },
+    {
+      "case_id": "TC018",
+      "candidate": 1,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "方雨桐女士，您提到主要系在包上，偶尔搭外套，那这款90cm的城影真丝方巾会更适合。它不仅可作包饰，也能轻松搭配外套，不会显得过于厚重。"
+    },
+    {
+      "case_id": "TC018",
+      "candidate": 2,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "方雨桐女士，这款游线窄幅丝巾宽仅5cm，长度86cm，轻盈且易于搭配。您可以用它装饰包袋、发饰或作为颈饰，非常贴合您的使用需求。"
+    },
+    {
+      "case_id": "TC018",
+      "candidate": 3,
+      "flags": [
+        "full_name_present_check_salutation"
+      ],
+      "text": "方雨桐女士，考虑到您偏爱深绿色包，搭配这款深蓝与奶油色的流纹真丝方巾，会更显层次感。它既适合系在包上，也能搭配外套，非常实用。"
     }
   ],
   "quality_status": "not_evaluated; hints are not Judge verdicts",

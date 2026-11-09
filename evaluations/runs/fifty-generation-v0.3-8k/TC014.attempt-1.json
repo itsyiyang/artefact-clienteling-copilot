@@ -1,0 +1,40 @@
+{
+  "case_id": "TC014",
+  "attempt": 1,
+  "started_at": "2026-11-09T14:15:31.870Z",
+  "raw": {
+    "model": "qwen3:8b",
+    "created_at": "2026-11-09T14:17:29.700058Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"candidates\": [\n    {\n      \"approach\": \"按具体收纳需求推荐产品\",\n      \"text\": \"梁女士，您提到主要收护照、登机牌和几张卡，我们这款远途护照夹正适合，专为这类物品设计，方便拿取。\"\n    },\n    {\n      \"approach\": \"强调产品适配性与使用场景\",\n      \"text\": \"梁女士，这款远途护照夹的结构特别适合您描述的需求，护照槽和登机牌槽清晰分开，拿取更方便。\"\n    },\n    {\n      \"approach\": \"提供服务支持与后续安排\",\n      \"text\": \"梁女士，如果您后续需要到店取货，我会提前和您确认时间，确保您方便安排。\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 117807340334,
+    "load_duration": 24144459,
+    "prompt_eval_count": 3422,
+    "prompt_eval_cached_count": 926,
+    "prompt_eval_duration": 59302281000,
+    "eval_count": 170,
+    "eval_duration": 57640742000
+  },
+  "parsed": {
+    "candidates": [
+      {
+        "approach": "按具体收纳需求推荐产品",
+        "text": "梁女士，您提到主要收护照、登机牌和几张卡，我们这款远途护照夹正适合，专为这类物品设计，方便拿取。"
+      },
+      {
+        "approach": "强调产品适配性与使用场景",
+        "text": "梁女士，这款远途护照夹的结构特别适合您描述的需求，护照槽和登机牌槽清晰分开，拿取更方便。"
+      },
+      {
+        "approach": "提供服务支持与后续安排",
+        "text": "梁女士，如果您后续需要到店取货，我会提前和您确认时间，确保您方便安排。"
+      }
+    ]
+  },
+  "status": "generated_pending_review",
+  "elapsed_ms": 117898
+}

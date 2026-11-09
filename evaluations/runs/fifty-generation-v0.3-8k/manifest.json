@@ -90,6 +90,76 @@
       "elapsed_ms": 85922,
       "attempts": 1,
       "result_file": "TC008.attempt-1.json"
+    },
+    {
+      "case_id": "TC009",
+      "status": "generated_pending_review",
+      "elapsed_ms": 199427,
+      "attempts": 1,
+      "result_file": "TC009.attempt-1.json"
+    },
+    {
+      "case_id": "TC010",
+      "status": "generated_pending_review",
+      "elapsed_ms": 169078,
+      "attempts": 1,
+      "result_file": "TC010.attempt-1.json"
+    },
+    {
+      "case_id": "TC011",
+      "status": "generated_pending_review",
+      "elapsed_ms": 168014,
+      "attempts": 1,
+      "result_file": "TC011.attempt-1.json"
+    },
+    {
+      "case_id": "TC012",
+      "status": "generated_pending_review",
+      "elapsed_ms": 139446,
+      "attempts": 1,
+      "result_file": "TC012.attempt-1.json"
+    },
+    {
+      "case_id": "TC013",
+      "status": "generated_pending_review",
+      "elapsed_ms": 125022,
+      "attempts": 1,
+      "result_file": "TC013.attempt-1.json"
+    },
+    {
+      "case_id": "TC014",
+      "status": "generated_pending_review",
+      "elapsed_ms": 117898,
+      "attempts": 1,
+      "result_file": "TC014.attempt-1.json"
+    },
+    {
+      "case_id": "TC015",
+      "status": "generated_pending_review",
+      "elapsed_ms": 115742,
+      "attempts": 1,
+      "result_file": "TC015.attempt-1.json"
+    },
+    {
+      "case_id": "TC016",
+      "status": "generated_pending_review",
+      "elapsed_ms": 125676,
+      "attempts": 1,
+      "result_file": "TC016.attempt-1.json"
+    },
+    {
+      "case_id": "TC017",
+      "status": "generated_pending_review",
+      "elapsed_ms": 145480,
+      "attempts": 1,
+      "result_file": "TC017.attempt-1.json"
+    },
+    {
+      "case_id": "TC018",
+      "status": "generated_pending_review",
+      "elapsed_ms": 130736,
+      "attempts": 1,
+      "result_file": "TC018.attempt-1.json"
     }
   ]
 }

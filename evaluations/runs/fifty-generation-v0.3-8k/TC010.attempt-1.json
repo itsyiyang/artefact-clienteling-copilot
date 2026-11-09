@@ -1,0 +1,40 @@
+{
+  "case_id": "TC010",
+  "attempt": 1,
+  "started_at": "2026-11-09T14:05:29.937Z",
+  "raw": {
+    "model": "qwen3:8b",
+    "created_at": "2026-11-09T14:08:18.94253Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\n  \"candidates\": [\n    {\n      \"approach\": \"强调重量差异与容量适配\",\n      \"text\": \"林女士，根据您提到的预算和需求，LX-BG-402轻序软肩包比LX-BG-401衡线结构肩背包轻140克，且容量更适配日常通勤，能轻松放下笔记本电脑。您方便看看具体款式吗？\"\n    },\n    {\n      \"approach\": \"聚焦功能适配与材质选择\",\n      \"text\": \"林女士，LX-BG-402轻序软肩包采用柔软皮革，适合您日常通勤使用，且容量刚好能放下笔记本电脑。若您更在意轻便性，这款会更适合。\"\n    },\n    {\n      \"approach\": \"提供对比信息与后续协助\",\n      \"text\": \"林女士，LX-BG-402比LX-BG-401轻140克，更适合您偶尔携带电脑的需求。如果您需要，我可以把具体款式和尺寸发给您，方便您比较。\"\n    }\n  ]\n}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 168995075208,
+    "load_duration": 20606042,
+    "prompt_eval_count": 4268,
+    "prompt_eval_cached_count": 925,
+    "prompt_eval_duration": 90355396000,
+    "eval_count": 242,
+    "eval_duration": 77688493000
+  },
+  "parsed": {
+    "candidates": [
+      {
+        "approach": "强调重量差异与容量适配",
+        "text": "林女士，根据您提到的预算和需求，LX-BG-402轻序软肩包比LX-BG-401衡线结构肩背包轻140克，且容量更适配日常通勤，能轻松放下笔记本电脑。您方便看看具体款式吗？"
+      },
+      {
+        "approach": "聚焦功能适配与材质选择",
+        "text": "林女士，LX-BG-402轻序软肩包采用柔软皮革，适合您日常通勤使用，且容量刚好能放下笔记本电脑。若您更在意轻便性，这款会更适合。"
+      },
+      {
+        "approach": "提供对比信息与后续协助",
+        "text": "林女士，LX-BG-402比LX-BG-401轻140克，更适合您偶尔携带电脑的需求。如果您需要，我可以把具体款式和尺寸发给您，方便您比较。"
+      }
+    ]
+  },
+  "status": "generated_pending_review",
+  "elapsed_ms": 169078
+}
