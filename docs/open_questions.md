@@ -1,5 +1,9 @@
 # Open Questions
 
+## Methodology最新边界（2026-11-09）
+
+生成保持Qwen3:8b，正式Judge须不同模型；用户人工审议先作校准依据。待选独立Judge型号、待验证其中文评审能力；未授权新下载。三份评审草案位于evaluations/methodology/；50例配额、12/38分区、额外6压力例和0–2评分门槛均待校准，不视为已经执行。
+
 ## 最新收敛与待定（2026-11-09）
 
 已确认独立策略规划、单条与整组质量门、有限自动修正、耗尽后允许明确标记的失败展示、独立evaluation及CA收藏/反馈/重生成方向，见[ADR-013](decisions/ADR-013-workflow-quality-gate.md)。本地Qwen3:8b与Node服务已运行，故下方工程问题7–8不再全部开放。

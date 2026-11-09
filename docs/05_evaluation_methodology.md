@@ -1,5 +1,11 @@
 # Evaluation Methodology — Direction
 
+## 最新方法补充（2026-11-09）
+
+用户确认底线、价值、单条和整组质量必须同时满足；要求丰富客户档案及长短不一的真实感合成聊天，充分测试历史证据。正式生成与Judge不得同模型；用户提供人工审议作为校准。现有同Qwen自评仅为原型，尚未切换。
+
+评审草案：[评分锚点](../evaluations/methodology/01-quality-rubric.md)、[50例与历史数据](../evaluations/methodology/02-testset-blueprint.md)、[三方案实验协议](../evaluations/methodology/03-comparison-protocol.md)。数量配额、评分阈值、独立Judge型号仍待批准/校准；未生成完整数据或执行新实验。
+
 ## 最新确认（2026-11-09）
 
 运行时Judge与独立evaluation分开，不增加串行Evaluation Agent。固定案例对比直接生成、独立策略生成、策略+Judge+修订；保存失败草稿、首次/最终结果和修订链，再人工校准Judge。单条与整组分别评估，记录重试、耗时、未通过展示、误报漏报；失败展示不计为通过。收藏/喜欢不是质量标签。已有一个本地实测小样，正式50例与人工校准尚未完成。详见[ADR-013](decisions/ADR-013-workflow-quality-gate.md)，下文为历史方法草案。
