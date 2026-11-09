@@ -25,7 +25,7 @@ LIUXU turns client context, conversation history, and verified product facts int
 | **Runnable Client Studio** | Local Node.js + Ollama Qwen3:8b; generation, Judge, one AI edit, selection, copy, and JSON export |
 | **Review evidence** | [Six-scenario user review](evaluations/runs/pilot-six-review/human-review-v1.md), [Judge comparison](evaluations/runs/pilot-judge-v1/findings.md), and [results report](evaluations/reports/project-results.md) |
 
-The final workbook is the project's current messaging deliverable, prepared through AI-assisted drafting and case-by-case revision. Local Qwen experiments are a separate evidence track; the latest results will be supplemented under a `qwen-timeframexxx` name. The workbook does not claim an independently measured quality pass rate.
+The final workbook is the project's current messaging deliverable, prepared through AI-assisted drafting and case-by-case revision. Local Qwen experiments are a separate evidence track; 
 
 ## Workflow
 
@@ -37,14 +37,13 @@ Client context and LIUXU rules guide understanding and planning. Three approache
 
 This is the primary product overview. In the prototype, understanding, planning, and generation share one structured model call. Judge is a separate, manually triggered call; one AI edit can be followed by re-evaluation. Independent planning and automatic bounded quality revision remain engineering work.
 
-<details>
+
 <summary><strong>Next direction: a multi-agent workflow</strong></summary>
 
 ![LIUXU future multi-agent workflow](docs/assets/liuxu_multi_agent_messaging_workflow.png)
 
 The next design separates ContentAgent, RetrievalAgent, TemplateAgent, and EvaluateAgent responsibilities. Retrieval and template selection need versioned evidence, contact-eligibility checks, and validation against the direct baseline before adoption.
 
-</details>
 
 ## Client Studio
 
