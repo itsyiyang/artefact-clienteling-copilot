@@ -1,0 +1,317 @@
+{
+  "dataset_name": "LIUXU Scenario Dataset",
+  "version": "1.1",
+  "status": "assembly_validation_in_progress",
+  "snapshot_date": "2026-11-09",
+  "data_type": "synthetic_scenario_instances",
+  "catalog_version": "1.2",
+  "scenario_count": 24,
+  "scenarios": [
+    {
+      "scenario_id": "S1-001",
+      "client_id": "C01",
+      "scenario_type": "birthday_festive_greetings",
+      "as_of_datetime": "2026-11-09T10:30:00+08:00",
+      "trigger": "birthday_greeting_due",
+      "latest_client_message": null,
+      "task_goal": "Send a thoughtful birthday greeting without assuming purchase intent.",
+      "reference_ids": []
+    },
+    {
+      "scenario_id": "S1-002",
+      "client_id": "C07",
+      "scenario_type": "birthday_festive_greetings",
+      "as_of_datetime": "2026-12-20T11:00:00+08:00",
+      "trigger": "year_end_greeting",
+      "latest_client_message": null,
+      "task_goal": "Send a restrained year-end greeting respecting contact preferences.",
+      "reference_ids": []
+    },
+    {
+      "scenario_id": "S1-003",
+      "client_id": "C11",
+      "scenario_type": "birthday_festive_greetings",
+      "as_of_datetime": "2026-12-31T16:00:00+08:00",
+      "trigger": "new_year_greeting",
+      "latest_client_message": null,
+      "task_goal": "Offer a natural New Year greeting without inventing familiarity.",
+      "reference_ids": []
+    },
+    {
+      "scenario_id": "S1-004",
+      "client_id": "C15",
+      "scenario_type": "birthday_festive_greetings",
+      "as_of_datetime": "2027-01-01T10:00:00+08:00",
+      "trigger": "new_year_greeting",
+      "latest_client_message": null,
+      "task_goal": "Send a considerate greeting without an unrelated sales push.",
+      "reference_ids": []
+    },
+    {
+      "scenario_id": "S2-001",
+      "client_id": "C02",
+      "scenario_type": "product_recommendation",
+      "as_of_datetime": "2026-11-13T14:20:00+08:00",
+      "trigger": "client_requests_commuter_bag",
+      "latest_client_message": "最近想换一个上班用的包，最好不要太重，能放日常东西。你有推荐吗？",
+      "task_goal": "Recommend suitable commuting bags using verified attributes and clarify essential capacity needs.",
+      "reference_ids": [
+        "LX-BG-401",
+        "LX-BG-402",
+        "LX-BG-403"
+      ]
+    },
+    {
+      "scenario_id": "S2-002",
+      "client_id": "C10",
+      "scenario_type": "product_recommendation",
+      "as_of_datetime": "2026-11-14T15:40:00+08:00",
+      "trigger": "client_requests_travel_accessory",
+      "latest_client_message": "我下个月出差比较多，想看看有没有实用一点的旅行小皮具。",
+      "task_goal": "Suggest travel accessories and explain functional differences without assuming packing needs.",
+      "reference_ids": [
+        "LX-TR-401",
+        "LX-TR-402"
+      ]
+    },
+    {
+      "scenario_id": "S2-003",
+      "client_id": "C12",
+      "scenario_type": "product_recommendation",
+      "as_of_datetime": "2026-11-16T13:10:00+08:00",
+      "trigger": "client_asks_about_leather_construction",
+      "latest_client_message": "这两款肩包看起来风格不太一样，主要差别是材质还是做法？",
+      "task_goal": "Compare documented material, construction and craftsmanship without unsupported quality claims.",
+      "reference_ids": [
+        "LX-BG-406",
+        "LX-BG-407"
+      ]
+    },
+    {
+      "scenario_id": "S2-004",
+      "client_id": "C13",
+      "scenario_type": "product_recommendation",
+      "as_of_datetime": "2026-11-17T17:15:00+08:00",
+      "trigger": "client_requests_silk_accessory",
+      "latest_client_message": "想找一条平时能搭外套、偶尔也能系在包上的丝巾，颜色不要太夸张。",
+      "task_goal": "Recommend silk accessories using documented size, material and styling characteristics.",
+      "reference_ids": [
+        "LX-SC-401",
+        "LX-SC-403",
+        "LX-SC-404"
+      ]
+    },
+    {
+      "scenario_id": "S3-001",
+      "client_id": "C03",
+      "scenario_type": "post_purchase_care",
+      "as_of_datetime": "2026-11-10T10:20:00+08:00",
+      "trigger": "client_reports_strap_issue",
+      "latest_client_message": "之前买的那只浅棕色包，肩带调节的地方还是有点不顺手，想问问怎么处理比较好。",
+      "task_goal": "Acknowledge concern and propose verification or service follow-up without promising repair outcome.",
+      "reference_ids": [
+        "ARC-SH-BRN"
+      ]
+    },
+    {
+      "scenario_id": "S3-002",
+      "client_id": "C08",
+      "scenario_type": "post_purchase_care",
+      "as_of_datetime": "2026-11-11T11:30:00+08:00",
+      "trigger": "client_requests_care_guidance",
+      "latest_client_message": "之前那只米白色小包最近用得比较多，想问一下平时怎么保养比较好？",
+      "task_goal": "Provide conservative care advice, distinguishing general guidance from verified product instructions.",
+      "reference_ids": [
+        "LX-BG-118"
+      ]
+    },
+    {
+      "scenario_id": "S3-003",
+      "client_id": "C14",
+      "scenario_type": "post_purchase_care",
+      "as_of_datetime": "2026-11-12T16:20:00+08:00",
+      "trigger": "client_follows_up_on_wallet_seam",
+      "latest_client_message": "上次提到的钱包边缘开线问题，有没有进一步消息？",
+      "task_goal": "Respond transparently without inventing repair progress, fees or completion dates.",
+      "reference_ids": [
+        "LX-WL-036"
+      ]
+    },
+    {
+      "scenario_id": "S3-004",
+      "client_id": "C16",
+      "scenario_type": "post_purchase_care",
+      "as_of_datetime": "2026-11-18T12:10:00+08:00",
+      "trigger": "client_requests_product_care_advice",
+      "latest_client_message": "之前买的旅行收纳包如果暂时不用，平时应该怎么放比较合适？",
+      "task_goal": "Offer practical storage guidance without unverified product-specific maintenance claims.",
+      "reference_ids": [
+        "LX-TR-061"
+      ]
+    },
+    {
+      "scenario_id": "S4-001",
+      "client_id": "C04",
+      "scenario_type": "reactivation",
+      "as_of_datetime": "2026-11-19T14:00:00+08:00",
+      "trigger": "relationship_review_for_possible_reconnection",
+      "latest_client_message": null,
+      "task_goal": "Consider low-pressure reconnection using only verified relationship context.",
+      "reference_ids": [],
+      "validation_status": "pending_business_confirmation"
+    },
+    {
+      "scenario_id": "S4-002",
+      "client_id": "C07",
+      "scenario_type": "reactivation",
+      "as_of_datetime": "2027-02-10T15:00:00+08:00",
+      "trigger": "relationship_review_after_quiet_period",
+      "latest_client_message": null,
+      "task_goal": "Reconnect only if appropriate and respect low-frequency contact preference.",
+      "reference_ids": [],
+      "validation_status": "pending_business_confirmation"
+    },
+    {
+      "scenario_id": "S4-003",
+      "client_id": "C11",
+      "scenario_type": "reactivation",
+      "as_of_datetime": "2027-01-15T11:00:00+08:00",
+      "trigger": "client_relationship_review",
+      "latest_client_message": null,
+      "task_goal": "Create restrained reconnection without inventing undocumented conversations.",
+      "reference_ids": [],
+      "validation_status": "pending_business_confirmation"
+    },
+    {
+      "scenario_id": "S4-004",
+      "client_id": "C14",
+      "scenario_type": "reactivation",
+      "as_of_datetime": "2027-02-18T15:30:00+08:00",
+      "trigger": "relationship_review_with_prior_service_concern",
+      "latest_client_message": null,
+      "task_goal": "Assess appropriateness of reconnection given previous service concern.",
+      "reference_ids": [
+        "LX-WL-036"
+      ],
+      "validation_status": "pending_business_confirmation"
+    },
+    {
+      "scenario_id": "S5-001",
+      "client_id": "C05",
+      "scenario_type": "event_invitation",
+      "as_of_datetime": "2026-11-12T14:00:00+08:00",
+      "trigger": "craftsmanship_event_invitation",
+      "latest_client_message": null,
+      "task_goal": "Invite to craftsmanship salon based on verified interests without assuming booking.",
+      "reference_ids": [
+        "EVT-001"
+      ]
+    },
+    {
+      "scenario_id": "S5-002",
+      "client_id": "C07",
+      "scenario_type": "event_invitation",
+      "as_of_datetime": "2026-11-18T15:00:00+08:00",
+      "trigger": "private_preview_invitation",
+      "latest_client_message": null,
+      "task_goal": "Offer discreet private-preview invitation respecting contact preferences.",
+      "reference_ids": [
+        "EVT-002"
+      ]
+    },
+    {
+      "scenario_id": "S5-003",
+      "client_id": "C10",
+      "scenario_type": "event_invitation",
+      "as_of_datetime": "2026-11-20T11:30:00+08:00",
+      "trigger": "private_preview_invitation",
+      "latest_client_message": "月底可能有空，不过还没确定行程。",
+      "task_goal": "Present event information without implying a reservation is held.",
+      "reference_ids": [
+        "EVT-002"
+      ]
+    },
+    {
+      "scenario_id": "S5-004",
+      "client_id": "C12",
+      "scenario_type": "event_invitation",
+      "as_of_datetime": "2026-11-25T16:00:00+08:00",
+      "trigger": "silk_styling_event_invitation",
+      "latest_client_message": null,
+      "task_goal": "Offer relevant silk styling event without assuming interest or availability.",
+      "reference_ids": [
+        "EVT-003"
+      ]
+    },
+    {
+      "scenario_id": "S6-001",
+      "client_id": "C06",
+      "scenario_type": "price_objection",
+      "as_of_datetime": "2026-11-13T16:30:00+08:00",
+      "trigger": "client_questions_bag_price",
+      "latest_client_message": "这款6800的包我还挺喜欢的，就是觉得价格有点高。它跟便宜一些的款式主要差在哪里？",
+      "task_goal": "Explain verifiable differences and relevant alternatives without discount or cost inventions.",
+      "reference_ids": [
+        "LX-BG-401",
+        "LX-BG-402"
+      ],
+      "validation_status": "pending_business_confirmation"
+    },
+    {
+      "scenario_id": "S6-002",
+      "client_id": "C02",
+      "scenario_type": "price_objection",
+      "as_of_datetime": "2026-11-15T14:45:00+08:00",
+      "trigger": "client_compares_commuting_bags",
+      "latest_client_message": "这只12800的托特包比另一只贵不少。如果主要是上班用，差别真的有那么大吗？",
+      "task_goal": "Compare documented commuting functions, size, weight and price without unsupported value judgments.",
+      "reference_ids": [
+        "LX-BG-403",
+        "LX-BG-402"
+      ]
+    },
+    {
+      "scenario_id": "S6-003",
+      "client_id": "C12",
+      "scenario_type": "price_objection",
+      "as_of_datetime": "2026-11-18T17:00:00+08:00",
+      "trigger": "client_questions_craftsmanship_and_price",
+      "latest_client_message": "这款18800的包和9600那款差了不少。是不是因为工艺更复杂？",
+      "task_goal": "Distinguish documented construction from unverified labor, production cost or quality claims.",
+      "reference_ids": [
+        "LX-BG-406",
+        "LX-BG-407"
+      ]
+    },
+    {
+      "scenario_id": "S6-004",
+      "client_id": "C15",
+      "scenario_type": "price_objection",
+      "as_of_datetime": "2026-11-19T13:30:00+08:00",
+      "trigger": "client_requests_discount_on_wallet",
+      "latest_client_message": "这只3400的钱包挺合适的，不过预算有点超了。能不能有一点优惠？",
+      "task_goal": "Handle discount request under no-promotion policy; consider lower-priced alternatives without pressure.",
+      "reference_ids": [
+        "LX-WL-402",
+        "LX-WL-401"
+      ]
+    }
+  ],
+  "context_ablation": {
+    "conditions": [
+      "full",
+      "crm_only",
+      "history_only",
+      "minimal"
+    ],
+    "expected_assembled_inputs": 96
+  },
+  "validation_notes": [
+    "Verify S1-001 birthday against CRM.",
+    "Verify S4 reactivation eligibility and unresolved service cases against CRM/history.",
+    "Verify S5 event references and invitation eligibility against event reference.",
+    "Verify S6-001 C06 product identification; ¥6800 alone does not establish LX-BG-401.",
+    "Current v1.2 LX-BG-406 identity takes precedence over superseded draft descriptions.",
+    "Historical paid prices are not current prices."
+  ]
+}
