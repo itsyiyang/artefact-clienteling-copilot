@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-11-09T13:43:01.493Z",
+  "model": "qwen3:8b",
+  "model_metadata": {
+    "name": "qwen3:8b",
+    "model": "qwen3:8b",
+    "modified_at": "2026-11-09T02:15:17.053503717+08:00",
+    "size": 5225388164,
+    "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen3",
+      "families": [
+        "qwen3"
+      ],
+      "parameter_size": "8.2B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 40960,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ]
+  },
+  "code_commit": "4354a836a5b29440423a5378e95808c8b8dd1c2b",
+  "prompt_version": "generation-v0.2",
+  "prompt_sha256": "08651c87020f848f227ea2f1df103cfa2e2be2ad6d0f08eb26f63dd681add263",
+  "input_sha256": "e4c0d362dc02f89aef604019847ae81e3b1d20f63b54093f395658a46a72f65f",
+  "reference_sha256": "d7d0cca3c93f47cb433c7ed46477cb5194dca05e90e74cda09c1b831527e6470",
+  "pipeline": "Single local generation call with implicit strategy planning; no independent planner, Judge or revisions",
+  "input_transform": "Only product claim_evidence omitted as redundant provenance; all history and other facts retained",
+  "status": "stopped_after_quality_spotcheck",
+  "records": [
+    {
+      "case_id": "TC001",
+      "status": "generated_pending_review",
+      "elapsed_ms": 37248,
+      "attempts": 1,
+      "result_file": "TC001.attempt-1.json"
+    }
+  ],
+  "stop_reason": "TC001 still uses irrelevant silk personalization and near-duplicate alternatives. TC002 request may be interrupted without response. Retained as bad case; rerun v0.3."
+}

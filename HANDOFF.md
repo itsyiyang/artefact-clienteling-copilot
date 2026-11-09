@@ -8,6 +8,10 @@ Artefact Luxury Clienteling Copilot Challenge：输入客户/场景/聊天/相�
 
 本地网页+Node服务+Ollama Qwen3:8b，零云端推理预算。`npm start` 后访问 http://127.0.0.1:3210 。当前Demo理解/规划/生成仍合并一次调用；Judge及一次Edit由按钮触发。独立策略规划、自动质量门与有限重试是已确认设计，尚未完整落地。网页美化最后。
 
+## 当前批次（2026-11-09）
+
+用户要求依据新话术参考重新生成50例。运行 `node scripts/run-fifty.mjs`；当前正式目录 `evaluations/runs/fifty-generation-v0.3-8k/`，CSV每例更新。提示及完整请求、原始响应、耗时、代码commit和输入哈希均留存。六例旧基线不覆盖。此轮不运行Judge，不把结构成功当质量通过。使用说明：docs/fifty-local-run.md。
+
 ## 主要编辑入口
 
 - evaluations/pilot-v1/inputs.json：P01–P06客户/历史/事实。Codex拟写，P01/P02按用户review修改；其余参考话术待review。
