@@ -8,6 +8,20 @@
 
 **Status:** Logical architecture confirmed; engineering topology open.
 
+## Workflow overview and future direction
+
+The current primary overview remains the simplified five-stage workflow below. It describes the logical product flow and should not be read as a claim about the number of independently deployed agents.
+
+![LIUXU messaging workflow overview](assets/liuxu_messaging_workflow_overview.png)
+
+*Current primary overview: Understand → Plan → Generate → Judge → CA Review.*
+
+The next optimization direction is the multi-agent target workflow below. It separates content planning, template selection, retrieval, and evaluation responsibilities while preserving LIUXU rules, bounded revision, and final CA control. This is a future direction, not a claim of current implementation.
+
+![LIUXU multi-agent messaging workflow](assets/liuxu_multi_agent_messaging_workflow.png)
+
+*Future direction: multi-agent messaging workflow with retrieval and rule-based feedback paths.*
+
 ## Logical flow
 
 1. **Input Context** — client, scenario, conversation, product/event facts
